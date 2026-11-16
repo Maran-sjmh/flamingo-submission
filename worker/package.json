@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "test": "node --test test/*.test.mjs",
+    "test:budget-runtime": "node scripts/verify_budget_runtime.mjs",
     "check": "node --check src/worker.mjs",
     "dev": "wrangler dev --config wrangler.dev.toml --ip 127.0.0.1 --port 8787",
     "deploy": "wrangler deploy --config wrangler.toml",

@@ -10,7 +10,7 @@ export function allowedOrigin(origin) {
   try { const url = new URL(origin); return url.protocol === 'http:' && url.hostname === 'localhost' && url.origin === origin; } catch { return false; }
 }
 function response(body, http = 200, origin = null, extra = {}) {
-  return new Response(JSON.stringify(body), { status: http, headers: { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store', 'X-Content-Type-Options': 'nosniff', 'Vary': 'Origin', ...(origin ? { 'Access-Control-Allow-Origin': origin } : {}), ...extra } });
+  return new Response(JSON.stringify(body), { status: http, headers: { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'none'; frame-ancestors 'none'; base-uri 'none'", 'X-Frame-Options': 'DENY', 'Referrer-Policy': 'no-referrer', 'Strict-Transport-Security': 'max-age=31536000', 'Vary': 'Origin', ...(origin ? { 'Access-Control-Allow-Origin': origin } : {}), ...extra } });
 }
 function result(status, pack, additions = {}) {
   return { status, model: pack.model || MODEL, provider: pack.provider || 'groq', claims: [], limitations: LIMITATIONS, evidence: pack.evidence,

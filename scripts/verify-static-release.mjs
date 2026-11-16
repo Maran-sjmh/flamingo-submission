@@ -20,6 +20,7 @@ assert.doesNotMatch(html,/rel="modulepreload"[^>]*three/,'3D must not be preload
 const assets=await readdir('dist/assets');
 for(let offset=0;offset<assets.length;offset+=4)await Promise.all(assets.slice(offset,offset+4).map(path=>exact('assets/'+path)));
 await exact('flamingo-mark.svg');await exact('favicon.svg');
+await exact('ai-assistance.json');
 const catalog=JSON.parse(await readFile('src/investigation-catalog.json','utf8'));
 let rowCount=0;
 for(const study of catalog.investigations){const bytes=await exact(study.rows_url.slice(1));assert.equal(hash(bytes),study.rows_sha256);rowCount+=JSON.parse(bytes).records.length;}

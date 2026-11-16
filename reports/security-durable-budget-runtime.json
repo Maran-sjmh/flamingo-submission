@@ -1,0 +1,35 @@
+{
+  "scope": "Actual local Workers runtime with SQLite Durable Object and RPC",
+  "results": [
+    {
+      "allowed": true,
+      "limit": 3,
+      "used": 1,
+      "remaining": 2
+    },
+    {
+      "allowed": true,
+      "limit": 3,
+      "used": 2,
+      "remaining": 1
+    },
+    {
+      "allowed": true,
+      "limit": 3,
+      "used": 3,
+      "remaining": 0
+    },
+    {
+      "allowed": false,
+      "limit": 3,
+      "remaining": 0
+    },
+    {
+      "allowed": false,
+      "limit": 3,
+      "remaining": 0
+    }
+  ],
+  "passed": true,
+  "model_calls": 0
+}

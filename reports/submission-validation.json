@@ -1,7 +1,7 @@
 {
   "scope": "Commands actually executed locally on the independent public-delivery checkout; not a claim that CI or browser QA passed",
   "frontend_routes": 23,
-  "backend_tests": 54,
+  "backend_tests": 60,
   "snapshot_audit": "passed",
   "reconstructed_sqlite_bytes": 17825792,
   "rebuilt_corpus_equals_shipped": true,
@@ -12,5 +12,7 @@
   "new_generation_calls": 0,
   "new_embedding_calls": 0,
   "browser_visual_qa": "not_verified",
-  "build_advisory": "Lazy Three.js engine approximately 510 kB; no measured performance claim"
+  "build_advisory": "Lazy Three.js engine approximately 510 kB; no measured performance claim",
+  "semantic_daily_cap": 250,
+  "security_live_checks": "passed"
 }

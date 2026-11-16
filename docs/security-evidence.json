@@ -1,0 +1,82 @@
+{
+  "checked_at": "2026-11-16T01:40:24.305Z",
+  "checks": [
+    {
+      "check": "Live frontend CSP, framing, permissions and HTTPS policies",
+      "passed": true
+    },
+    {
+      "check": "Live generation disabled; invalid browser origin rejected",
+      "passed": true
+    },
+    {
+      "check": "Actual scoped hybrid retrieval works after durable-budget deployment",
+      "passed": true
+    },
+    {
+      "check": "Client generate=true cannot activate a paid provider",
+      "passed": true
+    },
+    {
+      "check": "Compiled frontend credential-pattern scan",
+      "files": 8,
+      "passed": true
+    }
+  ],
+  "frontend_version": "d6215143-c090-4cc4-913c-540afecc8651",
+  "backend_version": "4a497b58-8b10-49b6-af75-065dd5202d80",
+  "semantic_reservations_per_utc_day": 250,
+  "new_embedding_queries": 1,
+  "new_paid_generation_calls": 0,
+  "load_test_performed": false,
+  "browser_visual_qa": "not_verified",
+  "remaining_limits": "Not a guarantee against all DoS or platform quota exhaustion; public-read Firestore remains independently readable.",
+  "firestore": {
+    "current_deployed_rules_read": true,
+    "explicit_write_denial": true,
+    "other_write_allow_statements": 0,
+    "rules_sha256": "025ddefd3062e33126e8c3ff67b380346753c4d6117caaea041181f184cda674"
+  },
+  "frontend_dependency_advisories": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 0,
+    "critical": 0
+  },
+  "runtime_budget_test": {
+    "scope": "Actual local Workers runtime with SQLite Durable Object and RPC",
+    "results": [
+      {
+        "allowed": true,
+        "limit": 3,
+        "used": 1,
+        "remaining": 2
+      },
+      {
+        "allowed": true,
+        "limit": 3,
+        "used": 2,
+        "remaining": 1
+      },
+      {
+        "allowed": true,
+        "limit": 3,
+        "used": 3,
+        "remaining": 0
+      },
+      {
+        "allowed": false,
+        "limit": 3,
+        "remaining": 0
+      },
+      {
+        "allowed": false,
+        "limit": 3,
+        "remaining": 0
+      }
+    ],
+    "passed": true,
+    "model_calls": 0
+  }
+}

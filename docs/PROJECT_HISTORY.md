@@ -16,8 +16,12 @@ flamingo grew from a NASA combustion-data exploration effort into a public resea
 
 ## Source references
 
-The public delivery is based on [working commit d5979cb](https://github.com/Maran-sjmh/flamingo/commit/d5979cb301a7507f8bb1370616c0f402e206bd4f). The deployed frontend version at delivery is `1d0fd8e5-9a60-43e2-9540-a3844e577939`.
+The initial public delivery was based on [working commit d5979cb](https://github.com/Maran-sjmh/flamingo/commit/d5979cb301a7507f8bb1370616c0f402e206bd4f). The deployed frontend version at delivery is `1d0fd8e5-9a60-43e2-9540-a3844e577939`.
 
 The visual team supplied flamingo-aprende.zip with a CAMBIOS.md summary identifying branch visual/aprende-escolares, final commit ce5802f, and its contribution sequence. Archive SHA-256: `8930bd9bc83a3352a9c26e7b7ad14060fa2e438d9af30d9a6f74cfd29782aab3`. The earlier 3D contribution was already accepted in [working PR #1](https://github.com/Maran-sjmh/flamingo/pull/1); the remaining delivery was integrated in the working snapshot.
 
 This repository starts with a clean public-delivery history rather than copying working-account credentials, private coordination records or development runtime artifacts. The original history remains available in the linked working repository. `SUBMISSION_MANIFEST.json` records the source commit and hashes of protected application/data files.
+
+## Final submission update
+
+Version 1.1.0 records working commit aa519d6ab9f768596f26363df8d222c2c94cb3ac, frontend 92205b44-1532-434b-b573-30e4e19a3d77 and backend 4a497b58-8b10-49b6-af75-065dd5202d80. It adds coordinated semantic quotas, security headers, deployment verification and AI-assistance disclosure. The earlier v1.0.0 remains a separate immutable delivery tag.

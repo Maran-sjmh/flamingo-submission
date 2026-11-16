@@ -1,5 +1,6 @@
 import corpus from './generated/retrieval-corpus.json' with { type: 'json' };
 import { ApiError } from './core.mjs';
+import {reserveSemanticBudget} from './semantic-budget.mjs';
 
 export const EMBEDDING = Object.freeze(corpus.embedding);
 export const CORPUS = Object.freeze({ version: corpus.version, chunks: corpus.chunks.length,
@@ -107,6 +108,11 @@ export async function searchEvidence(input, env) {
   let semantic = [], semanticStatus = input.mode === 'lexical' ? 'not_requested' : 'not_configured';
   if (input.mode !== 'lexical' && semanticEnabled(env)) {
     try {
+      const reservation=await reserveSemanticBudget(env);
+      if(!reservation.allowed){
+        if(input.mode==='hybrid')throw new ApiError(`semantic_search_${reservation.status}`,503);
+        return {status:'search_results',mode_requested:input.mode,mode_used:'lexical',semantic_status:reservation.status,corpus_version:CORPUS.version,coverage:CORPUS.coverage,ranking_notice:'Semantic search is temporarily limited; keyword source discovery remains available. Relevance is not scientific validity.',matches:fuseRanks(lexical,[],input)};
+      }
       const [vector] = await embedTexts(env.AI, [EMBEDDING.query_prefix + input.query]);
       const filter = Object.fromEntries(['accession', 'kind', 'row_type'].filter(k => input[k]).map(k => [k, input[k]]));
       const result = await env.NASA_VECTORS.query(vector, { namespace: CORPUS.namespace, topK: 50, returnValues: false,
@@ -114,7 +120,8 @@ export async function searchEvidence(input, env) {
       if (!Array.isArray(result?.matches) || result.matches.length > 50) throw new Error('Invalid index output');
       semantic = result.matches;
       semanticStatus = 'queried';
-    } catch {
+    } catch(error) {
+      if(error instanceof ApiError&&error.code.startsWith('semantic_search_'))throw error;
       semanticStatus = 'provider_unavailable';
     }
   }

@@ -1,0 +1,9 @@
+{
+  "checked_at": "2026-11-16T01:32:03.843Z",
+  "scope": "Read current deployed Firestore rules; no write attempts",
+  "release": "projects/flame-in-freefall-aqp/releases/cloud.firestore",
+  "ruleset": "projects/flame-in-freefall-aqp/rulesets/c898c5bf-b0f8-492c-8955-21400c40fe10",
+  "rules_sha256": "025ddefd3062e33126e8c3ff67b380346753c4d6117caaea041181f184cda674",
+  "explicit_write_denial": true,
+  "other_write_allow_statements": 0
+}

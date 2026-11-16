@@ -1,11 +1,16 @@
 {
-  "verified_at": "2026-11-16T00:26:22.136Z",
+  "verified_at": "2026-11-16T01:49:29.567Z",
   "url": "https://flamingo.houston-groq-proxy.workers.dev/",
   "checks": [
     {
       "path": "index.html",
       "status": 200,
-      "sha256": "8b3931cba8fcaededb06e771f6563a1d91676aad82baedbcb88bc14408b851c5"
+      "sha256": "5c5cec404db3f13f5a712fa2eecaa271e848aef15ec16ebf0629242318c346e1"
+    },
+    {
+      "path": "assets/index-DVameuRT.js",
+      "status": 200,
+      "sha256": "63e034346dcf50833d68bd389661c15897849f3e607e696ec8a1f1962a26a4ef"
     },
     {
       "path": "assets/index-GedUnyM0.css",
@@ -13,24 +18,14 @@
       "sha256": "a1cbee32c09c965cf0a9c321a954a3d04a784b0464f066879153b7ef93552259"
     },
     {
-      "path": "assets/index-C2s6-EIk.js",
+      "path": "assets/LearnHabitat-CpVOpq8e.css",
       "status": 200,
-      "sha256": "b35f134233fc3e843df0fb0d55f53d453b59edd6554f3455e38139fcf6e3021c"
+      "sha256": "987efc8a16c67d6e0ad1e73a70c468708594b523e849c58dc2962b0fa4f7b705"
     },
     {
-      "path": "assets/LearnHabitat-D16D8kfT.css",
+      "path": "assets/LearnHabitat-B2PvLEUl.js",
       "status": 200,
-      "sha256": "c9eac13433838b6d8085a41e110c227d831227f7f934fda1a67520e9c0842e11"
-    },
-    {
-      "path": "assets/LearnHabitat-CS0WX1w0.js",
-      "status": 200,
-      "sha256": "1ec5f87ecfef11d4afd4e183abc569a33ab3225745e0cf00e1b5349e0807f5dd"
-    },
-    {
-      "path": "assets/research-catalog-dR9MnKi3.js",
-      "status": 200,
-      "sha256": "09910015716b8a49d6c741bf23c38e752b6a395b0fabb5b1f7f1db695af15039"
+      "sha256": "fa1b81d349bbf721d44caf9f99847bcede90b1cd5f37f866453a09f4e82add3c"
     },
     {
       "path": "assets/three-addons-BkPAHtol.js",
@@ -38,24 +33,29 @@
       "sha256": "7dfa6d7e39eae7682840802da05b2765809f2b81d50efcc07145878eb99d8646"
     },
     {
+      "path": "assets/research-catalog-dR9MnKi3.js",
+      "status": 200,
+      "sha256": "09910015716b8a49d6c741bf23c38e752b6a395b0fabb5b1f7f1db695af15039"
+    },
+    {
       "path": "assets/pdf-corpus-D3FXrTYL.js",
       "status": 200,
       "sha256": "6e16475735214ac9e148d35b92cd045ce18484a4f684099d4aee8e25b90f9511"
     },
     {
-      "path": "assets/ResearchAssistant-BSbYzSjU.js",
+      "path": "assets/ResearchAssistant-u0nnaZRB.js",
       "status": 200,
-      "sha256": "adee9e4727738fa69685ac39d233a8d5cd76d8b0f39786a0d50d2361fd9e6bcf"
-    },
-    {
-      "path": "assets/vendor-laVzQ1oi.js",
-      "status": 200,
-      "sha256": "9b3b0011762162114f8d5dd6235685d6a3730259e79dee8d7844fdb60741353d"
+      "sha256": "11bdecab3a105ee22f113264e3697d9043244a78810d4901962b74716f858ed6"
     },
     {
       "path": "assets/three-BheaPy9y.js",
       "status": 200,
       "sha256": "021fe301650059d0a72f0fb793e806c91bbb2945c085ed28d56ebfe1c05c53d6"
+    },
+    {
+      "path": "assets/vendor-laVzQ1oi.js",
+      "status": 200,
+      "sha256": "9b3b0011762162114f8d5dd6235685d6a3730259e79dee8d7844fdb60741353d"
     },
     {
       "path": "flamingo-mark.svg",
@@ -66,6 +66,11 @@
       "path": "favicon.svg",
       "status": 200,
       "sha256": "d75e44ec79c91add600269824446095e82ddc9ab5d2816cc7aa92af0a07c609c"
+    },
+    {
+      "path": "ai-assistance.json",
+      "status": 200,
+      "sha256": "77f7bc74294e1dd112329eec8b7eef7aff9465b8c6bef08931ca45f6266f84d9"
     },
     {
       "path": "data/rows/PSI-10.json",

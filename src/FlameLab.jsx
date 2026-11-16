@@ -255,7 +255,7 @@ export default function FlameLab() {
      <div className="lab-hud tl">ILLUSTRATED CHAMBER · NO PHYSICAL SCALE</div>
      <div className="lab-hud tr">{grav.label.toUpperCase()} · {o2}% O₂ · {flow} cm/s</div>
      <div className="lab-hud bl"><span className="lab-rec"/>ANIMATED</div>
-     <div className="lab-hud br">ILLUSTRATIVE</div>
+     <div className="lab-hud br">AI-ASSISTED ILLUSTRATION</div>
      <span className="lab-corner a"/><span className="lab-corner b"/><span className="lab-corner c"/><span className="lab-corner d"/>
      {!state.alive && <div className="lab-out">DRAWING OFF<small>Change oxygen or airflow to explore the game rules</small></div>}
      {toast && <div className="lab-toast" role="status"><Trophy size={18}/><span><small>Challenge complete! +50</small>{toast}</span></div>}

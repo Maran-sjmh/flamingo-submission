@@ -2,10 +2,10 @@
   "schema": 1,
   "prepared_utc": "2026-11-16T00:40:38.139984+00:00",
   "source_repository": "https://github.com/Maran-sjmh/flamingo",
-  "source_commit": "d5979cb301a7507f8bb1370616c0f402e206bd4f",
+  "source_commit": "aa519d6ab9f768596f26363df8d222c2c94cb3ac",
   "submission_repository": "https://github.com/Maran-sjmh/flamingo-submission",
   "live_site": "https://flamingo.houston-groq-proxy.workers.dev/",
-  "frontend_version": "1d0fd8e5-9a60-43e2-9540-a3844e577939",
+  "frontend_version": "92205b44-1532-434b-b573-30e4e19a3d77",
   "corpus_version": "696e5da5c741deb796e6c0778c39f38dd18eedf5535f554ce7251cc2f9abdaa0",
   "counts": {
     "investigations": 25,
@@ -19,7 +19,8 @@
     "remote_declared_bytes": 12279107413131
   },
   "protected_source_hashes": {
-    "public/_headers": "f0435c81874bc39c36a3641337b80170becdf09cd0aef7e4a1daf02b4541f0fa",
+    "public/_headers": "409c899bd27eaf916d02df4058132afd678799255e5451fd381f95084ed9559a",
+    "public/ai-assistance.json": "5ffbfdd39a9692262bf6164edb8252fde2444ec15061a1ddb310cdd9039b942e",
     "public/data/rows/PSI-10.json": "4f9741622a814bfedd6baee709364e54d73bf45c68622a50449783cb4c01545a",
     "public/data/rows/PSI-100.json": "29aa4bdfbfa901c6a9521bd89a1ccbddcc1bdac23a6866da0db75aaf64a79caf",
     "public/data/rows/PSI-101.json": "1fe396b8c046cdd414c8f10cea1fe80678f03d97f34229ca7297362de511afb1",
@@ -64,8 +65,8 @@
     "src/DocumentReader.jsx": "c85a1247ed525a75dfba3e793e84f1c54fe58faea04383d4e5b298b0a439f13f",
     "src/FireMission.jsx": "e3c42acab402faa98a1211b4ff3c36cc097be48ccebf122468f5baf01e12a633",
     "src/FlameHero.jsx": "dda77cc3ab5741c5098d5439c81e3e488899d61cfe55dff3f9820c0e0bb918e8",
-    "src/FlameLab.jsx": "9e8597c47880aa8c1d2bf84f9b2ee5e73a8f22cd4af22673584dd67dd2fc8170",
-    "src/HabitatViewer.jsx": "f7e3aab2e7ec7c8b5fa32e1e9d21a50dac0b5e871859fcc6f6f122c405c14dbc",
+    "src/FlameLab.jsx": "e944a80cea0ac4053676b3a5dee507cfa1fe6d41224be5ce76e6fbc3eed40111",
+    "src/HabitatViewer.jsx": "d56a2d612983efecb90b0b77c32dce0dd3862a77edef18d631c620f52d56d7f1",
     "src/InvestigationCompare.jsx": "de09a5ee1d76735ca99298815dd0e50f0429f4f041430337667fcbd103077ac4",
     "src/InvestigationDetail.jsx": "2d6a90ea5a19958651b375e9f5b6e65173dbe132327597b41dd27891b6628bbc",
     "src/InvestigationExplorer.jsx": "a7c47a948d4013ef705f9de0ba1980085d4569598368ac1f4c3025b029d94a22",
@@ -94,8 +95,8 @@
     "src/investigations.css": "0e100a643dd87f1a9580c6b9f228080ed71e8df59f83e88151749d10427a8e14",
     "src/learn-habitats.js": "b5c1daea9b98914b914c41c54b88cd81607c1400f06546fe814efdbe27c41419",
     "src/learn-scenes.js": "ae26624e9b7681b873e328ca9226845f0896dfc5b73d44c79e4ca3fe67e590ed",
-    "src/learn.css": "3c9f3605d13c2705d4f04927749b8dd9ab7e42c59fef9bb5288e2d5a95c1cfc2",
-    "src/main.jsx": "159df00d061c9cf18b205135bf7582a383f6e1672becfd605ccd4b7847fd94f0",
+    "src/learn.css": "63e46c8ef38f43f8c33d5e32434082da4fe07cb47f87218aefb700d1d5f0e053",
+    "src/main.jsx": "f6ddb2532a7c881dc23b412df154caaaef666bf802c3e40641e8540ff22b3eaa",
     "src/nasa-catalog.json": "709cc2fb0ea3b8c10ca17b4a3dc809dd54dcbba43e0c31a47f463fde27257a2a",
     "src/nasa-client.js": "568cc1795934c81ebe824e4868a9c294a172c3b81b3749a23f4c638e97c94e16",
     "src/nasa.css": "ddf3b15209356b7aff74273bdeb2297d9b914c579f36494b0f956b02fdce8752",
@@ -114,5 +115,9 @@
   },
   "deployment_config_changes": "Fork-specific Worker names; account IDs removed; semantic flag disabled until an independent index is configured. Application code and data remain the deployed snapshot.",
   "public_generation_enabled": false,
-  "browser_visual_qa": "not_verified"
+  "browser_visual_qa": "not_verified",
+  "backend_version": "4a497b58-8b10-49b6-af75-065dd5202d80",
+  "submission_version": "1.1.0",
+  "public_semantic_reservations_per_utc_day": 250,
+  "updated_utc": "2026-11-16T01:52:55.197233+00:00"
 }

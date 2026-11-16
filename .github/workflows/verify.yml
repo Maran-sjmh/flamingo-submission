@@ -27,6 +27,7 @@ jobs:
         run: |
           pnpm test
           npm --prefix worker test
+          npm --prefix worker run test:budget-runtime
       - name: Reconstruct and audit the evidence snapshot offline
         run: |
           python3 research/audit_snapshot.py

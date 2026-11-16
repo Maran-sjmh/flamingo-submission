@@ -1,5 +1,5 @@
 name = "flamingo-submission-api"
-main = "src/worker.mjs"
+main = "src/entry.mjs"
 compatibility_date = "2026-11-14"
 workers_dev = true
 preview_urls = false
@@ -18,6 +18,8 @@ ENABLE_GROQ = "false"
 FREE_TIER_CONFIRMED = "false"
 GROQ_MODEL = "openai/gpt-oss-20b"
 ENABLE_SEMANTIC_SEARCH = "false"
+REQUIRE_SEMANTIC_BUDGET = "true"
+SEMANTIC_DAILY_LIMIT = "250"
 RETRIEVAL_CORPUS_VERSION = "696e5da5c741deb796e6c0778c39f38dd18eedf5535f554ce7251cc2f9abdaa0"
 
 [observability]
@@ -50,3 +52,11 @@ command = "node scripts/build_demo.mjs"
 [[vectorize]]
 binding = "NASA_VECTORS"
 index_name = "flamingo-research-bge-small-v1"
+
+[[durable_objects.bindings]]
+name = "SEMANTIC_BUDGET"
+class_name = "EmbeddingBudget"
+
+[[migrations]]
+tag = "v1-semantic-budget"
+new_sqlite_classes = ["EmbeddingBudget"]

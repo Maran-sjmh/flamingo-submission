@@ -207,6 +207,7 @@ export default function HabitatViewer({habitatId, components, selected, onSelect
  }, [resetToken]);
 
  return <div className="learn-viewport" ref={mountRef}>
+  <span className="learn-ai-label">AI-assisted procedural illustration · not to scale</span>
   <div className="learn-labels" ref={labelsRef} hidden={!showLabels} aria-hidden="true">
    {components.map((c, i) => <button key={c.id} data-id={c.id} tabIndex={-1} className={`learn-label ${selected === c.id ? 'active' : ''}`} onClick={() => onSelect(c.id)}>{i + 1}</button>)}
   </div>

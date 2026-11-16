@@ -64,3 +64,7 @@ NASA footage and source figures retain their context. Three.js is loaded on dema
 ## Optional generation
 
 OpenAI and Groq adapters are retained for the separately gated generation path. Public generation is disabled. Existing recorded evaluation output is explicitly labeled. Text selection and numerical checks constrain output, but they do not prove scientific interpretation or relevance. See [semantic search](SEMANTIC_SEARCH.md) and [validation](VALIDATION.md).
+
+## Coordinated semantic-request budget
+
+The production API reserves from a SQLite-backed Durable Object before each embedding attempt. One coordination object represents each UTC-day budget, across callers and edge locations. The default live cap is 250 attempts/day. On exhaustion or reservation failure, auto mode reports keyword fallback; required hybrid remains explicit. The object stores a counter, not user queries. See worker/src/semantic-budget.mjs and embedding-budget.mjs. The separate entry.mjs exports the API and Durable Object class; local Node tests can import the API implementation without Cloudflare builtins.

@@ -1,0 +1,34 @@
+{
+  "checked_at": "2026-11-16T01:40:24.305Z",
+  "checks": [
+    {
+      "check": "Live frontend CSP, framing, permissions and HTTPS policies",
+      "passed": true
+    },
+    {
+      "check": "Live generation disabled; invalid browser origin rejected",
+      "passed": true
+    },
+    {
+      "check": "Actual scoped hybrid retrieval works after durable-budget deployment",
+      "passed": true
+    },
+    {
+      "check": "Client generate=true cannot activate a paid provider",
+      "passed": true
+    },
+    {
+      "check": "Compiled frontend credential-pattern scan",
+      "files": 8,
+      "passed": true
+    }
+  ],
+  "frontend_version": "d6215143-c090-4cc4-913c-540afecc8651",
+  "backend_version": "4a497b58-8b10-49b6-af75-065dd5202d80",
+  "semantic_reservations_per_utc_day": 250,
+  "new_embedding_queries": 1,
+  "new_paid_generation_calls": 0,
+  "load_test_performed": false,
+  "browser_visual_qa": "not_verified",
+  "remaining_limits": "Not a guarantee against all DoS or platform quota exhaustion; public-read Firestore remains independently readable."
+}

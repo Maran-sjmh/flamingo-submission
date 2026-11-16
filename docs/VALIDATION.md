@@ -11,8 +11,8 @@
 | Exact local row comparison, signs, ranges, approximations and CSV provenance | Visual integration verification | Original string preservation and local comparison behavior |
 | Separate chart source tables/row labels; conservative numeric parsing | Visual integration verification | Ranges and qualifiers are not simplified into numeric results |
 | English educational content, valid investigation links and conceptual labels | Visual integration verification | Content/link structure, not WebGL visual correctness or physics validation |
-| 54 backend tests | Worker test suite | Input limits, providers disabled by default, mock retrieval/generation contracts, exact citations and values, CORS and source handling |
-| 49 exact published static files, API health and exact-origin CORS | Dated working-release HTTP receipt | The public frontend served the tested build and existing service configuration at that time |
+| 60 backend tests | Worker test suite | Input limits, providers disabled by default, mock retrieval/generation contracts, exact citations and values, CORS and source handling |
+| 50 exact published static files, API health and exact-origin CORS | Dated working-release HTTP receipt | The public frontend served the tested build and existing service configuration at that time |
 | Rebuilt evidence and fragments | Public snapshot audit and rebuild | Continuous source-text reconstruction and equality with the canonical corpus |
 
 Source-recorded reports are in `reports/`; fresh offline outputs are generated in ignored `research/output/`. Reports have different dates and scopes. A preparation report with `embeddings_generated=false` describes preparation, not the later index-ingestion status. The recorded vector probe shows the processed index at 3,152 vectors at capture time.

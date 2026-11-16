@@ -95,9 +95,13 @@ The root config targets `flamingo-submission-demo`; the API config targets `flam
 For an independent public app:
 
 1. Choose your own Worker names, account and index. Configure the API's exact frontend origin in `worker/src/worker.mjs` and add a matching CORS test; do not introduce a wildcard.
-2. Set `VITE_API_BASE_URL` to your API URL before building the frontend. Preserve all public generation flags as false unless you independently authorize, configure and evaluate a generation feature.
+2. Set `VITE_API_BASE_URL` to your API URL before building the frontend and update public/_headers CSP connect-src to allow that exact API URL. Preserve all public generation flags as false unless you independently authorize, configure and evaluate a generation feature.
 3. Build and dry-run the API with its own config, then deploy it using your own credentials. Local development and API deployment are separate.
 4. Run `pnpm build` and `pnpm run deploy:check`, then `pnpm run deploy` for the independent frontend.
 5. Verify health, CORS, data hashes, one scoped retrieval case and exact comparison behavior. Do browser keyboard/mobile/WebGL review separately.
 
 The included live verification scripts target the team's canonical public demo and compare its files with the local build. They are opt-in diagnostics, not generic fork-deployment tools or automatic CI steps. Do not run a live embedding evaluation on every push.
+
+## Semantic budget runtime test
+
+Run `npm --prefix worker run test:budget-runtime` to exercise the exported Durable Object with real local workerd, SQLite and RPC. It grants three local reservations then denies two; it makes no model calls. Production configuration exports the SQLite budget class and requires the budget binding before embedding attempts. Keep the cap, migration and binding when independently enabling semantic mode. The cap is a request bound, not a monetary limit across unrelated services.

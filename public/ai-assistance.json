@@ -1,0 +1,23 @@
+{
+  "project": "flamingo",
+  "development_assistance": [
+    "OpenAI ChatGPT/Codex",
+    "Anthropic Claude"
+  ],
+  "assisted_work": [
+    "software implementation",
+    "interface and documentation drafts",
+    "debugging",
+    "data organization tooling",
+    "procedural illustration code"
+  ],
+  "runtime_embedding_model": "@cf/baai/bge-small-en-v1.5",
+  "runtime_purpose": "semantic evidence retrieval",
+  "public_paid_generation_enabled": false,
+  "original_scientific_data": "NASA source evidence; no synthetic measurements are claimed",
+  "derived_data": "versioned retrieval fragments and embeddings with source provenance",
+  "procedural_visuals": "AI-assisted 3D habitats, textures and illustrative flame drawing; visibly labeled and not validated simulations",
+  "project_mark": "AI-assisted code-generated flamingo vector illustration; independent project branding",
+  "source_media": "original NASA media with retained credits; not AI-generated footage",
+  "external_slides_and_video": "Team reports a team-produced 30-second video and some AI-generated slide images. Generated slide images require visible labeling; the external assets and labels have not been inspected."
+}

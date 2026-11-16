@@ -115,7 +115,7 @@ pnpm build
 pnpm run check:repository
 ```
 
-The application checks cover **23 rendered routes**, the 25 source snapshots, original PDF evidence, source-value preservation, local comparisons, educational copy and guide behavior. The backend has **54 offline tests**. Scientific usefulness is a different validation question. [Validation, recorded probes and remaining gaps](docs/VALIDATION.md).
+The application checks cover **23 rendered routes**, the 25 source snapshots, original PDF evidence, source-value preservation, local comparisons, educational copy and guide behavior. The backend has **60 offline tests**. Scientific usefulness is a different validation question. [Validation, recorded probes and remaining gaps](docs/VALIDATION.md).
 
 ## Explore the repository
 
@@ -133,6 +133,10 @@ The application checks cover **23 rendered routes**, the 25 source snapshots, or
 
 ## Status and attribution
 
-This release is based on working commit `d5979cb301a7507f8bb1370616c0f402e206bd4f` and frontend version `1d0fd8e5-9a60-43e2-9540-a3844e577939`. Application source and scientific snapshots are preserved; deployment names are adapted for an independent checkout so a fork does not target the team's live Worker by default.
+This release is based on working commit `aa519d6ab9f768596f26363df8d222c2c94cb3ac` and frontend version `92205b44-1532-434b-b573-30e4e19a3d77`. Application source and scientific snapshots are preserved; deployment names are adapted for an independent checkout so a fork does not target the team's live Worker by default.
 
 NASA supplies the underlying research. flamingo is an independent project and is not a NASA endorsement or safety certification. The 3D habitats and flame lab are educational illustrations. Browser visual/mobile/WebGL validation remains pending; automated render and HTTP checks do not establish it.
+
+## Final submission hardening
+
+The latest source adds a coordinated 250-attempt semantic budget per UTC day, explicit keyword fallback, restrictive browser/API headers and visible AI-assisted educational-illustration labels. Paid text generation stays disabled. See [security review](docs/SECURITY_REVIEW.md) and [AI-use disclosure](docs/AI_USE.md). This is a scoped review, not a guarantee against all service disruption.
