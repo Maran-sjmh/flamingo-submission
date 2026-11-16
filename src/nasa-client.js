@@ -1,4 +1,4 @@
-const configured = import.meta.env?.VITE_API_BASE_URL || 'https://houston-groq-proxy.houston-groq-proxy.workers.dev';
+const configured = import.meta.env?.VITE_API_BASE_URL || 'https://houston-groq-proxy.flamingo-research.workers.dev';
 const parsed = new URL(configured);
 if (parsed.username || parsed.password || parsed.search || parsed.hash || (parsed.protocol !== 'https:' && !['localhost','127.0.0.1'].includes(parsed.hostname))) throw new Error('Invalid evidence-service URL.');
 export const NASA_API_BASE = configured.replace(/\/$/, '');

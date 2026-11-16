@@ -6,7 +6,7 @@
 
 ### From a research question to inspectable NASA evidence.
 
-[Explore the live website](https://flamingo.houston-groq-proxy.workers.dev/) · [Try the research collection](https://flamingo.houston-groq-proxy.workers.dev/#explore) · [Learn through play](https://flamingo.houston-groq-proxy.workers.dev/#learn)
+[Explore the live website](https://flamingo.flamingo-research.workers.dev/) · [Try the research collection](https://flamingo.flamingo-research.workers.dev/#explore) · [Learn through play](https://flamingo.flamingo-research.workers.dev/#learn)
 
 flamingo helps people explore NASA combustion research without first downloading multi-terabyte experiment archives or knowing the exact scientific vocabulary. Ask a question, discover relevant investigations, inspect original excerpts and source rows, then compare or export the evidence.
 
@@ -133,10 +133,12 @@ The application checks cover **23 rendered routes**, the 25 source snapshots, or
 
 ## Status and attribution
 
-This release is based on working commit `aa519d6ab9f768596f26363df8d222c2c94cb3ac` and frontend version `92205b44-1532-434b-b573-30e4e19a3d77`. Application source and scientific snapshots are preserved; deployment names are adapted for an independent checkout so a fork does not target the team's live Worker by default.
+This release is based on working commit `a4052b708f28e9d7f5126a4a491e78e47e42789f` and frontend version `1094fcda-3fb2-4b77-a592-36223d639adf`. Application source and scientific snapshots are preserved; deployment names are adapted for an independent checkout so a fork does not target the team's live Worker by default.
 
 NASA supplies the underlying research. flamingo is an independent project and is not a NASA endorsement or safety certification. The 3D habitats and flame lab are educational illustrations. Browser visual/mobile/WebGL validation remains pending; automated render and HTTP checks do not establish it.
 
 ## Final submission hardening
 
 The latest source adds a coordinated 250-attempt semantic budget per UTC day, explicit keyword fallback, restrictive browser/API headers and visible AI-assisted educational-illustration labels. Paid text generation stays disabled. See [security review](docs/SECURITY_REVIEW.md) and [AI-use disclosure](docs/AI_USE.md). This is a scoped review, not a guarantee against all service disruption.
+
+The public hostname was migrated in v1.1.1. Replace old QR codes and saved links; historical reports and tags retain their original addresses. See [URL migration](docs/URL_MIGRATION.md).

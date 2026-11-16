@@ -85,7 +85,7 @@ test('oversized request never reaches Firestore', async () => {
 });
 
 test('flamingo public frontend origin is allowed exactly, including health and API preflight', async()=>{
- const origin='https://flamingo.houston-groq-proxy.workers.dev';
+ const origin='https://flamingo.flamingo-research.workers.dev';
  assert.equal(allowedOrigin(origin),true);
  assert.equal(allowedOrigin(origin+'.evil.example'),false);
  const handle=createHandler();

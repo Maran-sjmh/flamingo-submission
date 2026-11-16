@@ -1,9 +1,9 @@
 import assert from 'node:assert/strict';
 import {readFile,readdir,writeFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
-const base=(process.argv[2]||'https://flamingo.houston-groq-proxy.workers.dev').replace(/\/$/,'');
+const base=(process.argv[2]||'https://flamingo.flamingo-research.workers.dev').replace(/\/$/,'');
 const target=new URL(base);
-assert.ok(target.origin===base&&(target.origin==='https://flamingo.houston-groq-proxy.workers.dev'||target.hostname==='localhost'),'Use the existing public frontend or a local preview');
+assert.ok(target.origin===base&&(target.origin==='https://flamingo.flamingo-research.workers.dev'||target.hostname==='localhost'),'Use the existing public frontend or a local preview');
 const hash=bytes=>createHash('sha256').update(bytes).digest('hex');
 const checks=[];
 async function exact(path){
@@ -28,7 +28,7 @@ assert.equal(rowCount,2009);
 for(const path of ['documents/acme.pdf','documents/combustion-science-guide.pdf',...(await readdir('dist/media')).map(name=>'media/'+name)])await exact(path);
 let health=null;
 if(target.hostname!=='localhost'){
- const response=await fetch('https://houston-groq-proxy.houston-groq-proxy.workers.dev/health',{headers:{Origin:base},signal:AbortSignal.timeout(30000)});
+ const response=await fetch('https://houston-groq-proxy.flamingo-research.workers.dev/health',{headers:{Origin:base},signal:AbortSignal.timeout(30000)});
  assert.equal(response.status,200);assert.equal(response.headers.get('access-control-allow-origin'),base);
  health=await response.json();assert.equal(health.status,'ok');assert.equal(health.retrieval.chunks,3152);assert.equal(health.retrieval.studies,25);assert.equal(health.retrieval.semantic_enabled,true);assert.equal(health.generation_enabled,false);
 }

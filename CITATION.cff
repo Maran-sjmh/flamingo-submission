@@ -4,7 +4,7 @@ title: "flamingo: Flame Learning & Analysis in Microgravity: INsights for Gravit
 type: software
 authors:
   - name: "flamingo project contributors"
-version: 1.1.0
+version: 1.1.1
 date-released: 2026-11-15
 url: "https://github.com/Maran-sjmh/flamingo-submission"
 repository-code: "https://github.com/Maran-sjmh/flamingo-submission"

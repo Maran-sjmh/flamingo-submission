@@ -2,10 +2,10 @@
   "schema": 1,
   "prepared_utc": "2026-11-16T00:40:38.139984+00:00",
   "source_repository": "https://github.com/Maran-sjmh/flamingo",
-  "source_commit": "aa519d6ab9f768596f26363df8d222c2c94cb3ac",
+  "source_commit": "a4052b708f28e9d7f5126a4a491e78e47e42789f",
   "submission_repository": "https://github.com/Maran-sjmh/flamingo-submission",
-  "live_site": "https://flamingo.houston-groq-proxy.workers.dev/",
-  "frontend_version": "92205b44-1532-434b-b573-30e4e19a3d77",
+  "live_site": "https://flamingo.flamingo-research.workers.dev/",
+  "frontend_version": "1094fcda-3fb2-4b77-a592-36223d639adf",
   "corpus_version": "696e5da5c741deb796e6c0778c39f38dd18eedf5535f554ce7251cc2f9abdaa0",
   "counts": {
     "investigations": 25,
@@ -19,7 +19,7 @@
     "remote_declared_bytes": 12279107413131
   },
   "protected_source_hashes": {
-    "public/_headers": "409c899bd27eaf916d02df4058132afd678799255e5451fd381f95084ed9559a",
+    "public/_headers": "31a6a216faf364574816045e2abdc4584db3cc2e2c540e383cc0c1c1f4ca01ee",
     "public/ai-assistance.json": "5ffbfdd39a9692262bf6164edb8252fde2444ec15061a1ddb310cdd9039b942e",
     "public/data/rows/PSI-10.json": "4f9741622a814bfedd6baee709364e54d73bf45c68622a50449783cb4c01545a",
     "public/data/rows/PSI-100.json": "29aa4bdfbfa901c6a9521bd89a1ccbddcc1bdac23a6866da0db75aaf64a79caf",
@@ -98,7 +98,7 @@
     "src/learn.css": "63e46c8ef38f43f8c33d5e32434082da4fe07cb47f87218aefb700d1d5f0e053",
     "src/main.jsx": "f6ddb2532a7c881dc23b412df154caaaef666bf802c3e40641e8540ff22b3eaa",
     "src/nasa-catalog.json": "709cc2fb0ea3b8c10ca17b4a3dc809dd54dcbba43e0c31a47f463fde27257a2a",
-    "src/nasa-client.js": "568cc1795934c81ebe824e4868a9c294a172c3b81b3749a23f4c638e97c94e16",
+    "src/nasa-client.js": "95bd3781ccd988a2e35112b761ff1e7524541330a5725e926d92abb64d3b25c9",
     "src/nasa.css": "ddf3b15209356b7aff74273bdeb2297d9b914c579f36494b0f956b02fdce8752",
     "src/records.js": "0531a3996f7aece6b3130a2ffbc2d67278f1c0cd3808db5a04fee949398fb30a",
     "src/refresh.css": "79fd6045e4b3c97b54ffd00e2075d15ec9b3d8658e9aae4cac13323367eaecd1",
@@ -116,8 +116,8 @@
   "deployment_config_changes": "Fork-specific Worker names; account IDs removed; semantic flag disabled until an independent index is configured. Application code and data remain the deployed snapshot.",
   "public_generation_enabled": false,
   "browser_visual_qa": "not_verified",
-  "backend_version": "4a497b58-8b10-49b6-af75-065dd5202d80",
-  "submission_version": "1.1.0",
+  "backend_version": "efddb397-ae30-4dc6-90d7-8d2a47c8253b",
+  "submission_version": "1.1.1",
   "public_semantic_reservations_per_utc_day": 250,
-  "updated_utc": "2026-11-16T01:52:55.197233+00:00"
+  "updated_utc": "2026-11-16T02:14:02.753053+00:00"
 }

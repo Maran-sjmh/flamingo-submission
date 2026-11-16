@@ -74,6 +74,6 @@ test('demo assets have a restrictive content policy and the server reports real 
 });
 test('deterministic comparison is available without any AI credential and preserves original qualifiers', async () => {
   const handler=createHandler(fixtureFetch(await publicFixtures()));
-  const response=await handler(new Request('https://example.test/v1/compare',{method:'POST',headers:{Origin:'https://houston-groq-proxy.houston-groq-proxy.workers.dev','Content-Type':'application/json','CF-Connecting-IP':'192.0.2.1'},body:JSON.stringify({test_uids:[S1,S2]})}),environment());
+  const response=await handler(new Request('https://example.test/v1/compare',{method:'POST',headers:{Origin:'https://houston-groq-proxy.flamingo-research.workers.dev','Content-Type':'application/json','CF-Connecting-IP':'192.0.2.1'},body:JSON.stringify({test_uids:[S1,S2]})}),environment());
   const r=await response.json();assert.equal(response.status,200);assert.equal(r.status,'selected_source_rows');assert.equal(r.evidence[0].cells['Percent O2'],'21.5 - 21.7');assert.equal(r.evidence[1].cells['Percent O2'],'~ 21.5');assert.equal(r.generation_performed,false);
 });

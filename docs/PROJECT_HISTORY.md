@@ -25,3 +25,7 @@ This repository starts with a clean public-delivery history rather than copying 
 ## Final submission update
 
 Version 1.1.0 records working commit aa519d6ab9f768596f26363df8d222c2c94cb3ac, frontend 92205b44-1532-434b-b573-30e4e19a3d77 and backend 4a497b58-8b10-49b6-af75-065dd5202d80. It adds coordinated semantic quotas, security headers, deployment verification and AI-assistance disclosure. The earlier v1.0.0 remains a separate immutable delivery tag.
+
+## Public hostname migration
+
+Version 1.1.1 records working commit a4052b708f28e9d7f5126a4a491e78e47e42789f, frontend 1094fcda-3fb2-4b77-a592-36223d639adf and backend efddb397-ae30-4dc6-90d7-8d2a47c8253b. It updates the public website, API connection, CORS, CSP and submission links to the flamingo-research account subdomain. Scientific content, the vector index and coordinated semantic quota are unchanged. Historical security reports retain their recorded capture context.

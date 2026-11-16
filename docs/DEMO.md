@@ -1,6 +1,6 @@
 # Demonstrate the actual product
 
-Live site: https://flamingo.houston-groq-proxy.workers.dev/
+Live site: https://flamingo.flamingo-research.workers.dev/
 
 ## 1. A question becomes a source trail
 
