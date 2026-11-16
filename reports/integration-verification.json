@@ -1,0 +1,107 @@
+{
+  "checked_utc": "2026-11-15T20:32:16.539Z",
+  "checks": [
+    {
+      "route": "home",
+      "rendered": true
+    },
+    {
+      "route": "#home",
+      "rendered": true
+    },
+    {
+      "route": "#explore",
+      "rendered": true
+    },
+    {
+      "route": "#explore/investigations",
+      "rendered": true
+    },
+    {
+      "route": "#explore/publications",
+      "rendered": true
+    },
+    {
+      "route": "#explore/tests",
+      "rendered": true
+    },
+    {
+      "route": "#versus",
+      "rendered": true
+    },
+    {
+      "route": "#learn",
+      "rendered": true
+    },
+    {
+      "route": "#library",
+      "rendered": true
+    },
+    {
+      "route": "#compare",
+      "rendered": true
+    },
+    {
+      "route": "#saved",
+      "rendered": true
+    },
+    {
+      "route": "#pdfs",
+      "rendered": true
+    },
+    {
+      "route": "#document-saved",
+      "rendered": true
+    },
+    {
+      "route": "#type/Investigation",
+      "rendered": true
+    },
+    {
+      "route": "#study/acme",
+      "rendered": true
+    },
+    {
+      "route": "#study/guide",
+      "rendered": true
+    },
+    {
+      "route": "#investigation/PSI-98",
+      "rendered": true
+    },
+    {
+      "route": "#investigation/PSI-68",
+      "rendered": true
+    },
+    {
+      "route": "#investigation/PSI-60",
+      "rendered": true
+    },
+    {
+      "route": "#investigation/UNKNOWN",
+      "rendered": true
+    },
+    {
+      "route": "#rows",
+      "rendered": true
+    },
+    {
+      "route": "#nasa",
+      "rendered": true
+    },
+    {
+      "route": "#nasa/oxygen/PSI-25",
+      "rendered": true
+    },
+    {
+      "case": "API scope, no browser credential, no retry, explicit quota error and raw-value CSV",
+      "passed": true
+    },
+    {
+      "case": "Unified catalog, 25 integrity-checked row snapshots, 2009 distinct rows, 22 tables, coverage filters, selection limit and exact oxygen/signed source strings",
+      "passed": true
+    }
+  ],
+  "browser_verified": false,
+  "network_calls_in_this_test": 0
+}

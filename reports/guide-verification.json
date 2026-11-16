@@ -1,0 +1,20 @@
+{
+  "checked_utc": "2026-11-15T20:32:19.225Z",
+  "checks": [
+    {
+      "case": "Evidence-backed internal routes only; deduplication, scoped search, source quotes and no forced generation",
+      "passed": true
+    },
+    {
+      "case": "Empty/greeting/follow-up questions; bounded input; no-evidence, quota and HTTP errors",
+      "passed": true
+    },
+    {
+      "case": "Home directions and research entry; modal welcome, contextual scope and semantic-search disclosure",
+      "passed": true
+    }
+  ],
+  "network_calls": 0,
+  "OpenAI_requests": 0,
+  "browser_visual_qa": "not_verified"
+}

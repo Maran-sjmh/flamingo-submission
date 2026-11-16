@@ -1,0 +1,296 @@
+{
+  "verified_at": "2026-11-16T00:26:22.136Z",
+  "url": "https://flamingo.houston-groq-proxy.workers.dev/",
+  "checks": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "sha256": "8b3931cba8fcaededb06e771f6563a1d91676aad82baedbcb88bc14408b851c5"
+    },
+    {
+      "path": "assets/index-GedUnyM0.css",
+      "status": 200,
+      "sha256": "a1cbee32c09c965cf0a9c321a954a3d04a784b0464f066879153b7ef93552259"
+    },
+    {
+      "path": "assets/index-C2s6-EIk.js",
+      "status": 200,
+      "sha256": "b35f134233fc3e843df0fb0d55f53d453b59edd6554f3455e38139fcf6e3021c"
+    },
+    {
+      "path": "assets/LearnHabitat-D16D8kfT.css",
+      "status": 200,
+      "sha256": "c9eac13433838b6d8085a41e110c227d831227f7f934fda1a67520e9c0842e11"
+    },
+    {
+      "path": "assets/LearnHabitat-CS0WX1w0.js",
+      "status": 200,
+      "sha256": "1ec5f87ecfef11d4afd4e183abc569a33ab3225745e0cf00e1b5349e0807f5dd"
+    },
+    {
+      "path": "assets/research-catalog-dR9MnKi3.js",
+      "status": 200,
+      "sha256": "09910015716b8a49d6c741bf23c38e752b6a395b0fabb5b1f7f1db695af15039"
+    },
+    {
+      "path": "assets/three-addons-BkPAHtol.js",
+      "status": 200,
+      "sha256": "7dfa6d7e39eae7682840802da05b2765809f2b81d50efcc07145878eb99d8646"
+    },
+    {
+      "path": "assets/pdf-corpus-D3FXrTYL.js",
+      "status": 200,
+      "sha256": "6e16475735214ac9e148d35b92cd045ce18484a4f684099d4aee8e25b90f9511"
+    },
+    {
+      "path": "assets/ResearchAssistant-BSbYzSjU.js",
+      "status": 200,
+      "sha256": "adee9e4727738fa69685ac39d233a8d5cd76d8b0f39786a0d50d2361fd9e6bcf"
+    },
+    {
+      "path": "assets/vendor-laVzQ1oi.js",
+      "status": 200,
+      "sha256": "9b3b0011762162114f8d5dd6235685d6a3730259e79dee8d7844fdb60741353d"
+    },
+    {
+      "path": "assets/three-BheaPy9y.js",
+      "status": 200,
+      "sha256": "021fe301650059d0a72f0fb793e806c91bbb2945c085ed28d56ebfe1c05c53d6"
+    },
+    {
+      "path": "flamingo-mark.svg",
+      "status": 200,
+      "sha256": "d75e44ec79c91add600269824446095e82ddc9ab5d2816cc7aa92af0a07c609c"
+    },
+    {
+      "path": "favicon.svg",
+      "status": 200,
+      "sha256": "d75e44ec79c91add600269824446095e82ddc9ab5d2816cc7aa92af0a07c609c"
+    },
+    {
+      "path": "data/rows/PSI-10.json",
+      "status": 200,
+      "sha256": "4f9741622a814bfedd6baee709364e54d73bf45c68622a50449783cb4c01545a"
+    },
+    {
+      "path": "data/rows/PSI-20.json",
+      "status": 200,
+      "sha256": "f935ac5cd08666ace565049424f7d23101f748c8ebbddf0f749fbafa3817b288"
+    },
+    {
+      "path": "data/rows/PSI-21.json",
+      "status": 200,
+      "sha256": "1c4dce46fe2067bf565df932e07b510d28e4a6cb9b3a2420aeef58f82d008367"
+    },
+    {
+      "path": "data/rows/PSI-22.json",
+      "status": 200,
+      "sha256": "6450cd15b58e9e2b33ec9867b783ad8721e4d80d9c060c2127242e0e55143c83"
+    },
+    {
+      "path": "data/rows/PSI-23.json",
+      "status": 200,
+      "sha256": "cbc45f0dcf171383125d97a57bb524415a5afec4ece84d9b5194aaca6c8bbcde"
+    },
+    {
+      "path": "data/rows/PSI-25.json",
+      "status": 200,
+      "sha256": "ea834aa869721da213c2bd6c118149b4f4ddb9b4288de8a3d1b3bc24f4a4c23e"
+    },
+    {
+      "path": "data/rows/PSI-26.json",
+      "status": 200,
+      "sha256": "cdf39fca9a9b100c112d9f473ae3ca08aa9a2cfc10dcac304342c86799542026"
+    },
+    {
+      "path": "data/rows/PSI-39.json",
+      "status": 200,
+      "sha256": "5d9f5be9258726bf8af7d24433f24f6e9e8f9ef874d29dabdece4d7bc77e8706"
+    },
+    {
+      "path": "data/rows/PSI-47.json",
+      "status": 200,
+      "sha256": "206fc9778600c8dedf0dc8fc42dbecb3577b9dec098c3d1d811fa24033f2b130"
+    },
+    {
+      "path": "data/rows/PSI-60.json",
+      "status": 200,
+      "sha256": "36beac79da3562514a8bc5167f5df0d3a83d6134898c3fa3cc6d4d78119594e9"
+    },
+    {
+      "path": "data/rows/PSI-62.json",
+      "status": 200,
+      "sha256": "0282fee2483cf02768a56d287c3654666af3ed3997e81b0b6e9cf20b899e0f8d"
+    },
+    {
+      "path": "data/rows/PSI-68.json",
+      "status": 200,
+      "sha256": "192669921a62bc219518cccbef0cbab6090f4c1f92abd4d3292aaefec8dfc4e5"
+    },
+    {
+      "path": "data/rows/PSI-69.json",
+      "status": 200,
+      "sha256": "ef60ee00b5588c137f6af40d6b6060bb86a7480128fbe9d8746798cca1f422bb"
+    },
+    {
+      "path": "data/rows/PSI-98.json",
+      "status": 200,
+      "sha256": "a098a6df78f8db3c63e7f906c90719f71d0d84db9f3832f15e23cf7e964c6095"
+    },
+    {
+      "path": "data/rows/PSI-99.json",
+      "status": 200,
+      "sha256": "ab6700283080dd7504a7d38b7059cfa085ebf49a61efbb7d53cfbb13ac8f01d5"
+    },
+    {
+      "path": "data/rows/PSI-100.json",
+      "status": 200,
+      "sha256": "29aa4bdfbfa901c6a9521bd89a1ccbddcc1bdac23a6866da0db75aaf64a79caf"
+    },
+    {
+      "path": "data/rows/PSI-101.json",
+      "status": 200,
+      "sha256": "1fe396b8c046cdd414c8f10cea1fe80678f03d97f34229ca7297362de511afb1"
+    },
+    {
+      "path": "data/rows/PSI-102.json",
+      "status": 200,
+      "sha256": "246f46beb88920fb8e089ca5bf79c22a922bb8cb636092b60f35c3a2670e3864"
+    },
+    {
+      "path": "data/rows/PSI-106.json",
+      "status": 200,
+      "sha256": "bb3ebaceb523d5f8cfdc69743619c7d93ac3775510968d34f14403ccf9426a84"
+    },
+    {
+      "path": "data/rows/PSI-107.json",
+      "status": 200,
+      "sha256": "dd7004968127fa08b71ae45184bc55ef6b8379aad201eb186d7d7148b5b38e8f"
+    },
+    {
+      "path": "data/rows/PSI-115.json",
+      "status": 200,
+      "sha256": "2c523a08640f7f7ca2da2e9801e97c74e6ea6cd3b52b8cbae4b78047d7e79e30"
+    },
+    {
+      "path": "data/rows/PSI-117.json",
+      "status": 200,
+      "sha256": "7fa7f480b3ab97f40264fe226b3e0fec897bf4afd5c8fd2645061a54edaf10a3"
+    },
+    {
+      "path": "data/rows/PSI-142.json",
+      "status": 200,
+      "sha256": "08e8e333dea5e50f3af26ad794c175b36a3a8fe13405ff5b558d0e8bf66fdf1e"
+    },
+    {
+      "path": "data/rows/PSI-159.json",
+      "status": 200,
+      "sha256": "37e4b958d8ae5972770525cef7a7eeef0d27e9ed04b790a6734234af9928a167"
+    },
+    {
+      "path": "data/rows/PSI-179.json",
+      "status": 200,
+      "sha256": "ad99d5d0e0245e9680650012fde64b56fb5cf679f6a713f92bf25c34d13ff929"
+    },
+    {
+      "path": "documents/acme.pdf",
+      "status": 200,
+      "sha256": "21d226540a4764db3f55a686daeecdb1d4fb7458502a0f8d2175a0e85ddad853"
+    },
+    {
+      "path": "documents/combustion-science-guide.pdf",
+      "status": 200,
+      "sha256": "5fe046efe4e35e506023e27a9784d041e893026f19c9987591483614aea5d6b6"
+    },
+    {
+      "path": "media/droplet-flame.jpg",
+      "status": 200,
+      "sha256": "ac5f1069df88839a5f99e724724e304c8590c8f27fe6c158f15d75851694b2a1"
+    },
+    {
+      "path": "media/figure11-grid.jpg",
+      "status": 200,
+      "sha256": "c5d78ad1c4f625beed1756e860908e3def39d7080d6c58012da14e161e67bcc5"
+    },
+    {
+      "path": "media/flex-2.webm",
+      "status": 200,
+      "sha256": "c650069c3f7aae83507feedd84c118fa4ea815caa22cab862b770f723b8d9e91"
+    },
+    {
+      "path": "media/solid-poster.jpg",
+      "status": 200,
+      "sha256": "f4bab176fab0b2713c68561001af8113963462c198ef1af3d54ba7b15e65f500"
+    },
+    {
+      "path": "media/solid-sequence.gif",
+      "status": 200,
+      "sha256": "017fdb7f893af089fb33fc127ada68ccb4c96b956515e2171bf5e7a45e751bb3"
+    },
+    {
+      "path": "media/spherical-flame.jpg",
+      "status": 200,
+      "sha256": "c12ebf6e4d022d9287adf75002f4e88642567573dedb812a6a0b7e9bac9c254b"
+    },
+    {
+      "path": "media/ventilation-poster.jpg",
+      "status": 200,
+      "sha256": "887c5a33a6b55b0fe0a6ed96e057490f6e4e5fab7613d37160fcf5f66973a3ce"
+    },
+    {
+      "path": "media/ventilation-sequence.jpg",
+      "status": 200,
+      "sha256": "6495d70a5e90f276edcaf64ad85139597525a52512834da337425a9148b63046"
+    },
+    {
+      "path": "media/ventilation.gif",
+      "status": 200,
+      "sha256": "9e6bcda2fa4235026028366b76b6cef68ec3fd9cacf599443f7c95bb4704e7c8"
+    }
+  ],
+  "source_rows": 2009,
+  "health": {
+    "status": "ok",
+    "service": "houston-research-proxy",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "provider": "openai",
+    "generation_enabled": false,
+    "rag_generation_enabled": false,
+    "retrieval": {
+      "corpus_version": "696e5da5c741deb796e6c0778c39f38dd18eedf5535f554ce7251cc2f9abdaa0",
+      "chunks": 3152,
+      "studies": 25,
+      "accessions": [
+        "PSI-10",
+        "PSI-20",
+        "PSI-21",
+        "PSI-22",
+        "PSI-23",
+        "PSI-25",
+        "PSI-26",
+        "PSI-39",
+        "PSI-47",
+        "PSI-60",
+        "PSI-62",
+        "PSI-68",
+        "PSI-69",
+        "PSI-98",
+        "PSI-99",
+        "PSI-100",
+        "PSI-101",
+        "PSI-102",
+        "PSI-106",
+        "PSI-107",
+        "PSI-115",
+        "PSI-117",
+        "PSI-142",
+        "PSI-159",
+        "PSI-179"
+      ],
+      "semantic_enabled": true
+    }
+  },
+  "ai_generation_calls": 0,
+  "embedding_queries": 0,
+  "browser_visual_qa": "not_verified"
+}

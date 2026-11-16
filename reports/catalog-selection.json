@@ -1,0 +1,807 @@
+{
+  "source": "https://psi.nasa.gov/physci/repo",
+  "scope": "Captured catalog selection, not a live current NASA total",
+  "catalog_entries_reviewed": 133,
+  "selection_rule": "Research Area is Combustion Science, plus PSI-179 for cabin aerosol context",
+  "selected": 25,
+  "entries": [
+    {
+      "accession": "PSI-119",
+      "title": "Enhanced Particle Tracking in STDC Data and Its Industrial Application of Marangoni Convection",
+      "research_area": "Fluid Physics",
+      "selected": false
+    },
+    {
+      "accession": "PSI-17",
+      "title": "Advanced Colloids Experiment - Temperature 6",
+      "research_area": "Complex Fluids - Soft Matter",
+      "selected": false
+    },
+    {
+      "accession": "PSI-16",
+      "title": "Advanced Colloids Experiment - Temperature 1",
+      "research_area": "Complex Fluids - Soft Matter",
+      "selected": false
+    },
+    {
+      "accession": "PSI-142",
+      "title": "Quantitative Studies of Cool Flame Transitions at Radiation / Stretch Extinction Using Counterflow Flames",
+      "research_area": "Combustion Science",
+      "selected": true
+    },
+    {
+      "accession": "PSI-182",
+      "title": "Colloidal gels:  Aging in microgravity, Structure of highly polydisperse gels",
+      "research_area": "Complex Fluids - Soft Matter",
+      "selected": false
+    },
+    {
+      "accession": "PSI-148",
+      "title": "Spurious Grain Formation in Alloys Directionally Solidified on the Space Station Due to Marangoni Convection",
+      "research_area": "Materials Science",
+      "selected": false
+    },
+    {
+      "accession": "PSI-177",
+      "title": "Investigating the Structure of Paramagnetic Aggregates from Colloidal Emulsions - 4",
+      "research_area": "Complex Fluids - Soft Matter",
+      "selected": false
+    },
+    {
+      "accession": "PSI-62",
+      "title": "Concurrent Flame Spread Modeling using Flamelet Generated Manifolds in Microgravity with Comparison to BASS Experiments using Two-Color Tomography",
+      "research_area": "Combustion Science",
+      "selected": true
+    },
+    {
+      "accession": "PSI-60",
+      "title": "Computational and Experimental Analysis of SPICE Data Sets",
+      "research_area": "Combustion Science",
+      "selected": true
+    },
+    {
+      "accession": "PSI-34",
+      "title": "Cold Atom Lab - Dual Species",
+      "research_area": "Fundamental Physics",
+      "selected": false
+    },
+    {
+      "accession": "PSI-184",
+      "title": "Flow Boiling Heat Transfer Using Temperature Sensitive Paints",
+      "research_area": "Fluid Physics",
+      "selected": false
+    },
+    {
+      "accession": "PSI-67",
+      "title": "Enhancement and Verification of Quantitative Phase-Field Crystal Modeling using NASA-PSI Coarsening in Solid- Liquid Mixtures Experiments Data",
+      "research_area": "Materials Science",
+      "selected": false
+    },
+    {
+      "accession": "PSI-185",
+      "title": "Testing Analytical and Numerical Models in Phase Coarsening using NASA Physical Sciences Informatics System",
+      "research_area": "Materials Science",
+      "selected": false
+    },
+    {
+      "accession": "PSI-138",
+      "title": "Pool Boiling Heat Transfer Mechanisms in Low Gravity: Numerical Experiments of MABE and NPBX Data",
+      "research_area": "Fluid Physics",
+      "selected": false
+    },
+    {
+      "accession": "PSI-26",
+      "title": "Burning and Suppression of Solids",
+      "research_area": "Combustion Science",
+      "selected": true
+    },
+    {
+      "accession": "PSI-189",
+      "title": "Validation of a CFD Model for Gas-Liquid Flows in Packed Bed Reactors to Enable Thermo-Fluid Analysis in Microgravity",
+      "research_area": "Fluid Physics",
+      "selected": false
+    },
+    {
+      "accession": "PSI-137",
+      "title": "Phase Transitions in Colloid-Polymer Mixtures in Microgravity",
+      "research_area": "Complex Fluids - Soft Matter",
+      "selected": false
+    },
+    {
+      "accession": "PSI-174",
+      "title": "Micromechanics Based Modeling of Cement Solidified in the Microgravity",
+      "research_area": "Materials Science",
+      "selected": false
+    },
+    {
+      "accession": "PSI-35",
+      "title": "Cold Atom Lab - Fundamental Interactions for Atom Interferometry with Ultracold Quantum Gases in a Microgravity Environment",
+      "research_area": "Fundamental Physics",
+      "selected": false
+    },
+    {
+      "accession": "PSI-106",
+      "title": "Structure and Liftoff In Combustion Experiment",
+      "research_area": "Combustion Science",
+      "selected": true
+    },
+    {
+      "accession": "PSI-98",
+      "title": "Spacecraft Fire Safety Experiment-I",
+      "research_area": "Combustion Science",
+      "selected": true
+    },
+    {
+      "accession": "PSI-74",
+      "title": "Investigating the Structures of Paramagnetic Aggregates from Colloidal Emulsions-2",
+      "research_area": "Complex Fluids - Soft Matter",
+      "selected": false
+    },
+    {
+      "accession": "PSI-117",
+      "title": "Effect of External Thermo-Convective Perturbation on Cool Flame Dynamics: A Multidimensional Multi-Physics CFD Analysis",
+      "research_area": "Combustion Science",
+      "selected": true
+    },
+    {
+      "accession": "PSI-42",
+      "title": "Coarsening in Solid-Liquid Mixtures",
+      "research_area": "Materials Science",
+      "selected": false
+    },
+    {
+      "accession": "PSI-50",
+      "title": "Development and Verification of a 3D Nucleate Pool Boiling Simulation Model Using PSI Data",
+      "research_area": "Fluid Physics",
+      "selected": false
+    },
+    {
+      "accession": "PSI-37",
+      "title": "Capillary Flow Experiment - 2",
+      "research_area": "Fluid Physics",
+      "selected": false
+    },
+    {
+      "accession": "PSI-181",
+      "title": "Structure and Properties of Pb-Sn and Pb-free Sn-Ag-Cu Solders Produced in Terrestrial vs. Microgravity Environments under Extremes of Elevated and Cryo Temperatures",
+      "research_area": "Materials Science",
+      "selected": false
+    },
+    {
+      "accession": "PSI-90",
+      "title": "Packed Bed Reactor Experiment",
+      "research_area": "Fluid Physics",
+      "selected": false
+    },
+    {
+      "accession": "PSI-43",
+      "title": "Coarsening in Solid-Liquid Mixtures-4",
+      "research_area": "Materials Science",
+      "selected": false
+    },
+    {
+      "accession": "PSI-76",
+      "title": "Investigating the Structures of Paramagnetic Aggregates from Colloidal Emulsions-1",
+      "research_area": "Complex Fluids - Soft Matter",
+      "selected": false
+    },
+    {
+      "accession": "PSI-31",
+      "title": "Cold Atom Lab - Microgravity Dynamics of Bubble-Geometry Bose-Einstein Condensates",
+      "research_area": "Fundamental Physics",
+      "selected": false
+    },
+    {
+      "accession": "PSI-115",
+      "title": "Utilization of the Smoke Aerosol Measurement Experiment Data for Advanced Modeling and Simulation of Smoke Generation in Micro-Gravity",
+      "research_area": "Combustion Science",
+      "selected": true
+    },
+    {
+      "accession": "PSI-27",
+      "title": "Binary Colloidal Alloy Test - 3",
+      "research_area": "Complex Fluids - Soft Matter",
+      "selected": false
+    },
+    {
+      "accession": "PSI-66",
+      "title": "Dynamic Response of Particle-Filled Polymeric Fluids in Flows with Complex Lagrangian Time Histories",
+      "research_area": "Complex Fluids - Soft Matter",
+      "selected": false
+    },
+    {
+      "accession": "PSI-105",
+      "title": "Shear History Extensional Rheology Experiment",
+      "research_area": "Complex Fluids - Soft Matter",
+      "selected": false
+    },
+    {
+      "accession": "PSI-28",
+      "title": "Binodal Colloidal Aggregation Test - 4",
+      "research_area": "Complex Fluids - Soft Matter",
+      "selected": false
+    },
+    {
+      "accession": "PSI-30",
+      "title": "Binary Colloidal Alloy Test - 6",
+      "research_area": "Complex Fluids - Soft Matter",
+      "selected": false
+    },
+    {
+      "accession": "PSI-96",
+      "title": "Pore-Mushy Zone Interaction during Directional Solidification of Alloys: Three Dimensional Simulation and Comparison with Experiments",
+      "research_area": "Materials Science",
+      "selected": false
+    },
+    {
+      "accession": "PSI-47",
+      "title": "Dust and Aerosol Measurement Feasibility Test / Dust and Aerosol Measurement Feasibility Test-2",
+      "research_area": "Combustion Science",
+      "selected": true
+    },
+    {
+      "accession": "PSI-100",
+      "title": "Spacecraft Fire Experiment-III",
+      "research_area": "Combustion Science",
+      "selected": true
+    },
+    {
+      "accession": "PSI-39",
+      "title": "Cool Flames Investigation",
+      "research_area": "Combustion Science",
+      "selected": true
+    },
+    {
+      "accession": "PSI-102",
+      "title": "Smoke and Aerosol Measurement Experiment",
+      "research_area": "Combustion Science",
+      "selected": true
+    },
+    {
+      "accession": "PSI-89",
+      "title": "Packed Bed Reactor Experiment - Water Recovery",
+      "research_area": "Fluid Physics",
+      "selected": false
+    },
+    {
+      "accession": "PSI-13",
+      "title": "Advanced Colloids Experiment- Microscopy",
+      "research_area": "Complex Fluids - Soft Matter",
+      "selected": false
+    },
+    {
+      "accession": "PSI-18",
+      "title": "Advanced Colloids Experiment - Temperature 7",
+      "research_area": "Complex Fluids - Soft Matter",
+      "selected": false
+    },
+    {
+      "accession": "PSI-88",
+      "title": "Packed Bed Reactor Experiment - 2",
+      "research_area": "Fluid Physics",
+      "selected": false
+    },
+    {
+      "accession": "PSI-24",
+      "title": "Advanced Structurally Embedded Thermal Spreader II Oscillating Head Pipes",
+      "research_area": "Fluid Physics",
+      "selected": false
+    },
+    {
+      "accession": "PSI-75",
+      "title": "Investigating the Structures of Paramagnetic Aggregates from Colloidal Emulsions-3",
+      "research_area": "Complex Fluids - Soft Matter",
+      "selected": false
+    },
+    {
+      "accession": "PSI-32",
+      "title": "Cold Atom Lab - Consortium for Ultracold Atoms in Space",
+      "research_area": "Fundamental Physics",
+      "selected": false
+    },
+    {
+      "accession": "PSI-33",
+      "title": "Cold Atom Lab - Development of Atom Interferometry Experiments for the ISS",
+      "research_area": "Fundamental Physics",
+      "selected": false
+    },
+    {
+      "accession": "PSI-41",
+      "title": "Coarsening in Solid-Liquid Mixtures-2 Reflight",
+      "research_area": "Materials Science",
+      "selected": false
+    },
+    {
+      "accession": "PSI-159",
+      "title": "Advanced Combustion via Microgravity Experiments / Cool Flames Investigation with Gases",
+      "research_area": "Combustion Science",
+      "selected": true
+    },
+    {
+      "accession": "PSI-36",
+      "title": "Cold Atom Lab - Zero-G Studies of Few Body and Many-Body Physics",
+      "research_area": "Fundamental Physics",
+      "selected": false
+    },
+    {
+      "accession": "PSI-109",
+      "title": "Surface Tension Driven Convection Experiment-2",
+      "research_area": "Fluid Physics",
+      "selected": false
+    },
+    {
+      "accession": "PSI-101",
+      "title": "Smoke Aerosol Measurement Experiment-Reflight",
+      "research_area": "Combustion Science",
+      "selected": true
+    },
+    {
+      "accession": "PSI-93",
+      "title": "Pore Formation and Mobility Investigation",
+      "research_area": "Materials Science",
+      "selected": false
+    },
+    {
+      "accession": "PSI-7",
+      "title": "Particle Stabilized Emulsions and Foams",
+      "research_area": "Complex Fluids - Soft Matter",
+      "selected": false
+    },
+    {
+      "accession": "PSI-25",
+      "title": "Burning and Suppression of Solids - II",
+      "research_area": "Combustion Science",
+      "selected": true
+    },
+    {
+      "accession": "PSI-94",
+      "title": "Physics of Hard Spheres Experiment",
+      "research_area": "Complex Fluids - Soft Matter",
+      "selected": false
+    },
+    {
+      "accession": "PSI-58",
+      "title": "Capillary Channel Flow - Critical Velocities Experiment Unit 2",
+      "research_area": "Fluid Physics",
+      "selected": false
+    },
+    {
+      "accession": "PSI-6",
+      "title": "Foam Optics and Mechanics",
+      "research_area": "Complex Fluids - Soft Matter",
+      "selected": false
+    },
+    {
+      "accession": "PSI-45",
+      "title": "Constrained Vapor Bubble-2",
+      "research_area": "Fluid Physics",
+      "selected": false
+    },
+    {
+      "accession": "PSI-15",
+      "title": "Advanced Colloids Experiment-Microscopy 2 Reflight",
+      "research_area": "Complex Fluids - Soft Matter",
+      "selected": false
+    },
+    {
+      "accession": "PSI-77",
+      "title": "In Space Soldering Investigation",
+      "research_area": "Materials Science",
+      "selected": false
+    },
+    {
+      "accession": "PSI-52",
+      "title": "Advanced Colloids Experiment - Temperature Control and Gradient Sample 11",
+      "research_area": "Complex Fluids - Soft Matter",
+      "selected": false
+    },
+    {
+      "accession": "PSI-103",
+      "title": "Shear History Extensional Rheology Experiment - II",
+      "research_area": "Complex Fluids - Soft Matter",
+      "selected": false
+    },
+    {
+      "accession": "PSI-99",
+      "title": "Spacecraft Fire Experiment-II",
+      "research_area": "Combustion Science",
+      "selected": true
+    },
+    {
+      "accession": "PSI-40",
+      "title": "Coarsening in Solid Liquid Mixtures-2",
+      "research_area": "Materials Science",
+      "selected": false
+    },
+    {
+      "accession": "PSI-179",
+      "title": "Aerosol Sampling Experiment",
+      "research_area": "Complex Fluids - Soft Matter",
+      "selected": true
+    },
+    {
+      "accession": "PSI-91",
+      "title": "Physics of Colloids in Space",
+      "research_area": "Complex Fluids - Soft Matter",
+      "selected": false
+    },
+    {
+      "accession": "PSI-22",
+      "title": "Advanced Combustion via Microgravity Experiments Electric-Field Effects on Laminar Diffusion Flames",
+      "research_area": "Combustion Science",
+      "selected": true
+    },
+    {
+      "accession": "PSI-3",
+      "title": "NASA Research Under Project Quasi-crystalline Undercooled Alloys for Space Investigation (QUASI) and ESA-Based Investigations, THERMOLAB-ISS and ICOPROSOL",
+      "research_area": "Materials Science",
+      "selected": false
+    },
+    {
+      "accession": "PSI-110",
+      "title": "An International Space Station Experiment into Fundamental Regolith Processes in Microgravity",
+      "research_area": "Materials Science",
+      "selected": false
+    },
+    {
+      "accession": "PSI-160",
+      "title": "Ring-Sheared Drop - Interfacial Bioprocessing of Pharmaceuticals",
+      "research_area": "Biophysics",
+      "selected": false
+    },
+    {
+      "accession": "PSI-59",
+      "title": "Capillary Channel Flow - Phase Separation Experiment Unit 2",
+      "research_area": "Fluid Physics",
+      "selected": false
+    },
+    {
+      "accession": "PSI-187",
+      "title": "Plant Water Management",
+      "research_area": "Fluid Physics",
+      "selected": false
+    },
+    {
+      "accession": "PSI-108",
+      "title": "Surface Tension Driven Convection Experiment-1",
+      "research_area": "Fluid Physics",
+      "selected": false
+    },
+    {
+      "accession": "PSI-178",
+      "title": "The origin of fragility in high-temperature oxide liquids - towards fabrication of novel non-equilibrium oxides",
+      "research_area": "Materials Science",
+      "selected": false
+    },
+    {
+      "accession": "PSI-107",
+      "title": "Smoke Point In Co-flow Experiment",
+      "research_area": "Combustion Science",
+      "selected": true
+    },
+    {
+      "accession": "PSI-12",
+      "title": "Growth of Large, Perfect Protein Crystals for Neutron Crystallography",
+      "research_area": "Biophysics",
+      "selected": false
+    },
+    {
+      "accession": "PSI-191",
+      "title": "Advanced Colloids Experiment-Temperature 5",
+      "research_area": "Complex Fluids - Soft Matter",
+      "selected": false
+    },
+    {
+      "accession": "PSI-153",
+      "title": "Fabrication of Amorphous Metals in Space",
+      "research_area": "Materials Science",
+      "selected": false
+    },
+    {
+      "accession": "PSI-113",
+      "title": "Solidification Using a Baffle in Sealed Ampoules",
+      "research_area": "Materials Science",
+      "selected": false
+    },
+    {
+      "accession": "PSI-21",
+      "title": "Advanced Combustion via Microgravity Experiments / Coflow Laminar Diffusion Flame",
+      "research_area": "Combustion Science",
+      "selected": true
+    },
+    {
+      "accession": "PSI-20",
+      "title": "Advanced Combustion via Microgravity Experiments - Burning Rate Emulator",
+      "research_area": "Combustion Science",
+      "selected": true
+    },
+    {
+      "accession": "PSI-38",
+      "title": "Capillary Flow Experiment",
+      "research_area": "Fluid Physics",
+      "selected": false
+    },
+    {
+      "accession": "PSI-78",
+      "title": "IntraVenous Fluid GENeration for Exploration Missions",
+      "research_area": "Fluid Physics",
+      "selected": false
+    },
+    {
+      "accession": "PSI-167",
+      "title": "Advanced Colloids Experiment - Imaging, Folding and Assembly of Colloidal Molecules",
+      "research_area": "Complex Fluids - Soft Matter",
+      "selected": false
+    },
+    {
+      "accession": "PSI-169",
+      "title": "Advanced Colloids Experiment-Nanoparticle Haloing",
+      "research_area": "Complex Fluids - Soft Matter",
+      "selected": false
+    },
+    {
+      "accession": "PSI-70",
+      "title": "Gradient Driven Fluctuation Experiment",
+      "research_area": "Fluid Physics",
+      "selected": false
+    },
+    {
+      "accession": "PSI-86",
+      "title": "Observation and Analysis of Smectic Islands in Space",
+      "research_area": "Complex Fluids - Soft Matter",
+      "selected": false
+    },
+    {
+      "accession": "PSI-84",
+      "title": "Microgravity Investigation of Cement Solidification",
+      "research_area": "Materials Science",
+      "selected": false
+    },
+    {
+      "accession": "PSI-44",
+      "title": "Coarsening in Solid-Liquid Mixtures",
+      "research_area": "Materials Science",
+      "selected": false
+    },
+    {
+      "accession": "PSI-83",
+      "title": "Microgravity Investigation of Cement Solidification - Multi-use Variable Gravity Platform",
+      "research_area": "Materials Science",
+      "selected": false
+    },
+    {
+      "accession": "PSI-29",
+      "title": "Binary Colloidal Alloy Test  - 5",
+      "research_area": "Complex Fluids - Soft Matter",
+      "selected": false
+    },
+    {
+      "accession": "PSI-79",
+      "title": "Light Microscopy Module Biophysics-1",
+      "research_area": "Biophysics",
+      "selected": false
+    },
+    {
+      "accession": "PSI-186",
+      "title": "Coupled Growth in Hypermonotectics",
+      "research_area": "Materials Science",
+      "selected": false
+    },
+    {
+      "accession": "PSI-168",
+      "title": "Advanced Colloids Experiment - Aging Dynamics and Stress-Relaxation in Colloidal Gels Studied in Microgravity",
+      "research_area": "Complex Fluids - Soft Matter",
+      "selected": false
+    },
+    {
+      "accession": "PSI-165",
+      "title": "Advanced Colloids Experiment -Temperature controlled- 2",
+      "research_area": "Complex Fluids - Soft Matter",
+      "selected": false
+    },
+    {
+      "accession": "PSI-114",
+      "title": "Tiegelfreies Elektromagnetisches Prozessieren Unter Schwerelosigkeit; Electromagnetic Processing",
+      "research_area": "Materials Science",
+      "selected": false
+    },
+    {
+      "accession": "PSI-82",
+      "title": "Microstructure Formation in Casting of Technical Alloys under Diffusive and Magnetically Controlled Convective Conditions/Comparison of Structure and Segregation in Alloys Directionally Solidified in Terrestrial and Microgravity Environments",
+      "research_area": "Materials Science",
+      "selected": false
+    },
+    {
+      "accession": "PSI-111",
+      "title": "SUBSA Brazing of Aluminum Alloys IN Space",
+      "research_area": "Materials Science",
+      "selected": false
+    },
+    {
+      "accession": "PSI-95",
+      "title": "Plasma Kristall-3 Plus",
+      "research_area": "Complex Fluids - Soft Matter",
+      "selected": false
+    },
+    {
+      "accession": "PSI-80",
+      "title": "Light Microscopy Module Biophysics-3",
+      "research_area": "Biophysics",
+      "selected": false
+    },
+    {
+      "accession": "PSI-49",
+      "title": "DEvice for the study of Critical LIquids and Crystallization - Alice Like Insert",
+      "research_area": "Fluid Physics",
+      "selected": false
+    },
+    {
+      "accession": "PSI-57",
+      "title": "Capillary Channel Flow - Critical Velocities Experiment Unit 1",
+      "research_area": "Fluid Physics",
+      "selected": false
+    },
+    {
+      "accession": "PSI-87",
+      "title": "Pool Boiling Experiment",
+      "research_area": "Fluid Physics",
+      "selected": false
+    },
+    {
+      "accession": "PSI-166",
+      "title": "Unified Support for THERMOLAB - ISS, ICOPROSOL and PARSEC",
+      "research_area": "Materials Science",
+      "selected": false
+    },
+    {
+      "accession": "PSI-85",
+      "title": "Nucleate Pool Boiling eXperiment",
+      "research_area": "Fluid Physics",
+      "selected": false
+    },
+    {
+      "accession": "PSI-1",
+      "title": "Round Robin - Thermophysical Property Measurement",
+      "research_area": "Materials Science",
+      "selected": false
+    },
+    {
+      "accession": "PSI-23",
+      "title": "Advanced Combustion via Microgravity Experiments-Structure and Response of Spherical Diffusion Flames",
+      "research_area": "Combustion Science",
+      "selected": true
+    },
+    {
+      "accession": "PSI-5",
+      "title": "Plasma Kristall 4",
+      "research_area": "Complex Fluids - Soft Matter",
+      "selected": false
+    },
+    {
+      "accession": "PSI-97",
+      "title": "Ring-Sheared Drop - Amyloid Fibril Formation",
+      "research_area": "Biophysics",
+      "selected": false
+    },
+    {
+      "accession": "PSI-190",
+      "title": "Particle Engulfment and Pushing By Solidifying Interfaces",
+      "research_area": "Materials Science",
+      "selected": false
+    },
+    {
+      "accession": "PSI-64",
+      "title": "DEvice for the study of Critical LIquids and Crystallization - Directional Solidification Insert",
+      "research_area": "Materials Science",
+      "selected": false
+    },
+    {
+      "accession": "PSI-19",
+      "title": "Advanced Colloids Experiment with Temperature Control - R [Ellipsoid]",
+      "research_area": "Complex Fluids - Soft Matter",
+      "selected": false
+    },
+    {
+      "accession": "PSI-51",
+      "title": "Electromagnetic Levitation Flight Support for Transient Observation of Nucleation Events",
+      "research_area": "Materials Science",
+      "selected": false
+    },
+    {
+      "accession": "PSI-10",
+      "title": "Advanced Combustion via Microgravity Experiments / Flame Design",
+      "research_area": "Combustion Science",
+      "selected": true
+    },
+    {
+      "accession": "PSI-81",
+      "title": "Microheater Array Boiling Experiment",
+      "research_area": "Fluid Physics",
+      "selected": false
+    },
+    {
+      "accession": "PSI-8",
+      "title": "Characterization of Biofilm Formation, Growth and Gene Expression on Different Materials and Environmental Conditions in Microgravity",
+      "research_area": "Biophysics",
+      "selected": false
+    },
+    {
+      "accession": "PSI-9",
+      "title": "Electrically Driven Liquid Film Flow Boiling in the Absence of Gravity",
+      "research_area": "Fluid Physics",
+      "selected": false
+    },
+    {
+      "accession": "PSI-69",
+      "title": "Flame Extinguishment Experiment",
+      "research_area": "Combustion Science",
+      "selected": true
+    },
+    {
+      "accession": "PSI-71",
+      "title": "Isothermal Dendritic Growth Experiment - Second United States Microgravity Payload - 2",
+      "research_area": "Materials Science",
+      "selected": false
+    },
+    {
+      "accession": "PSI-48",
+      "title": "DEvice for the study of Critical LIquids and Crystallization Directional Solidification Insert-Reflight",
+      "research_area": "Materials Science",
+      "selected": false
+    },
+    {
+      "accession": "PSI-125",
+      "title": "Light Microscopy Module Biophysics-2,5",
+      "research_area": "Biophysics",
+      "selected": false
+    },
+    {
+      "accession": "PSI-72",
+      "title": "Isothermal Dendritic Growth Experiment United States Microgravity Payload-3",
+      "research_area": "Materials Science",
+      "selected": false
+    },
+    {
+      "accession": "PSI-2",
+      "title": "Multi-Scale Modeling and Experimentation on Liquid Phase Sintering in Gravity and Microgravity Environments",
+      "research_area": "Materials Science",
+      "selected": false
+    },
+    {
+      "accession": "PSI-112",
+      "title": "Solidification Using a Baffle in Sealed Ampoules - Effect of Convection on the Columnar-to-Equiaxed Transition in Alloy Solidification",
+      "research_area": "Materials Science",
+      "selected": false
+    },
+    {
+      "accession": "PSI-73",
+      "title": "Isothermal Dendritic Growth Experiment United States Microgravity Payload - 4",
+      "research_area": "Materials Science",
+      "selected": false
+    },
+    {
+      "accession": "PSI-68",
+      "title": "Flame Extinguishment Experiment - 2",
+      "research_area": "Combustion Science",
+      "selected": true
+    },
+    {
+      "accession": "PSI-188",
+      "title": "Advanced Colloids Experiment-Temperature 4",
+      "research_area": "Complex Fluids - Soft Matter",
+      "selected": false
+    },
+    {
+      "accession": "PSI-46",
+      "title": "Constrained Vapor Bubble",
+      "research_area": "Fluid Physics",
+      "selected": false
+    },
+    {
+      "accession": "PSI-4",
+      "title": "Flow Boiling and Condensation Experiment Flow Boiling Module",
+      "research_area": "Fluid Physics",
+      "selected": false
+    }
+  ]
+}

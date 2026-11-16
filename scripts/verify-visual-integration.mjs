@@ -1,0 +1,54 @@
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import {createServer} from 'vite';
+import React from 'react';
+import {renderToStaticMarkup} from 'react-dom/server';
+const server=await createServer({optimizeDeps:{noDiscovery:true,include:[]},server:{middlewareMode:true},appType:'custom'});
+try {
+ const {sourceNumber,buildSourceCharts}=await server.ssrLoadModule('/src/source-charts.js');
+ for(const value of ['21.5 - 21.7','~ 21.5','<1','10 to <1','17 ± 2','1,000','21%','',null,'Infinity','NaN'])assert.equal(sourceNumber(value),null,`Do not simplify ${value}`);
+ assert.equal(sourceNumber('-0.28'),-.28);assert.equal(sourceNumber('1.2e-3'),.0012);
+ const record=(table,type,value,i)=>({test_uid:`PSI-25|${table}|${i}`,source_filename:table,row_type:type,cells:{'Flow (cm/s)':value},data_row_1based:i,locator:`${table}:row=${i}`});
+ const rows=[...[-2,0,3].map((v,i)=>record('a.csv','test',String(v),i)),...['30','40','50'].map((v,i)=>record('b.csv','test',v,i)),...[70,80,90].map((v,i)=>record('a.csv','condition_summary',String(v),i)),record('a.csv','test','10 to <1',8)];
+ const charts=buildSourceCharts(rows);
+ assert.equal(charts.length,3);assert.deepEqual(charts[0].points.map(p=>p.value),[-2,0,3]);assert.equal(charts[0].points[0].original,'-2');assert.equal(charts[2].rowType,'condition_summary');
+ const {investigations}=await server.ssrLoadModule('/src/investigation-catalog.js');
+ const {compareLocally}=await server.ssrLoadModule('/src/RowComparison.jsx');
+ const {comparisonCsv}=await server.ssrLoadModule('/src/nasa-client.js');
+ const snapshots=new Map(await Promise.all(investigations.map(async s=>[s.rows_url,JSON.parse(await readFile('public'+s.rows_url,'utf8'))])));
+ const fetcher=async url=>{assert.ok(snapshots.has(url),'Only use a bundled source snapshot');return Response.json(snapshots.get(url));};
+ const saffire=snapshots.get(investigations.find(s=>s.accession==='PSI-98').rows_url).records;
+ const other=[...snapshots.values()].flatMap(s=>s.records).find(r=>Object.values(r.cells).includes('-0.28'));
+ assert.ok(other,'Signed calibration value exists');
+ const ids=[saffire[1].test_uid,other.test_uid,saffire[0].test_uid];
+ const comparison=await compareLocally(ids,null,fetcher);
+ assert.deepEqual(comparison.evidence.map(r=>r.test_uid),ids);
+ assert.equal(comparison.evidence[0].cells['Percent O2'],'~ 21.5');
+ assert.equal(comparison.evidence[2].cells['Percent O2'],'21.5 - 21.7');
+ assert.equal(comparison.evidence[0].classification_status,saffire[1].classification_status);
+ assert.deepEqual(comparison.evidence[0].review_flags,saffire[1].review_flags);
+ assert.equal(comparison.evidence[0].source_sha256,saffire[1].source_sha256);
+ const csv=comparisonCsv(comparison.evidence);assert.ok(csv.includes('"-0.28"'));assert.ok(csv.includes('not_established'));assert.ok(csv.includes('"~ 21.5"'));
+ await assert.rejects(compareLocally([ids[0],ids[0]],null,fetcher),/distinct/);
+ await assert.rejects(compareLocally([ids[0],'PSI-98|missing.csv|999'],null,fetcher),/not in/);
+ const {learnHabitats,mission,flameGravities,flamePresets,learnDisclaimer}=await server.ssrLoadModule('/src/learn-habitats.js');
+ assert.equal(learnHabitats.length,3);assert.equal(mission.steps.length,6);assert.equal(flameGravities.length,4);
+ for(const habitat of learnHabitats){assert.ok(habitat.components.length>=5);assert.equal(new Set(habitat.components.map(c=>c.id)).size,habitat.components.length);for(const component of habitat.components)assert.ok(component.related.every(id=>investigations.some(s=>s.accession===id)));}
+ for(const step of mission.steps){assert.equal(step.options.filter(o=>o[1]).length,1);assert.ok(step.related.every(id=>investigations.some(s=>s.accession===id)));}
+ assert.ok(flamePresets.every(p=>flameGravities.some(g=>g.id===p.g)));
+ assert.match(learnDisclaimer,/not a validated fire simulation/);
+ const english=JSON.stringify({learnHabitats,mission,flameGravities,flamePresets,learnDisclaimer});assert.doesNotMatch(english,/[áéíóúñ¿¡]|\b(?:Aprende|Tierra|Luna|Marte|Misión)\b/);
+ const noop=()=>{};
+ const Learn=(await server.ssrLoadModule('/src/LearnHabitat.jsx')).default;
+ const learn=renderToStaticMarkup(React.createElement(Learn,{navigate:noop,onAsk:noop}));
+ assert.match(learn,/LEARN BY EXPLORING/);assert.match(learn,/lang="en"/);assert.match(learn,/learn-viewport-fallback/);assert.match(learn,/Conceptual/);assert.doesNotMatch(learn,/Aprende|JUEGO|Hábitat/);
+ const Lab=(await server.ssrLoadModule('/src/FlameLab.jsx')).default;
+ const lab=renderToStaticMarkup(React.createElement(Lab));assert.match(lab,/game rules/);assert.match(lab,/sealed/);assert.match(lab,/six|6/);assert.doesNotMatch(lab,/\b(?:Tierra|Luna|EEI|simulador)\b/);
+ const Compare=(await server.ssrLoadModule('/src/InvestigationCompare.jsx')).default;
+ const versus=renderToStaticMarkup(React.createElement(Compare,{selected:['PSI-98','PSI-25'],onRemove:noop,navigate:noop,onAsk:noop}));
+ assert.match(versus,/CATALOG COVERAGE/);assert.match(versus,/not scientific performance/);assert.doesNotMatch(versus,/lucide-trophy/);
+ const {TestCard,fieldLook}=await server.ssrLoadModule('/src/AllRecords.jsx');
+ const card=renderToStaticMarkup(React.createElement(TestCard,{r:{...saffire[0],study:investigations.find(s=>s.accession==='PSI-98')},selectedRows:[],onToggleRow:noop}));
+ assert.match(card,/Source row/);assert.match(card,/Supplied label: test/);assert.match(card,/Mark to compare/);assert.equal(fieldLook('CO2 fraction').kind,'Gas');
+ console.log('PASS: source ranges and signs; separate chart tables/labels; local comparisons and provenance; three English educational habitats, six-choice mission and flame lab; honest catalog comparison and source-row labels. No live AI calls.');
+} finally {await server.close();}

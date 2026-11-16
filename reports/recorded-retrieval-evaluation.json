@@ -1,0 +1,3216 @@
+{
+  "checked_utc": "2026-11-15T13:08:04.602Z",
+  "corpus_version": "696e5da5c741deb796e6c0778c39f38dd18eedf5535f554ce7251cc2f9abdaa0",
+  "scope": "Seven hand-selected retrieval relevance probes plus unknown-study handling. No generative answers; no scientific safety certification. This small development set does not establish general retrieval quality.",
+  "real_semantic_provider_used": true,
+  "semantic_transport": "official_mcp_captured_real_queries",
+  "paid_generation_calls": 0,
+  "results": [
+    {
+      "mode": "lexical",
+      "hit_at_3": 0.8571428571428571,
+      "mean_reciprocal_rank_at_3": 0.7857142857142857,
+      "unknown_study_is_empty": true,
+      "cases": [
+        {
+          "id": "R1",
+          "query": "Why should I avoid the zero-flow point near 3.8 volts?",
+          "accession": "PSI-25",
+          "expected": [
+            "PSI-25"
+          ],
+          "kind": "workbook_cached_cell",
+          "text": "3.8",
+          "hit_at_3": true,
+          "reciprocal_rank": 1,
+          "semantic_status": "not_requested",
+          "matches": [
+            {
+              "chunk_id": "bd39a293ee17bd96180de89584cebec13ad4e4d3c89bd22934e520769de360aa",
+              "accession": "PSI-25",
+              "kind": "workbook_cached_cell",
+              "text": "PSI-25 BASS-II | workbook_cached_cell\nPSI-25_Reference Data_Fan calibration data.xlsx\nthe fan turns off at a finite voltage (above 3.8 volts), so it is recommended to not use the 3.8 volts zero flow value.",
+              "test_uid": null,
+              "row_type": null,
+              "fuel": null,
+              "source_filename": "PSI-25_Reference Data_Fan calibration data.xlsx",
+              "source_sha256": "bc0dca3efdef44a7774d8dd37aebc0cedae8d67d7bae8c9cbde9590014a3c983",
+              "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-25",
+              "doi": "10.60555/4qc4-de67",
+              "citations": [
+                {
+                  "evidence_id": "cell:8b6dc6d33b6704fed997e7f15ba5620fee5221be200eb42b1ef4423c864f2a83",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!D1",
+                  "start": 391,
+                  "end": 510,
+                  "original_text": "the fan turns off at a finite voltage (above 3.8 volts), so it is recommended to not use the 3.8 volts zero flow value."
+                }
+              ],
+              "review_flags": [],
+              "coverage": "cached_value_and_formula_text_only",
+              "rank_score": 0.01639344262295082,
+              "retrieval_channels": [
+                "lexical"
+              ],
+              "scientific_comparability": "not_established"
+            },
+            {
+              "chunk_id": "fcd7a0b90e4c3696b81b3b76333cdd660ab418a7de91e4bc801445def9f09736",
+              "accession": "PSI-25",
+              "kind": "workbook_cached_cell",
+              "text": "PSI-25 BASS-II | workbook_cached_cell\nPSI-25_Reference Data_Fan calibration data.xlsx\n0\n2\n55\n2\n55\n2\n55\n2\n55\n2\n55\n2\n55\n2\n55\n38\n2\n55\n2\n55\n2\n55\n2\n55\n2\n55\n2\n55\n0\n2\n55\n2\n55\n2\n55\n2\n55\n2\n55\n6\n2\n55\n8\n2\n55\n3.8 [formula text: ]\n7\n2\n55\n0 [formula text: ]\n0\n38\n0\n38\n0\n2\n55\n7\n2\n55\n2\n55",
+              "test_uid": null,
+              "row_type": null,
+              "fuel": null,
+              "source_filename": "PSI-25_Reference Data_Fan calibration data.xlsx",
+              "source_sha256": "bc0dca3efdef44a7774d8dd37aebc0cedae8d67d7bae8c9cbde9590014a3c983",
+              "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-25",
+              "doi": "10.60555/4qc4-de67",
+              "citations": [
+                {
+                  "evidence_id": "cell:0797bdb1ef4fb454af5fc11060775678d583eec1d75ee6efc3e62c0a55ece00d",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!A21",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:346687d65f820ea7dde033808de00972ed656d1ebdec16799793185a30839fcc",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AA21",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "2"
+                },
+                {
+                  "evidence_id": "cell:9ed6593925780eeeeb92df129ce6e5af5f95c1d6e5f743ec80335aa008b8651b",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AB21",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "55"
+                },
+                {
+                  "evidence_id": "cell:adb441db6c9cd86f217228978d3b2461caa675428aad1cc263c19290cde0fcf1",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AE21",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "2"
+                },
+                {
+                  "evidence_id": "cell:cd13211546536e61fdf2c6606757d6711f17f67cfeb4a50ce813b3e01f414a42",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AF21",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "55"
+                },
+                {
+                  "evidence_id": "cell:20f7c544c82a721a0f59a60c6f949c7c9ff1d9cbd1124bc31368e960a43a9368",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AI21",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "2"
+                },
+                {
+                  "evidence_id": "cell:8edd226b3a692311e47b9169d20ebc1e21919f2d6bba3bbd7126b93399356485",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AJ21",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "55"
+                },
+                {
+                  "evidence_id": "cell:3d18db620258028ac89cec3a3be7e731f31e86596254920189ed57db6a15dda5",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AM21",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "2"
+                },
+                {
+                  "evidence_id": "cell:f982d4e3fa09c48579abd945bb748f35ad575fbfd3b55ce76c8362502285870a",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AN21",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "55"
+                },
+                {
+                  "evidence_id": "cell:cf3372a6519f9576cfb8cf460468b04ac1144f6db7ea0ac474c1c40f7972da68",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AQ21",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "2"
+                },
+                {
+                  "evidence_id": "cell:8880b233f20ad962a8f963cd712ad792b6ff94cc5fa282b91b0a61458da965d2",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AR21",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "55"
+                },
+                {
+                  "evidence_id": "cell:44e7a2081d7e7ffecc549844f43b00448d71741ca2616b2ea9951d72aa1d8986",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AU21",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "2"
+                },
+                {
+                  "evidence_id": "cell:651844a0ca3c39964938168ae1bdda56321fe6322f2ee397f92aad5265023695",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AV21",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "55"
+                },
+                {
+                  "evidence_id": "cell:5f14e80c61f6aafb8186a45836a1dfbc8c0e6cb0f97a29f48002cfcac25eda1d",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AY21",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "2"
+                },
+                {
+                  "evidence_id": "cell:a99e4815c534abfe2b2603bd5f7dbde72797934a379a7f2849a5a0370b313d3d",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AZ21",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "55"
+                },
+                {
+                  "evidence_id": "cell:b3f4ebfac9e54bae49d0509ca0951ee1fe8f9dc615a779068236a98b27aaf049",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!B21",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:71b94261953d468c7f90508025fe026bf672c477cc0c1784a8102e153255270d",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BC21",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "2"
+                },
+                {
+                  "evidence_id": "cell:6cc3fb53998ba8f08135b145240920e16c74470c0d5888c8636b7dc35394b00a",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BD21",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "55"
+                },
+                {
+                  "evidence_id": "cell:7106e486ed66447b037d9ad6fea4d16fde1f85cc902995c8e0d3a6457ad87833",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BG21",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "2"
+                },
+                {
+                  "evidence_id": "cell:800f8c49457032fe284089407c06a116800c023fb1e3c4e4b9fa0a39a0ac13a5",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BH21",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "55"
+                },
+                {
+                  "evidence_id": "cell:b139536e9b28d97291a5d83addee470070d12428362cff4b892163eede15a9e0",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BK21",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "2"
+                },
+                {
+                  "evidence_id": "cell:50bc7d31349cc3c83f63e41d2fe81fe11897218a081f8d4435439c522f477fb4",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BL21",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "55"
+                },
+                {
+                  "evidence_id": "cell:b22bd13c27cadddb6eaac6a21b9870cf393b8ad72bee85dbe1797fd61c97fff1",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BO21",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "2"
+                },
+                {
+                  "evidence_id": "cell:e036c56a339499b282accc4afbc210370755a5c098814ebf10aba77fd0705f75",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BP21",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "55"
+                },
+                {
+                  "evidence_id": "cell:1391ecc9427f264ac5ab5c8a6936f4af4d674c1fb0b34f87b3daa9f8246aae9e",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BS21",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "2"
+                },
+                {
+                  "evidence_id": "cell:16e4c25f1fe58879acba4b79f64edcd2f2284b061b0f164ed6816571328cf17d",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BT21",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "55"
+                },
+                {
+                  "evidence_id": "cell:6478b5ea7d971a361a4179028b625eb3e0456d6e050eb5beb6cfd236b2b072d5",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BW21",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "2"
+                },
+                {
+                  "evidence_id": "cell:077d1df9c935c44987a654fe262e42d71410541143110162833c2dc363f48ac3",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BX21",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "55"
+                },
+                {
+                  "evidence_id": "cell:2457c42fd457d487eb66561443ec9da7d6e3e0c3b321694fc79df04fe556960e",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!C21",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:9042a56e6aa0eb0efa3bacc0e35775802a7488fc600ec107b61bf6727b4938a2",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CA21",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "2"
+                },
+                {
+                  "evidence_id": "cell:60a86116d16ab2ccde0c76f6e7f3bd47fe2a42b854a21201d500443e2f378bce",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CB21",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "55"
+                },
+                {
+                  "evidence_id": "cell:aa73dcc7ff2c87dd9f60acf184fee29b3e29336f2017113accd8c72683b8920a",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CE21",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "2"
+                },
+                {
+                  "evidence_id": "cell:3ef2fec0717e7e1c043ab251e5becf1188701aea5427bdc3db3b5e11c3a5883a",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CF21",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "55"
+                },
+                {
+                  "evidence_id": "cell:91371bd74426ef1cb54ca1525ca14802ca692c3a40fec13f73e40a1c8ed27980",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CI21",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "2"
+                },
+                {
+                  "evidence_id": "cell:a542eb5a9df7f1e0da5c96c85d5014f2df0c282e1431d7212a8ec6627e4a3725",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CJ21",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "55"
+                },
+                {
+                  "evidence_id": "cell:83f9818ceb9a70bfea08b90978368add7827e69fa4aaa84cfcf9effdd74b2f03",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CM21",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "2"
+                },
+                {
+                  "evidence_id": "cell:d85e30d99cf69970472a0b6b6efdef59ca66c3344d691cd2ddb7b2898e41c51f",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CN21",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "55"
+                },
+                {
+                  "evidence_id": "cell:4397886e5e3e1ae9ba6237e610a1884a7839a37097b61601fac1fa259fc201cd",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CQ21",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "2"
+                },
+                {
+                  "evidence_id": "cell:17fd52d08d15cb465be104f69654f364ac27d82a0f1ea7c0c6283fe24455cc26",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CR21",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "55"
+                },
+                {
+                  "evidence_id": "cell:30ac38992d405984af8abf75ebcd7c5f85e861e77386bedd211b2f204da8c5e8",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CS21",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "6"
+                },
+                {
+                  "evidence_id": "cell:f6e6e19c828c2ac153b895e2065b4dbb45adcb31bec2dca29dc512af527adea5",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CU21",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "2"
+                },
+                {
+                  "evidence_id": "cell:bd71f3befa485ed20a5bdf8289c691c671e99739f8fe1978e26d018ce3c5424d",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CV21",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "55"
+                },
+                {
+                  "evidence_id": "cell:57753658e2b340a4032f5577f30d8eb2a6e2ca250916bb3ae8eb4022be589d2b",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CW21",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "8"
+                },
+                {
+                  "evidence_id": "cell:5b8e7a4424da6b29105f1cc9df4e1c29382e880295f3155be9b83d45815c1be6",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CY21",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "2"
+                },
+                {
+                  "evidence_id": "cell:af8263d4f47a981fe14f914c78c0d509f74dc41b2488d38e34f145a94d738a47",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CZ21",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "55"
+                },
+                {
+                  "evidence_id": "cell:750be0906c9d9f48e96929c1d68f3667f380e8f981f211a7971009855db99579",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!D21",
+                  "start": 0,
+                  "end": 20,
+                  "original_text": "3.8 [formula text: ]"
+                },
+                {
+                  "evidence_id": "cell:69abf560aa4a8c88deb05e7b61728783d1076bdece487f52364643201e17b21d",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!DA21",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "7"
+                },
+                {
+                  "evidence_id": "cell:452fd3628ab0aebff5bd7b870f5f173282c8d3f217dc3aef0669cdb926f02b7d",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!DC21",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "2"
+                },
+                {
+                  "evidence_id": "cell:83943f6c8d9b6b8e267da98813816c11cb0b4da3d2d127267f20a5ec128b3c1f",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!DD21",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "55"
+                },
+                {
+                  "evidence_id": "cell:1e7d7929de13722c648e3a1462b8aa43e0ffc5748ddd5f46bfbd7b30ccd93a2c",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!E21",
+                  "start": 0,
+                  "end": 18,
+                  "original_text": "0 [formula text: ]"
+                },
+                {
+                  "evidence_id": "cell:0c2f492d5affd5a4dd16c0e257b5d0d6ec0a6c07b5d9fc0af5f551debf97c96b",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!G21",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:4f4317e3be446653379fb90e5b164dd8b0de78ffd15fbae1d2c88ce9acbfa01f",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!H21",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:4205c02bd63f74e686d0472735053201948453daae3acdc6001af9de47d4142a",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!K21",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:2d364176534eeaf7177e0ab832762f73f22bcf8428f9a2279138ccaebf83bb8c",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!L21",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:2f4d9e0d840ccb1bd96f2c25aa0c5d453bd6cf1fe66030f8ce1435b05513df00",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!M21",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:a79508805cfa1a5355312d96e764583bf5f0897916c93e8d1bf4b115e537fda3",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!O21",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "2"
+                },
+                {
+                  "evidence_id": "cell:587eacd64a9b0e9541b982fa68194d3b4b7b02d7e7a452efabbf700fa844b082",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!P21",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "55"
+                },
+                {
+                  "evidence_id": "cell:618f92a5d6395f580f9038294f55fad3f97819dab9ee730c8c66ad20ac406f77",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!Q21",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "7"
+                },
+                {
+                  "evidence_id": "cell:42e5f1db9817746a5fda4b1401a7a427d93cf830ccd2ae31f5e0ffb8dea51786",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!S21",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "2"
+                },
+                {
+                  "evidence_id": "cell:b10e9eeed83250cd3323703177bcec54c6176cf4ac7bd22244c378b498eda722",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!T21",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "55"
+                },
+                {
+                  "evidence_id": "cell:5602c022fbda8d514ec8149e9d8766622d5c87d34619bb3a2b22f1881bfff579",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!W21",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "2"
+                },
+                {
+                  "evidence_id": "cell:f4448de2f20e9156b25eacdcaba3797d55c206b20a73f1f7753f9fbcc0e2a276",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!X21",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "55"
+                }
+              ],
+              "review_flags": [],
+              "coverage": "cached_value_and_formula_text_only",
+              "rank_score": 0.016129032258064516,
+              "retrieval_channels": [
+                "lexical"
+              ],
+              "scientific_comparability": "not_established"
+            },
+            {
+              "chunk_id": "639a0da3ac19b1b1c43bdba197c57c0b4f6279254665ee6721940b7b39795ce2",
+              "accession": "PSI-25",
+              "kind": "workbook_cached_cell",
+              "text": "PSI-25 BASS-II | workbook_cached_cell\nPSI-25_Reference Data_Fan calibration data.xlsx\n0\n0\n38\n0\n0\n38\n0\n0\n38\n0\n0\n38\n0\n0\n38\n0\n0\n38\n0\n38\n38\n0\n38\n0\n38\n0\n38\n0\n38\n0\n38\n0\n38\n0\n0\n38\n0\n38\n0\n38\n0\n38\n0\n38\n0\n38\n0\n38\n3.8 [formula text: ]\n0\n38\n0 [formula text: 1.0066*C13]\n0\n38\n0\n0\n38\n0\n0\n38\n0",
+              "test_uid": null,
+              "row_type": null,
+              "fuel": null,
+              "source_filename": "PSI-25_Reference Data_Fan calibration data.xlsx",
+              "source_sha256": "bc0dca3efdef44a7774d8dd37aebc0cedae8d67d7bae8c9cbde9590014a3c983",
+              "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-25",
+              "doi": "10.60555/4qc4-de67",
+              "citations": [
+                {
+                  "evidence_id": "cell:f9f63e96d4ac1b751f60c52d096b6c9874d6704c6e642a0f425fc5330b859ea9",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!A13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:d61845ff2bacd9184f7f9b3eb4d18710befd6bc6d6e9242318bac8591564c1b9",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AA13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:526e641edfc40d87f91f4e062ec5ae1dbf273d5d2a592b21c9208e7863064892",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AB13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:9db4f0a3fedde7ebaaa1c0eaf5518f61291c2c5e2e6701c10e07f6cf11f9841d",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AC13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:dde1370c94bde004fd5415ff7c898137ab861d80b9eadbb7bb92113ce3163be6",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AE13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:75afc8f7a69791010326db4d72f31d6ee4c85e593d9e80cbcf9c208d09b8cfba",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AF13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:e61cbf472373abdbc721346ec194489edb245aa6644068cb062b6343fa43bf1b",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AG13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:7b9dc29786e524555e7c2714a781f70cfaf4325184773b12bebd8c5ca0f52253",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AI13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:92ff4285f36f373f837f0d3c581324b9a8dc2d5ed9d17f4b474358fdaab975cc",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AJ13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:c94862f08fdfac920c6e50b008f7cef09838f00d9628561a22297fdd00b88051",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AK13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:e3d19cb59e57148d9385173daa8d933511e47435023570cc974389782f350eb0",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AM13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:8a49b6e9697174daa3c6c2e4d399fdd6cc44e970975cedb22f238fa170c735f4",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AN13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:3cd4e7d2a72f7c25421f681306e895eb364bd29bcf3446bcdbcfea8cb97e0516",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AO13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:e4d54b33d9f1bbf70f7804824692721f9a800e7f2003214e92e4582b59637649",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AQ13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:a127a13e7c674813a07607c26cae80f274179cb9bb5967f72fe2a77f63d093bd",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AR13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:bb3353bb2346775203ed43ef48a95cfcd152510ed8cfb1f46144707be5bfbcce",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AS13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:34313c52f4a37e59f4d7dab8ce4a3501cc67d57751379541ee15d5b1d93ba7fd",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AU13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:58f3f99f0a28bcc241cc80eda6c6bcc5a40ef1b06bd0ccfba53138f61a3e9ce3",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AV13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:15c9d8743d1798f409cd85ce12a3b94e73c88059725ad357a48b44638084fce9",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AY13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:3b27dfdec840aa4399f696255a877b8d5d4914b852dabc69b28b61fb0d2cd60e",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AZ13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:63db24661e0f46bfca2ea5fdaac2019db3b636707229c4138fec2204abc7762d",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!B13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:a5a53e9e08ca34d332721f65cbbaac9427d6f388297b546f0bbea2130ea94eee",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BC13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:4d33e6d086f4d81e89dbdac6bfb9f2135ded9fe8d6b8208dd24fa8fc156a7967",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BD13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:b71870b0aceff3096b51286ad11e63f715cbc6c05444bb419ae9cc1000a24eeb",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BG13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:a07efa3235021cfa8191b971fb0e8d3d8ab5b301714166458af44d521e5c1843",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BH13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:ff01df84256e7d0e417cf5b82d6f4ed7ed431f60e42023a15ae2bb895ea514c3",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BK13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:16249cc5e86f8d9726fcc46714d6330ca1be2b60819b4ed878001297d899de40",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BL13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:4cefd74cda55acf42f69bb0b245913ba9e2b70d99981717aaa3a1b7273472a4d",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BO13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:0ed90c9221043d0c86d896b71c892b806eb2040033901152e0e0f0e73e95a818",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BP13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:4f7dd96b9ab49c4251e5df7824fb0d16e1311555fd2e9771f5b0d29a759861ad",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BS13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:b2b9ec381693c14e9f75aef1e2d58b852520f8c862a5fac79a68b0ad024a543f",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BT13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:043c03fc6385d3901e97dcbe9d8eecec0556167bfc042f16829a00381c596a99",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BW13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:4db4fec9dc960cf7e083d2f65bf6bce766f1d39af49e10eeb2d9fbe954e1ae3c",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BX13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:b067a2e31fc1bede4198be961ce7ab1fd00d42990b755b94e896f366cc32208a",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!C13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:1706b37fe2ecd0b228bcad9a2a0e50d8b9721822acef3be437e5e85778000f0c",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CA13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:d4730e539cb8d170449d45a7f1dbd9f422b46156a1c2dbd90bc382347b2e32fa",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CB13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:b5de9e63110b08226a15fbe9487066714bb09a3f5ad139e484c2647e679bd79e",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CE13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:fdd1ac954cac0fd6a251f519a20254e9c708a6c9bae2f92f91b2e912439b518b",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CF13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:bd59a34077d352d406dfd0e6390fe8374e9b7d25c0f6e4991c68c207c46cb890",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CI13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:f911a181821b6270b4d9b0974c538c07e6c012f6ae24eac8e7a32adb87c45c21",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CJ13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:d04eed8fb2a616037ff829a9401aa55f0ceea4a1a918fae8aced7e87890420fb",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CM13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:7bdf0b7c6f49020b7d18b963221063653bf0f3f577538d6cefdc9115e4a11964",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CN13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:c46ec348bc01d2d69edcc6897635d29ca80a5763bd2820b21277ca8fdd73009e",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CO13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:18da401d32537ba4b90bc5fd9c8768e8f67cf491642f076e121b649231992c34",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CR13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:7a0fe82d9f83df4226af999f76c155933d0aef3474af18f167c0fea25ccb711d",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CU13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:cd2b17683bf5bf3fcbbcfcf8dd17034458dfadd609ded51f577c6881beafa3ec",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CV13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:273d38706e922666520511fdb9cb41c1b194eb8ecf7d3280343001afc72094ec",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CY13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:b5adf98de8a74ec5757d808d4cffc27fe016354724784ee72c85630099c60821",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CZ13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:df6f6270cc098a21b1cd4729b6e2e4e7f617338ef4d0c09d939eebcebdbbfa80",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!D13",
+                  "start": 0,
+                  "end": 20,
+                  "original_text": "3.8 [formula text: ]"
+                },
+                {
+                  "evidence_id": "cell:8152f9ceedca9627a49e60e20e74fad9b952ed240b511498903a3badbc61522d",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!DC13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:62d136f0c4ae70ae839ec5a31709408c94b9a669d0c78878a0ddccaf3446d3fb",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!DD13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:a92061f042d35db2a715f5d874c3b0e399d76ea1fac4f2d7683351bd7c98391e",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!E13",
+                  "start": 0,
+                  "end": 28,
+                  "original_text": "0 [formula text: 1.0066*C13]"
+                },
+                {
+                  "evidence_id": "cell:09fea29f5eb3d5193a07eb547dd106c8db5255910b3551131e4f460bf8aeb3bc",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!O13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:d4f8d1d3f0b4cc76d3fad9f478245a1dd8c01a6831f3f4dcb218a8543ecc1532",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!P13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:e01f3030459ef0f7b0115120b6d1464d97f114d3dda3a9bd33e8f6a84a119bee",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!Q13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:3dffcfdbe940f5b2e9da5b82d730ab0bde961e00dbdf2fd72c46eec87e0a0bd9",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!S13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:cc7162a06d5966140bda98fbeb281cc76684aea6b3c1803dc588130faedf032e",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!T13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:4b3a22021acf4acfcce4dcceb5599aeb10449f6635a68e3d5e61acedd1f4512a",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!U13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:86933a7db336a49d46d2cd6f33647699c1699d45e598625e5ea076a1b7a92380",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!W13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:4e2a86607c223ec08a8fe7a0d3b7e66e929267ff0566badd330e01e554d8c3ee",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!X13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:ed62a204479bcce721c43a7e4ca2a057a528845e2109c5adf2ef547068dea06e",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!Y13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                }
+              ],
+              "review_flags": [],
+              "coverage": "cached_value_and_formula_text_only",
+              "rank_score": 0.015873015873015872,
+              "retrieval_channels": [
+                "lexical"
+              ],
+              "scientific_comparability": "not_established"
+            }
+          ]
+        },
+        {
+          "id": "R2",
+          "query": "How does electric forcing change a flame?",
+          "expected": [
+            "PSI-22"
+          ],
+          "hit_at_3": true,
+          "reciprocal_rank": 1,
+          "semantic_status": "not_requested",
+          "matches": [
+            {
+              "chunk_id": "457c345a24cb5b49ec80dae9ef9c4ecd15e59516fabdf48fe284287365f7e470",
+              "accession": "PSI-22",
+              "kind": "investigation_metadata",
+              "text": "PSI-22 ACME E-FIELD Flames | investigation_metadata\n/approach\nLaminar Diffusion (CLD) Flame experiment. An electric field is generated by creating a high voltage (up to 10 kV) differential between the burner and a flat circular mesh suspended above (i.e., downstream of) the burner. Measurements, as a function of the field strength and fuel, are taken of the ion current through the flame and the flame’s response time to electric forcing. The gas-jet burner is used to create ",
+              "test_uid": null,
+              "row_type": null,
+              "fuel": null,
+              "source_filename": "PSI-22_metadata.json",
+              "source_sha256": "a491519f60b91c9eb2272e651846103f34006867fb74535911e8c18448e48a09",
+              "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-22",
+              "doi": "10.60555/se5a-8c73",
+              "citations": [
+                {
+                  "evidence_id": "metadata:ab33ceea2113951dea995d89b441baf569a50372e79f32b65086593c67a8f191",
+                  "locator": "PSI-22_metadata.json#/approach",
+                  "start": 413,
+                  "end": 829,
+                  "original_text": "Laminar Diffusion (CLD) Flame experiment. An electric field is generated by creating a high voltage (up to 10 kV) differential between the burner and a flat circular mesh suspended above (i.e., downstream of) the burner. Measurements, as a function of the field strength and fuel, are taken of the ion current through the flame and the flame’s response time to electric forcing. The gas-jet burner is used to create "
+                }
+              ],
+              "review_flags": [],
+              "coverage": "metadata_only",
+              "rank_score": 0.01639344262295082,
+              "retrieval_channels": [
+                "lexical"
+              ],
+              "scientific_comparability": "not_established"
+            },
+            {
+              "chunk_id": "5b599be411adf5e1ac0e1ff3e559482b3dcf6e482c7865034a6f1c37c1d12f67",
+              "accession": "PSI-22",
+              "kind": "investigation_metadata",
+              "text": "PSI-22 ACME E-FIELD Flames | investigation_metadata\n/objective\nPSI-22 The objective of this investigation is to better understand the relationship between electric field voltage and chemi-ion current, analyze the dynamic response of flames to electric field changes, evaluate soot formation, and characterize stabilized near-limit lifted flames.",
+              "test_uid": null,
+              "row_type": null,
+              "fuel": null,
+              "source_filename": "PSI-22_metadata.json",
+              "source_sha256": "a491519f60b91c9eb2272e651846103f34006867fb74535911e8c18448e48a09",
+              "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-22",
+              "doi": "10.60555/se5a-8c73",
+              "citations": [
+                {
+                  "evidence_id": "metadata:ac168cb07a7ad43a99c3f0ac2ecde2ffab17ea1585b7057a2c5c484139370c9e",
+                  "locator": "PSI-22_metadata.json#/objective",
+                  "start": 0,
+                  "end": 282,
+                  "original_text": "PSI-22 The objective of this investigation is to better understand the relationship between electric field voltage and chemi-ion current, analyze the dynamic response of flames to electric field changes, evaluate soot formation, and characterize stabilized near-limit lifted flames."
+                }
+              ],
+              "review_flags": [],
+              "coverage": "metadata_only",
+              "rank_score": 0.015873015873015872,
+              "retrieval_channels": [
+                "lexical"
+              ],
+              "scientific_comparability": "not_established"
+            },
+            {
+              "chunk_id": "1db1613e8b36c1c064d3e52736e7bc3e56b353515e5a8ebf0213cd793893d673",
+              "accession": "PSI-22",
+              "kind": "investigation_metadata",
+              "text": "PSI-22 ACME E-FIELD Flames | investigation_metadata\n/hypothesis\nPSI-22 The application of electric fields in microgravity environments will significantly influence laminar diffusion flames by enabling precise manipulation of flame stability, soot behavior, and combustion dynamics through ion-driven convection and chemi-ionization processes.",
+              "test_uid": null,
+              "row_type": null,
+              "fuel": null,
+              "source_filename": "PSI-22_metadata.json",
+              "source_sha256": "a491519f60b91c9eb2272e651846103f34006867fb74535911e8c18448e48a09",
+              "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-22",
+              "doi": "10.60555/se5a-8c73",
+              "citations": [
+                {
+                  "evidence_id": "metadata:2e64d078e09cd44494a0211cbd6953cedf484eeed8325fc655dd4a82e497d179",
+                  "locator": "PSI-22_metadata.json#/hypothesis",
+                  "start": 0,
+                  "end": 278,
+                  "original_text": "PSI-22 The application of electric fields in microgravity environments will significantly influence laminar diffusion flames by enabling precise manipulation of flame stability, soot behavior, and combustion dynamics through ion-driven convection and chemi-ionization processes."
+                }
+              ],
+              "review_flags": [],
+              "coverage": "metadata_only",
+              "rank_score": 0.015384615384615385,
+              "retrieval_channels": [
+                "lexical"
+              ],
+              "scientific_comparability": "not_established"
+            }
+          ]
+        },
+        {
+          "id": "R3",
+          "query": "Studies of smoke particle size and detector alarms in microgravity",
+          "expected": [
+            "PSI-101",
+            "PSI-102"
+          ],
+          "hit_at_3": true,
+          "reciprocal_rank": 1,
+          "semantic_status": "not_requested",
+          "matches": [
+            {
+              "chunk_id": "461c031aa41b8e0347d7cff9931df68392c4b97f2ad3c54f4cd175e4fcaa31f1",
+              "accession": "PSI-102",
+              "kind": "investigation_metadata",
+              "text": "PSI-102 SAME | investigation_metadata\n/hypothesis\nresidence times near the source due to the reduced velocities and mixing at μg conditions. In particular, it is hypothesized that liquid aerosol smokes produced in microgravity will exhibit substantially larger droplet sizes than under the same conditions in normal gravity (with a corresponding decrease in the particle number density for the same mass of smoke). The change in the size distribution and number density will, in ",
+              "test_uid": null,
+              "row_type": null,
+              "fuel": null,
+              "source_filename": "PSI-102_metadata.json",
+              "source_sha256": "fe221f1380ad3317f70b559a3213c4e00ef3676b40838a49cb5b3cba89dea5ba",
+              "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-102",
+              "doi": "10.60555/gd4k-8h62",
+              "citations": [
+                {
+                  "evidence_id": "metadata:9fe781425ef253ee7ffda16cc8883567ec22761addb0eb9740d2a6cd6e7061e2",
+                  "locator": "PSI-102_metadata.json#/hypothesis",
+                  "start": 423,
+                  "end": 852,
+                  "original_text": "residence times near the source due to the reduced velocities and mixing at μg conditions. In particular, it is hypothesized that liquid aerosol smokes produced in microgravity will exhibit substantially larger droplet sizes than under the same conditions in normal gravity (with a corresponding decrease in the particle number density for the same mass of smoke). The change in the size distribution and number density will, in "
+                }
+              ],
+              "review_flags": [],
+              "coverage": "metadata_only",
+              "rank_score": 0.01639344262295082,
+              "retrieval_channels": [
+                "lexical"
+              ],
+              "scientific_comparability": "not_established"
+            },
+            {
+              "chunk_id": "13bc8c775e76c7c1d93c0a603ac236d6219ac64d9a3e76d90c1e3c3bd44b5a29",
+              "accession": "PSI-115",
+              "kind": "investigation_metadata",
+              "text": "PSI-115  | investigation_metadata\n/hypothesis\nPSI-115 Without buoyancy, mixing and heat transfer are reduced, the time-temperature history of the combustion vapors (or particle precursors) and particle trajectories are significantly altered, changing the composition of the smoke. The chemical composition of the burning material also affects the characteristics of the smoke generated.",
+              "test_uid": null,
+              "row_type": null,
+              "fuel": null,
+              "source_filename": "PSI-115_metadata.json",
+              "source_sha256": "9c5b463fbe8fe8ed034229cbabd6c498f48ca9bb636196084ed2046eb2e41484",
+              "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-115",
+              "doi": "10.60555/q0v5-1v28",
+              "citations": [
+                {
+                  "evidence_id": "metadata:bd7711bb77900b70ffa7861ab0507bf0c1071f6327fbd5dc29cae37efa3049b1",
+                  "locator": "PSI-115_metadata.json#/hypothesis",
+                  "start": 0,
+                  "end": 340,
+                  "original_text": "PSI-115 Without buoyancy, mixing and heat transfer are reduced, the time-temperature history of the combustion vapors (or particle precursors) and particle trajectories are significantly altered, changing the composition of the smoke. The chemical composition of the burning material also affects the characteristics of the smoke generated."
+                }
+              ],
+              "review_flags": [],
+              "coverage": "metadata_only",
+              "rank_score": 0.016129032258064516,
+              "retrieval_channels": [
+                "lexical"
+              ],
+              "scientific_comparability": "not_established"
+            },
+            {
+              "chunk_id": "d98ab768524c4d76d407d95d559efbb297d4d0b69e2cf2bed3862a665ebb3f95",
+              "accession": "PSI-101",
+              "kind": "investigation_metadata",
+              "text": "PSI-101 SAME-R | investigation_metadata\n/hypothesis\nmass of smoke). The change in the size distribution and number density will, in turn, affect the response of the smoke detectors and possibly result in some detectors not producing an alarm when exposed to this smoke.",
+              "test_uid": null,
+              "row_type": null,
+              "fuel": null,
+              "source_filename": "PSI-101_metadata.json",
+              "source_sha256": "e0aa75d015705a5943b51dbb4a8ba52751a35e4cafc2307d9201d77ebed711a5",
+              "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-101",
+              "doi": "10.60555/2np7-jv14",
+              "citations": [
+                {
+                  "evidence_id": "metadata:82af49eb6d69ef0f288469ab2efd8af39b604d0203ed5cc99fa0ddf01dfcc6c3",
+                  "locator": "PSI-101_metadata.json#/hypothesis",
+                  "start": 842,
+                  "end": 1059,
+                  "original_text": "mass of smoke). The change in the size distribution and number density will, in turn, affect the response of the smoke detectors and possibly result in some detectors not producing an alarm when exposed to this smoke."
+                }
+              ],
+              "review_flags": [],
+              "coverage": "metadata_only",
+              "rank_score": 0.015873015873015872,
+              "retrieval_channels": [
+                "lexical"
+              ],
+              "scientific_comparability": "not_established"
+            }
+          ]
+        },
+        {
+          "id": "R4",
+          "query": "Normal and inverse diffusion flames using ethylene or methane",
+          "expected": [
+            "PSI-10",
+            "PSI-159"
+          ],
+          "hit_at_3": false,
+          "reciprocal_rank": 0,
+          "semantic_status": "not_requested",
+          "matches": [
+            {
+              "chunk_id": "3b2014717d54663f54271ee63a6c7eab7526c131fee173c4d4fb99c7ff2bf698",
+              "accession": "PSI-21",
+              "kind": "investigation_metadata",
+              "text": "PSI-21 ACME CLD Flame | investigation_metadata\n/approach\nPSI-21 ACME CLD Flame project goals include the generation of improved computational models with improved soot sub-models that are effective for both dilute flames and sooting flames that vary from low to high soot loading levels. The enhanced time and spatial scales in a microgravity environment will be important for achieving both goals. Experimentally, we plan to study methane and ethylene diffusion flames over a ",
+              "test_uid": null,
+              "row_type": null,
+              "fuel": null,
+              "source_filename": "PSI-21_metadata.json",
+              "source_sha256": "99a5e58119a9c01ec1b57dfe03d696fb8d05b494a3658338b0f2abb077a72ac5",
+              "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-21",
+              "doi": "10.60555/23e1-9950",
+              "citations": [
+                {
+                  "evidence_id": "metadata:a48ef8db704697388a164540eef7da0d60736a683d5dc49c08d5068bca1bead5",
+                  "locator": "PSI-21_metadata.json#/approach",
+                  "start": 0,
+                  "end": 420,
+                  "original_text": "PSI-21 ACME CLD Flame project goals include the generation of improved computational models with improved soot sub-models that are effective for both dilute flames and sooting flames that vary from low to high soot loading levels. The enhanced time and spatial scales in a microgravity environment will be important for achieving both goals. Experimentally, we plan to study methane and ethylene diffusion flames over a "
+                }
+              ],
+              "review_flags": [],
+              "coverage": "metadata_only",
+              "rank_score": 0.01639344262295082,
+              "retrieval_channels": [
+                "lexical"
+              ],
+              "scientific_comparability": "not_established"
+            },
+            {
+              "chunk_id": "b5dd84bcef218834ab4718f5b3b31f882a786308d8928c7912cb97e21cc543e2",
+              "accession": "PSI-21",
+              "kind": "investigation_metadata",
+              "text": "PSI-21 ACME CLD Flame | investigation_metadata\n/objective\nPSI-21 In order to provide the experimental data needed to allow rigorous testing of computational models at the extremes of the fuel dilution spectrum, we have the following objectives:\nA) Characterize the behavior of weak coflow diffusion flames of methane and ethylene, as a function of velocity and fuel dilution, through measurement of flame shape, lift-off heights, temperatures and extinction limits.\nB) ",
+              "test_uid": null,
+              "row_type": null,
+              "fuel": null,
+              "source_filename": "PSI-21_metadata.json",
+              "source_sha256": "99a5e58119a9c01ec1b57dfe03d696fb8d05b494a3658338b0f2abb077a72ac5",
+              "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-21",
+              "doi": "10.60555/23e1-9950",
+              "citations": [
+                {
+                  "evidence_id": "metadata:d83d62fa241814f89c3ae7f733e948c2c6bfdc4d056ff0f7deca95635f05f46d",
+                  "locator": "PSI-21_metadata.json#/objective",
+                  "start": 0,
+                  "end": 411,
+                  "original_text": "PSI-21 In order to provide the experimental data needed to allow rigorous testing of computational models at the extremes of the fuel dilution spectrum, we have the following objectives:\nA) Characterize the behavior of weak coflow diffusion flames of methane and ethylene, as a function of velocity and fuel dilution, through measurement of flame shape, lift-off heights, temperatures and extinction limits.\nB) "
+                }
+              ],
+              "review_flags": [],
+              "coverage": "metadata_only",
+              "rank_score": 0.016129032258064516,
+              "retrieval_channels": [
+                "lexical"
+              ],
+              "scientific_comparability": "not_established"
+            },
+            {
+              "chunk_id": "4c6653a93d33389942da4efe405f0d4692b0c5de5013168ab37f613df8d453bc",
+              "accession": "PSI-142",
+              "kind": "investigation_metadata",
+              "text": "PSI-142  | investigation_metadata\n/objective\nPSI-142 By using the Flame Extinguishment (FLEX) experimental data from the Physical Sciences Informatics (PSI) system of combustion science, the purpose of this grant was to conduct new simulations and ground-based experiments using ozone-sensitized counterflow flames to:\n    1) Develop a new diagram of the flammability limits of diffusional cool flames affected by radiation, diffusion, and convection.\n    2) Bridge the knowledge ",
+              "test_uid": null,
+              "row_type": null,
+              "fuel": null,
+              "source_filename": "PSI-142_metadata.json",
+              "source_sha256": "c55ab5d3140025e16ef25ac37a99158d510c2e3c170c04dabc8993bd548a3506",
+              "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-142",
+              "doi": "10.60555/80qf-vj95",
+              "citations": [
+                {
+                  "evidence_id": "metadata:97c594b289a1e123a2e25fd70842e60845a94b9350ed4030ad98f1d740c40587",
+                  "locator": "PSI-142_metadata.json#/objective",
+                  "start": 0,
+                  "end": 435,
+                  "original_text": "PSI-142 By using the Flame Extinguishment (FLEX) experimental data from the Physical Sciences Informatics (PSI) system of combustion science, the purpose of this grant was to conduct new simulations and ground-based experiments using ozone-sensitized counterflow flames to:\n    1) Develop a new diagram of the flammability limits of diffusional cool flames affected by radiation, diffusion, and convection.\n    2) Bridge the knowledge "
+                }
+              ],
+              "review_flags": [],
+              "coverage": "metadata_only",
+              "rank_score": 0.015873015873015872,
+              "retrieval_channels": [
+                "lexical"
+              ],
+              "scientific_comparability": "not_established"
+            }
+          ]
+        },
+        {
+          "id": "R5",
+          "query": "Saffire SIBAL forced airflow",
+          "expected": [
+            "PSI-98",
+            "PSI-100"
+          ],
+          "hit_at_3": true,
+          "reciprocal_rank": 1,
+          "semantic_status": "not_requested",
+          "matches": [
+            {
+              "chunk_id": "0d8f6b16654f7f304a9d7a0eb77b939eb559f16a74083785ca0f2f734399fe9d",
+              "accession": "PSI-100",
+              "kind": "investigation_metadata",
+              "text": "PSI-100 SAFFIRE-III | investigation_metadata\n/approach\nPSI-100 The Saffire-III experiments were performed on the Orbital Science’s Cygnus resupply vehicle after it deberthed from the ISS. As a follow on to the Saffire 1 investigation, the Saffire III investigation also used SIBAL as the sample material. However, the experiments were conducted at a flow velocity of 30 cm/s compared to 20 cm/s during Saffire I. The flow was either concurrent or opposed.  Once the sample was ",
+              "test_uid": null,
+              "row_type": null,
+              "fuel": null,
+              "source_filename": "PSI-100_metadata.json",
+              "source_sha256": "9c836955a28ff129b2f239f9499e06f4ca52ba58f7a03d384a7bd0528c8bbe10",
+              "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-100",
+              "doi": "10.60555/040q-4h36",
+              "citations": [
+                {
+                  "evidence_id": "metadata:f59b8d59b289528eafc7cc8ebe7662b8adeb282d16db6816cf74dbce056ef4c7",
+                  "locator": "PSI-100_metadata.json#/approach",
+                  "start": 0,
+                  "end": 422,
+                  "original_text": "PSI-100 The Saffire-III experiments were performed on the Orbital Science’s Cygnus resupply vehicle after it deberthed from the ISS. As a follow on to the Saffire 1 investigation, the Saffire III investigation also used SIBAL as the sample material. However, the experiments were conducted at a flow velocity of 30 cm/s compared to 20 cm/s during Saffire I. The flow was either concurrent or opposed.  Once the sample was "
+                }
+              ],
+              "review_flags": [],
+              "coverage": "metadata_only",
+              "rank_score": 0.01639344262295082,
+              "retrieval_channels": [
+                "lexical"
+              ],
+              "scientific_comparability": "not_established"
+            },
+            {
+              "chunk_id": "686ecbe7dfe7129885abe325b8ed59a91897399e1688e074b3c8352ff4d305a6",
+              "accession": "PSI-98",
+              "kind": "investigation_metadata",
+              "text": "PSI-98 SAFFIRE-I | investigation_metadata\n/experimentHardware\nPSI-98 Saffire 1 enclosure in Cygnus",
+              "test_uid": null,
+              "row_type": null,
+              "fuel": null,
+              "source_filename": "PSI-98_metadata.json",
+              "source_sha256": "501b5f625733e29c0c6ff0c12b3de1a3e960a159a8c8f8a21ba5c5803afe0570",
+              "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-98",
+              "doi": "10.60555/0t15-1z43",
+              "citations": [
+                {
+                  "evidence_id": "metadata:6b3f6f4184612d13d336979eff794a00afca60907e890fcbcba3fd526804bb6c",
+                  "locator": "PSI-98_metadata.json#/experimentHardware",
+                  "start": 0,
+                  "end": 36,
+                  "original_text": "PSI-98 Saffire 1 enclosure in Cygnus"
+                }
+              ],
+              "review_flags": [],
+              "coverage": "metadata_only",
+              "rank_score": 0.016129032258064516,
+              "retrieval_channels": [
+                "lexical"
+              ],
+              "scientific_comparability": "not_established"
+            },
+            {
+              "chunk_id": "da459be25fcd6311610ac260c9f2f02f339274a6546bb95005d5fbd8f9368591",
+              "accession": "PSI-100",
+              "kind": "investigation_metadata",
+              "text": "PSI-100 SAFFIRE-III | investigation_metadata\n/experimentHardware\nPSI-100 Saffire III enclosure in Cygnus",
+              "test_uid": null,
+              "row_type": null,
+              "fuel": null,
+              "source_filename": "PSI-100_metadata.json",
+              "source_sha256": "9c836955a28ff129b2f239f9499e06f4ca52ba58f7a03d384a7bd0528c8bbe10",
+              "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-100",
+              "doi": "10.60555/040q-4h36",
+              "citations": [
+                {
+                  "evidence_id": "metadata:5c2ff52dd855fdf6f0a1edeb92e0ac9f9baf715fd6911aa6281118d2c94beba8",
+                  "locator": "PSI-100_metadata.json#/experimentHardware",
+                  "start": 0,
+                  "end": 39,
+                  "original_text": "PSI-100 Saffire III enclosure in Cygnus"
+                }
+              ],
+              "review_flags": [],
+              "coverage": "metadata_only",
+              "rank_score": 0.015873015873015872,
+              "retrieval_channels": [
+                "lexical"
+              ],
+              "scientific_comparability": "not_established"
+            }
+          ]
+        },
+        {
+          "id": "R6",
+          "query": "Droplet extinction with inert gas dilution",
+          "expected": [
+            "PSI-68",
+            "PSI-69",
+            "PSI-39"
+          ],
+          "hit_at_3": true,
+          "reciprocal_rank": 0.5,
+          "semantic_status": "not_requested",
+          "matches": [
+            {
+              "chunk_id": "da781d0b02b838f5743a9498e3c3f41e451b9a8a335d8cd6ce5624f9beeea3a9",
+              "accession": "PSI-21",
+              "kind": "investigation_metadata",
+              "text": "PSI-21 ACME CLD Flame | investigation_metadata\n/objective\nCharacterize the sooting tendencies of diffusion flames with long residence times, as a function of velocity and fuel dilution, through measurement of flame shape, gas temperatures in the soot-free portion of the flame, soot luminosity, soot temperatures, and soot volume fractions.",
+              "test_uid": null,
+              "row_type": null,
+              "fuel": null,
+              "source_filename": "PSI-21_metadata.json",
+              "source_sha256": "99a5e58119a9c01ec1b57dfe03d696fb8d05b494a3658338b0f2abb077a72ac5",
+              "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-21",
+              "doi": "10.60555/23e1-9950",
+              "citations": [
+                {
+                  "evidence_id": "metadata:d83d62fa241814f89c3ae7f733e948c2c6bfdc4d056ff0f7deca95635f05f46d",
+                  "locator": "PSI-21_metadata.json#/objective",
+                  "start": 411,
+                  "end": 693,
+                  "original_text": "Characterize the sooting tendencies of diffusion flames with long residence times, as a function of velocity and fuel dilution, through measurement of flame shape, gas temperatures in the soot-free portion of the flame, soot luminosity, soot temperatures, and soot volume fractions."
+                }
+              ],
+              "review_flags": [],
+              "coverage": "metadata_only",
+              "rank_score": 0.01639344262295082,
+              "retrieval_channels": [
+                "lexical"
+              ],
+              "scientific_comparability": "not_established"
+            },
+            {
+              "chunk_id": "eacbdd0db70334d4eca1a1ae759e980985c853d96e04e92bcd67ea357d1af3d9",
+              "accession": "PSI-39",
+              "kind": "investigation_metadata",
+              "text": "PSI-39 CFI | investigation_metadata\n/objective\nPSI-39 The objectives of this investigation are to:\n    1) Examine the combustion behavior of n-dodecane and mixtures of n-dodecane/iso-dodecane at pressures ranging from 0.25 atm to 5 atm.\n    2) Analyze the effects of helium dilution on cool flame behavior.\n    3) Examine the behavior of combustion characteristics.\n    4) Investigate the relationship between droplet size, pressure, and flame extinction, and (5) understand the ",
+              "test_uid": null,
+              "row_type": null,
+              "fuel": null,
+              "source_filename": "PSI-39_metadata.json",
+              "source_sha256": "ab2501bbe6200dabd012e7bf199e79426f8d19eb484c2af421183bb61b558d35",
+              "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-39",
+              "doi": "10.60555/m6pj-a914",
+              "citations": [
+                {
+                  "evidence_id": "metadata:18735243eb80ffadc5779891edca2671e4086a3b1d5b4235f7bc3e8336ce0246",
+                  "locator": "PSI-39_metadata.json#/objective",
+                  "start": 0,
+                  "end": 432,
+                  "original_text": "PSI-39 The objectives of this investigation are to:\n    1) Examine the combustion behavior of n-dodecane and mixtures of n-dodecane/iso-dodecane at pressures ranging from 0.25 atm to 5 atm.\n    2) Analyze the effects of helium dilution on cool flame behavior.\n    3) Examine the behavior of combustion characteristics.\n    4) Investigate the relationship between droplet size, pressure, and flame extinction, and (5) understand the "
+                }
+              ],
+              "review_flags": [],
+              "coverage": "metadata_only",
+              "rank_score": 0.016129032258064516,
+              "retrieval_channels": [
+                "lexical"
+              ],
+              "scientific_comparability": "not_established"
+            },
+            {
+              "chunk_id": "67f3a7a9181aa2ddd0d63ddbef370852ff5c812b13bb7f5954297e4718da385d",
+              "accession": "PSI-39",
+              "kind": "investigation_metadata",
+              "text": "PSI-39 CFI | investigation_metadata\n/approach\nPSI-39 The Combustion Integrated Rack (CIR) contains the Multi-User Droplet Combustion Apparatus (MDCA) which facilitates the controlled combustion of fuel droplets. A system of gas bottles and fuel syringes delivers the desired gas mixture to the combustion chamber ranging from 0.25 to 0.5 atm. Droplets of fuel are dispensed and suspended between hypodermic needles or tethered using silicon-carbide fibers. A hot-wire igniter is ",
+              "test_uid": null,
+              "row_type": null,
+              "fuel": null,
+              "source_filename": "PSI-39_metadata.json",
+              "source_sha256": "ab2501bbe6200dabd012e7bf199e79426f8d19eb484c2af421183bb61b558d35",
+              "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-39",
+              "doi": "10.60555/m6pj-a914",
+              "citations": [
+                {
+                  "evidence_id": "metadata:0dacc8f9eb9c5676910a9547675c49f01ca77640459a3a126e92c7a1cfb910a1",
+                  "locator": "PSI-39_metadata.json#/approach",
+                  "start": 0,
+                  "end": 433,
+                  "original_text": "PSI-39 The Combustion Integrated Rack (CIR) contains the Multi-User Droplet Combustion Apparatus (MDCA) which facilitates the controlled combustion of fuel droplets. A system of gas bottles and fuel syringes delivers the desired gas mixture to the combustion chamber ranging from 0.25 to 0.5 atm. Droplets of fuel are dispensed and suspended between hypodermic needles or tethered using silicon-carbide fibers. A hot-wire igniter is "
+                }
+              ],
+              "review_flags": [],
+              "coverage": "metadata_only",
+              "rank_score": 0.015625,
+              "retrieval_channels": [
+                "lexical"
+              ],
+              "scientific_comparability": "not_established"
+            }
+          ]
+        },
+        {
+          "id": "R7",
+          "query": "Percent O2 S1 S2",
+          "accession": "PSI-98",
+          "kind": "source_table_row",
+          "expected": [
+            "PSI-98"
+          ],
+          "text": "~ 21.5",
+          "hit_at_3": true,
+          "reciprocal_rank": 1,
+          "semantic_status": "not_requested",
+          "matches": [
+            {
+              "chunk_id": "f42bbfcf953ff541a1a99eb5d02d8c717582d3231d479dcaef416651d87bc689",
+              "accession": "PSI-98",
+              "kind": "source_table_row",
+              "text": "PSI-98 SAFFIRE-I | source_table_row\nPSI-98 PSI-98_Experimental table_SAFFIRE-1.csv Sample Number : S2; Material: SIBAL Fabric; Sample Thickness (cm): 0.37; Sample Length (cm): 40.6; Sample Width (cm): 94; Air Flow (cm/s): 20; Percent O2: ~ 21.5; Ignition Power (W): 182; Ignition Time (s): 8; Burn Time (s): 70; Flow Direction : Opposed; Camera 1: S2C1; Camera 2: S2C2",
+              "test_uid": "PSI-98|PSI-98_Experimental table_SAFFIRE-1.csv|2",
+              "row_type": "test",
+              "fuel": "SIBAL Fabric",
+              "source_filename": "PSI-98_Experimental table_SAFFIRE-1.csv",
+              "source_sha256": "c01f29c62455f0a3b512290ab85e5687ecded326733189f002f580368402308d",
+              "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-98",
+              "doi": "10.60555/0t15-1z43",
+              "citations": [
+                {
+                  "evidence_id": "record:PSI-98:778b06732dfb:row:2",
+                  "locator": "PSI-98_Experimental table_SAFFIRE-1.csv:data_row=2",
+                  "start": 0,
+                  "end": 332,
+                  "original_text": "PSI-98 PSI-98_Experimental table_SAFFIRE-1.csv Sample Number : S2; Material: SIBAL Fabric; Sample Thickness (cm): 0.37; Sample Length (cm): 40.6; Sample Width (cm): 94; Air Flow (cm/s): 20; Percent O2: ~ 21.5; Ignition Power (W): 182; Ignition Time (s): 8; Burn Time (s): 70; Flow Direction : Opposed; Camera 1: S2C1; Camera 2: S2C2"
+                }
+              ],
+              "review_flags": [],
+              "coverage": "source_row_not_scientifically_validated",
+              "rank_score": 0.01639344262295082,
+              "retrieval_channels": [
+                "lexical"
+              ],
+              "scientific_comparability": "not_established"
+            },
+            {
+              "chunk_id": "7ae6f4a9b52760bc3cdc9c1384f212af4293a4f1a66f3b8cd2925a52dc3406f8",
+              "accession": "PSI-98",
+              "kind": "source_table_row",
+              "text": "PSI-98 SAFFIRE-I | source_table_row\nPSI-98 PSI-98_Experimental table_SAFFIRE-1.csv Sample Number : S1; Material: SIBAL Fabric; Sample Thickness (cm): 0.37; Sample Length (cm): 40.6; Sample Width (cm): 94; Air Flow (cm/s): 20; Percent O2: 21.5 - 21.7; Ignition Power (W): 182; Ignition Time (s): 8; Burn Time (s): 420; Flow Direction : Concurrent; Camera 1: S1C1; Camera 2: S1C2",
+              "test_uid": "PSI-98|PSI-98_Experimental table_SAFFIRE-1.csv|1",
+              "row_type": "test",
+              "fuel": "SIBAL Fabric",
+              "source_filename": "PSI-98_Experimental table_SAFFIRE-1.csv",
+              "source_sha256": "c01f29c62455f0a3b512290ab85e5687ecded326733189f002f580368402308d",
+              "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-98",
+              "doi": "10.60555/0t15-1z43",
+              "citations": [
+                {
+                  "evidence_id": "record:PSI-98:778b06732dfb:row:1",
+                  "locator": "PSI-98_Experimental table_SAFFIRE-1.csv:data_row=1",
+                  "start": 0,
+                  "end": 341,
+                  "original_text": "PSI-98 PSI-98_Experimental table_SAFFIRE-1.csv Sample Number : S1; Material: SIBAL Fabric; Sample Thickness (cm): 0.37; Sample Length (cm): 40.6; Sample Width (cm): 94; Air Flow (cm/s): 20; Percent O2: 21.5 - 21.7; Ignition Power (W): 182; Ignition Time (s): 8; Burn Time (s): 420; Flow Direction : Concurrent; Camera 1: S1C1; Camera 2: S1C2"
+                }
+              ],
+              "review_flags": [],
+              "coverage": "source_row_not_scientifically_validated",
+              "rank_score": 0.016129032258064516,
+              "retrieval_channels": [
+                "lexical"
+              ],
+              "scientific_comparability": "not_established"
+            },
+            {
+              "chunk_id": "4c03f0a6360012e0290340bf1cc906f008c8a0a1fdd656b687116cfc7edb39dc",
+              "accession": "PSI-98",
+              "kind": "source_table_row",
+              "text": "PSI-98 SAFFIRE-I | source_table_row\nPSI-98 PSI-98_Experimental table_SAFFIRE-1.csv Sample Number : F2C1/F2C2; Material: Pre-test flow visulation data for sample 2; Sample Thickness (cm): ; Sample Length (cm): ; Sample Width (cm): ; Air Flow (cm/s): ; Percent O2: ; Ignition Power (W): ; Ignition Time (s): ; Burn Time (s): ; Flow Direction : ; Camera 1: ; Camera 2: ",
+              "test_uid": "PSI-98|PSI-98_Experimental table_SAFFIRE-1.csv|4",
+              "row_type": "unknown",
+              "fuel": null,
+              "source_filename": "PSI-98_Experimental table_SAFFIRE-1.csv",
+              "source_sha256": "c01f29c62455f0a3b512290ab85e5687ecded326733189f002f580368402308d",
+              "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-98",
+              "doi": "10.60555/0t15-1z43",
+              "citations": [
+                {
+                  "evidence_id": "record:PSI-98:778b06732dfb:row:4",
+                  "locator": "PSI-98_Experimental table_SAFFIRE-1.csv:data_row=4",
+                  "start": 0,
+                  "end": 330,
+                  "original_text": "PSI-98 PSI-98_Experimental table_SAFFIRE-1.csv Sample Number : F2C1/F2C2; Material: Pre-test flow visulation data for sample 2; Sample Thickness (cm): ; Sample Length (cm): ; Sample Width (cm): ; Air Flow (cm/s): ; Percent O2: ; Ignition Power (W): ; Ignition Time (s): ; Burn Time (s): ; Flow Direction : ; Camera 1: ; Camera 2: "
+                }
+              ],
+              "review_flags": [
+                "not_normalized_in_source_pipeline"
+              ],
+              "coverage": "source_row_not_scientifically_validated",
+              "rank_score": 0.015873015873015872,
+              "retrieval_channels": [
+                "lexical"
+              ],
+              "scientific_comparability": "not_established"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "hybrid",
+      "hit_at_3": 1,
+      "mean_reciprocal_rank_at_3": 1,
+      "unknown_study_is_empty": true,
+      "cases": [
+        {
+          "id": "R1",
+          "query": "Why should I avoid the zero-flow point near 3.8 volts?",
+          "accession": "PSI-25",
+          "expected": [
+            "PSI-25"
+          ],
+          "kind": "workbook_cached_cell",
+          "text": "3.8",
+          "hit_at_3": true,
+          "reciprocal_rank": 1,
+          "semantic_status": "real_query_captured_via_official_mcp",
+          "matches": [
+            {
+              "chunk_id": "bd39a293ee17bd96180de89584cebec13ad4e4d3c89bd22934e520769de360aa",
+              "accession": "PSI-25",
+              "kind": "workbook_cached_cell",
+              "text": "PSI-25 BASS-II | workbook_cached_cell\nPSI-25_Reference Data_Fan calibration data.xlsx\nthe fan turns off at a finite voltage (above 3.8 volts), so it is recommended to not use the 3.8 volts zero flow value.",
+              "test_uid": null,
+              "row_type": null,
+              "fuel": null,
+              "source_filename": "PSI-25_Reference Data_Fan calibration data.xlsx",
+              "source_sha256": "bc0dca3efdef44a7774d8dd37aebc0cedae8d67d7bae8c9cbde9590014a3c983",
+              "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-25",
+              "doi": "10.60555/4qc4-de67",
+              "citations": [
+                {
+                  "evidence_id": "cell:8b6dc6d33b6704fed997e7f15ba5620fee5221be200eb42b1ef4423c864f2a83",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!D1",
+                  "start": 391,
+                  "end": 510,
+                  "original_text": "the fan turns off at a finite voltage (above 3.8 volts), so it is recommended to not use the 3.8 volts zero flow value."
+                }
+              ],
+              "review_flags": [],
+              "coverage": "cached_value_and_formula_text_only",
+              "rank_score": 0.03278688524590164,
+              "retrieval_channels": [
+                "lexical",
+                "semantic"
+              ],
+              "scientific_comparability": "not_established"
+            },
+            {
+              "chunk_id": "cbc54aa07c2e7a725aeecdb8b790b704067c94355f011ff741765f1a4dd680bf",
+              "accession": "PSI-25",
+              "kind": "workbook_cached_cell",
+              "text": "PSI-25 BASS-II | workbook_cached_cell\nPSI-25_Reference Data_Fan calibration data.xlsx\n0\n1\n46.5\n5\n1\n46.5\n5.75\n1\n46.5\n1\n46.5\n1\n46.5\n4.75\n1\n46.5\n5\n1\n46.5\n38\n3\n1\n46.5\n4\n1\n46.5\n4\n1\n46.5\n4\n1\n46.5\n5\n1\n47\n4\n1\n47\n5\n0\n1\n47\n5\n1\n47\n3.5\n1\n47\n2\n1\n47\n0\n1\n46.5\n2\n55\n2\n55\n3.8 [formula text: ]\n2\n55\n0 [formula text: 1.0066*C31]\n1\n47\n2.5\n1\n46.5\n4.75\n1\n46.5\n5",
+              "test_uid": null,
+              "row_type": null,
+              "fuel": null,
+              "source_filename": "PSI-25_Reference Data_Fan calibration data.xlsx",
+              "source_sha256": "bc0dca3efdef44a7774d8dd37aebc0cedae8d67d7bae8c9cbde9590014a3c983",
+              "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-25",
+              "doi": "10.60555/4qc4-de67",
+              "citations": [
+                {
+                  "evidence_id": "cell:7aded8957d4b8e0051ead7a049623e7c7d7fb0d3d3ea07cd69c44d4bb9e366bf",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!A31",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:8512f6f1dc21dbb092f531a19d04162091e39224755cccdc6803adea36732ec5",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AA31",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "1"
+                },
+                {
+                  "evidence_id": "cell:7601cdbde3e8ffd0c84ef456b0716e09d857039755182e345455b25e8098461a",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AB31",
+                  "start": 0,
+                  "end": 4,
+                  "original_text": "46.5"
+                },
+                {
+                  "evidence_id": "cell:c28cae49012bd0b92fab877d4fbddbf8f53c4cea7aec6d70c9ff9d0f94fa24fd",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AC31",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "5"
+                },
+                {
+                  "evidence_id": "cell:e315522063f1aac906a7d6c585d28eddf4d07b71e77cdce641035a92d40391b8",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AE31",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "1"
+                },
+                {
+                  "evidence_id": "cell:9384b9b97cbdd140f7ccea6f355becdadeb76103989679a378341a11bbe91f8b",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AF31",
+                  "start": 0,
+                  "end": 4,
+                  "original_text": "46.5"
+                },
+                {
+                  "evidence_id": "cell:72a67068353e03518955a59d5a91e3f7b67f763ff9621d22770141b9e89dde8c",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AG31",
+                  "start": 0,
+                  "end": 4,
+                  "original_text": "5.75"
+                },
+                {
+                  "evidence_id": "cell:a050b618ec5e97b3622971eaf4b492a2d5ff90b6cfb25d70a19cc9c182a47504",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AI31",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "1"
+                },
+                {
+                  "evidence_id": "cell:64e2227ea6dfb5cc1a5f40b7d2a9c16ade5d49701e8855d4a25276a2424355e0",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AJ31",
+                  "start": 0,
+                  "end": 4,
+                  "original_text": "46.5"
+                },
+                {
+                  "evidence_id": "cell:ae48a42ec0014ccdc0ae17c4d3ab733a0dba83ac35e41de1ff90a8299328c644",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AM31",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "1"
+                },
+                {
+                  "evidence_id": "cell:c73fe9be54b7effe6b0cffa844d91d78e210a80269da3e651416321f8745f175",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AN31",
+                  "start": 0,
+                  "end": 4,
+                  "original_text": "46.5"
+                },
+                {
+                  "evidence_id": "cell:0675e7b080a0351b8deb47d1699e6906300055ffac080133ffd5d534b12a0a0f",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AQ31",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "1"
+                },
+                {
+                  "evidence_id": "cell:757d3c7c6d998c3f74bd41bb817f01673606f38d59295fef1f2625405fc68e73",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AR31",
+                  "start": 0,
+                  "end": 4,
+                  "original_text": "46.5"
+                },
+                {
+                  "evidence_id": "cell:627a3e5372b83de7f8bd6a5cce9ecfa0c37f166765e5e25603664e70cab38b4c",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AS31",
+                  "start": 0,
+                  "end": 4,
+                  "original_text": "4.75"
+                },
+                {
+                  "evidence_id": "cell:2e2eefaf1be536995c4ee46ae920e5af853d1fb9d84e98aae504b252e2e04330",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AU31",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "1"
+                },
+                {
+                  "evidence_id": "cell:755c3967c49207dc8b446d0edf7d2ad8eab502ddb1fed1506abd5f5e19fd6604",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AV31",
+                  "start": 0,
+                  "end": 4,
+                  "original_text": "46.5"
+                },
+                {
+                  "evidence_id": "cell:f94789fc4f1e2202fd3ff174842160d395a87af5e8b7fbe1d0f4cefbc10b6760",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AW31",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "5"
+                },
+                {
+                  "evidence_id": "cell:543ec5f0c341aefb2738f1485bf331b2d43f12923e2a89c96ca28a95dc60a9ea",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AY31",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "1"
+                },
+                {
+                  "evidence_id": "cell:ba93b6fde47ca83f4c54660cc7ab591c55c7f2498c69abca24180a8a7a573bef",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AZ31",
+                  "start": 0,
+                  "end": 4,
+                  "original_text": "46.5"
+                },
+                {
+                  "evidence_id": "cell:9bbead662474e16695fe016e9f6a5809961ffcc3f2f4180eee69432d3b280135",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!B31",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:415a7e10aedde3e4e4d6f59a9406496a93236df78c5c52ba66887a4659609511",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BA31",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "3"
+                },
+                {
+                  "evidence_id": "cell:2307b8d327971cd3dcc2b3cd47718b7b41f0bcb256e8c54ed9dd6b676851cac6",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BC31",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "1"
+                },
+                {
+                  "evidence_id": "cell:3b26f2a4cae26e1736d4656c21c2c1d4ec2b3071d8d68a837a8f6fc3ff3cab40",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BD31",
+                  "start": 0,
+                  "end": 4,
+                  "original_text": "46.5"
+                },
+                {
+                  "evidence_id": "cell:f221a86b2f5b48e8c6d2e3b6076735d8e0c813a4a7c1496fe7d2dc9c9a82fdd4",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BE31",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "4"
+                },
+                {
+                  "evidence_id": "cell:275e8ee5b15569f400ce46b3dda47325d17ae26a57d5a7275c13b6e8d744704e",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BG31",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "1"
+                },
+                {
+                  "evidence_id": "cell:f27da559b7e4ce5f5dd0c8b579116515e76dd35836f72a4de748f83d3a342c29",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BH31",
+                  "start": 0,
+                  "end": 4,
+                  "original_text": "46.5"
+                },
+                {
+                  "evidence_id": "cell:c112b08cf04c20ef71642d2e94333ed4692e3f693e37737ea6e2680e5310e9a0",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BI31",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "4"
+                },
+                {
+                  "evidence_id": "cell:e4a7bd34ed7813f7622c8a71550c0dee2a41c08dfaba1e8815c6fb142f8c8ede",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BK31",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "1"
+                },
+                {
+                  "evidence_id": "cell:86d302345cab32f7b74e9053ade94001b4f5bb118b6388bd912399981cacecca",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BL31",
+                  "start": 0,
+                  "end": 4,
+                  "original_text": "46.5"
+                },
+                {
+                  "evidence_id": "cell:e0f3a1be5668400269e49aeb79b0df4b14a0154a4aefca9e15681867495d736c",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BM31",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "4"
+                },
+                {
+                  "evidence_id": "cell:4cc2e404f0e6ce7ea0d347ca845d94e9e4de38f7c9284409a018cabb50746244",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BO31",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "1"
+                },
+                {
+                  "evidence_id": "cell:7caf56cf3baba40929406883cf7a49863c5996f72d33625cc19a949f2c9aee80",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BP31",
+                  "start": 0,
+                  "end": 4,
+                  "original_text": "46.5"
+                },
+                {
+                  "evidence_id": "cell:a29abb74a68667d77a4cd739a331f81ec5973cba08dee845c420ed3aee28d16c",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BQ31",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "5"
+                },
+                {
+                  "evidence_id": "cell:0d399ee129d2b481b2ce65da6491de40620d12d0bbcee4e18af00a2f63d43065",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BS31",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "1"
+                },
+                {
+                  "evidence_id": "cell:d46ff45594a763c8672584a4c284f9f089b593ab942ed4a852ae14cb14c7a790",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BT31",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "47"
+                },
+                {
+                  "evidence_id": "cell:ba5ba388f80b2b8e2902a2346e73395130bfb808aa7ac255b66b69baf8b03642",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BU31",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "4"
+                },
+                {
+                  "evidence_id": "cell:68b60445983a46420df7874536cde14bb1797f270e2f27902393b955f06bb95a",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BW31",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "1"
+                },
+                {
+                  "evidence_id": "cell:4798f0196d3a10027af9146aae5f174b734ab8397c53e330345868b1c00bfbdb",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BX31",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "47"
+                },
+                {
+                  "evidence_id": "cell:390b0c3e0226118c670be98516726768092263c395e10934f7b186989d4e401c",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BY31",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "5"
+                },
+                {
+                  "evidence_id": "cell:b36a2113c0051f5fbad58d569739430a4bbe04619a971555f995b9c56cc70bcb",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!C31",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:94fbf200492cab7eadec9fae7a5405e5f7c0796d0f7272405c9ed010c70218e1",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CA31",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "1"
+                },
+                {
+                  "evidence_id": "cell:8d7db59820ae6e98e5fa645778ac2a1cde823c0197153df8e5a1270fc2c29820",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CB31",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "47"
+                },
+                {
+                  "evidence_id": "cell:b9050615d09889b6d09ed2e59658f09f7221bb19c6685cd9c7a17201f450bc6f",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CC31",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "5"
+                },
+                {
+                  "evidence_id": "cell:eceb7be2da5580e17e139bdfb6a68459ca6524117b72b83fc568898777c10003",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CE31",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "1"
+                },
+                {
+                  "evidence_id": "cell:2806a73e51e84bfd1f158b0d2a9b52b02c64ffdb1097296da87776bbfffc20de",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CF31",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "47"
+                },
+                {
+                  "evidence_id": "cell:59f784a217dee53af142b24013f14248ae8c33d89e905134695831495f55e7fd",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CG31",
+                  "start": 0,
+                  "end": 3,
+                  "original_text": "3.5"
+                },
+                {
+                  "evidence_id": "cell:0cdc42a399c31433ac70fdfd80a0559b6ede1420df202f0a592bf24958de5b7f",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CI31",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "1"
+                },
+                {
+                  "evidence_id": "cell:5e7ca286388917f94f272d0942714b76be29bea33c951aaf0f3cc4afc3dc6e08",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CJ31",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "47"
+                },
+                {
+                  "evidence_id": "cell:430093ecf9375816ecb479b3673e75fc37b74007cc007948292a5fc5a719ef71",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CK31",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "2"
+                },
+                {
+                  "evidence_id": "cell:f8288d8e0634edf1a9d53d856e55ac1fb23b0c10522a226be51d1fccbc27faf6",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CM31",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "1"
+                },
+                {
+                  "evidence_id": "cell:533f5489bc1ff2f97036443eadb0713daffcd4ebfc626c9254405f15bce923d4",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CN31",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "47"
+                },
+                {
+                  "evidence_id": "cell:4d87e834925283bd134f8a009246a817ae21849d0e6701e144f52d4c8b534777",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CO31",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:053b140e0b4573df35fb270c3f17c58dfa2e86245d12281d249c0c43e5956feb",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CQ31",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "1"
+                },
+                {
+                  "evidence_id": "cell:3d223af122ff371442549b382934972e5684c9dd7b12cfffe9ac200097e5ba74",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CR31",
+                  "start": 0,
+                  "end": 4,
+                  "original_text": "46.5"
+                },
+                {
+                  "evidence_id": "cell:6f5785a1ba4117eeab5e04432befeb60ed1241d852d41abfed31f4e09e84a5b6",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CU31",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "2"
+                },
+                {
+                  "evidence_id": "cell:cd13bbaf560a30102269eaa28ebf369605ad92508f6d39c891777b54b1b896c5",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CV31",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "55"
+                },
+                {
+                  "evidence_id": "cell:9850642896477ed8dc57f5548d27609737cd0d004e2ae072389e95b766c1e8ee",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CY31",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "2"
+                },
+                {
+                  "evidence_id": "cell:c6e8a6aa65cd6a49c189596cfb303b1b8545e0d910a608a9221bfc742504edf8",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CZ31",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "55"
+                },
+                {
+                  "evidence_id": "cell:cfad6cc28f24cc09cdb0c73d25f9327250af67da65394734f6a30790593c203f",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!D31",
+                  "start": 0,
+                  "end": 20,
+                  "original_text": "3.8 [formula text: ]"
+                },
+                {
+                  "evidence_id": "cell:6a6699b859fd7d1fb9cbb028ddfe25ed079b741caf489b353c7ad70e23f6a155",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!DC31",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "2"
+                },
+                {
+                  "evidence_id": "cell:ec5395edb423c7886d3d885f704363508579b5d654eb9048f02902d4737ba5db",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!DD31",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "55"
+                },
+                {
+                  "evidence_id": "cell:192fd04955fbc22f81cdc75873f7305ba1ef63844a4dbbd4256c17965f0a6a5f",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!E31",
+                  "start": 0,
+                  "end": 28,
+                  "original_text": "0 [formula text: 1.0066*C31]"
+                },
+                {
+                  "evidence_id": "cell:77813086cebb8b57895abb8e2120a00c788d4b789ad7f5978534be091bc79c31",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!O31",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "1"
+                },
+                {
+                  "evidence_id": "cell:d796e43fe797a2f3264abe2e87b5feb2c17b36e85e40de6eb2e2b24defa0ce49",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!P31",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "47"
+                },
+                {
+                  "evidence_id": "cell:bbf8e5c0dc098005752d2b572dcda430ed7f89d471a826ec2e96d6da25d8afe0",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!Q31",
+                  "start": 0,
+                  "end": 3,
+                  "original_text": "2.5"
+                },
+                {
+                  "evidence_id": "cell:656bebff3deda4df479958a06222f1e7c44045a84bd60e060ce74a3c6dfb2958",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!S31",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "1"
+                },
+                {
+                  "evidence_id": "cell:1759fcc0316fd2fc01d82b9b848afbd74bc949d79154b9f76069d225693da2d0",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!T31",
+                  "start": 0,
+                  "end": 4,
+                  "original_text": "46.5"
+                },
+                {
+                  "evidence_id": "cell:0453e4ec66c89dcd6929247b9ca3ec5283fed18bb47ca9fa33496cee99dd15ed",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!U31",
+                  "start": 0,
+                  "end": 4,
+                  "original_text": "4.75"
+                },
+                {
+                  "evidence_id": "cell:c9b935c823de0b1d922da429cb975fb525832dc08dc017b30c0c171913fdf33b",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!W31",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "1"
+                },
+                {
+                  "evidence_id": "cell:30604543c716989a2720bb225e95a1fe6c2ece7eb14ba20eac68d5c66f5d9b3a",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!X31",
+                  "start": 0,
+                  "end": 4,
+                  "original_text": "46.5"
+                },
+                {
+                  "evidence_id": "cell:7a3a3b55fec1fce7e2d6ca3c14370695519b4e752ed345f0d6c42324339725d3",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!Y31",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "5"
+                }
+              ],
+              "review_flags": [],
+              "coverage": "cached_value_and_formula_text_only",
+              "rank_score": 0.02844551282051282,
+              "retrieval_channels": [
+                "lexical",
+                "semantic"
+              ],
+              "scientific_comparability": "not_established"
+            },
+            {
+              "chunk_id": "639a0da3ac19b1b1c43bdba197c57c0b4f6279254665ee6721940b7b39795ce2",
+              "accession": "PSI-25",
+              "kind": "workbook_cached_cell",
+              "text": "PSI-25 BASS-II | workbook_cached_cell\nPSI-25_Reference Data_Fan calibration data.xlsx\n0\n0\n38\n0\n0\n38\n0\n0\n38\n0\n0\n38\n0\n0\n38\n0\n0\n38\n0\n38\n38\n0\n38\n0\n38\n0\n38\n0\n38\n0\n38\n0\n38\n0\n0\n38\n0\n38\n0\n38\n0\n38\n0\n38\n0\n38\n0\n38\n3.8 [formula text: ]\n0\n38\n0 [formula text: 1.0066*C13]\n0\n38\n0\n0\n38\n0\n0\n38\n0",
+              "test_uid": null,
+              "row_type": null,
+              "fuel": null,
+              "source_filename": "PSI-25_Reference Data_Fan calibration data.xlsx",
+              "source_sha256": "bc0dca3efdef44a7774d8dd37aebc0cedae8d67d7bae8c9cbde9590014a3c983",
+              "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-25",
+              "doi": "10.60555/4qc4-de67",
+              "citations": [
+                {
+                  "evidence_id": "cell:f9f63e96d4ac1b751f60c52d096b6c9874d6704c6e642a0f425fc5330b859ea9",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!A13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:d61845ff2bacd9184f7f9b3eb4d18710befd6bc6d6e9242318bac8591564c1b9",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AA13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:526e641edfc40d87f91f4e062ec5ae1dbf273d5d2a592b21c9208e7863064892",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AB13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:9db4f0a3fedde7ebaaa1c0eaf5518f61291c2c5e2e6701c10e07f6cf11f9841d",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AC13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:dde1370c94bde004fd5415ff7c898137ab861d80b9eadbb7bb92113ce3163be6",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AE13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:75afc8f7a69791010326db4d72f31d6ee4c85e593d9e80cbcf9c208d09b8cfba",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AF13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:e61cbf472373abdbc721346ec194489edb245aa6644068cb062b6343fa43bf1b",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AG13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:7b9dc29786e524555e7c2714a781f70cfaf4325184773b12bebd8c5ca0f52253",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AI13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:92ff4285f36f373f837f0d3c581324b9a8dc2d5ed9d17f4b474358fdaab975cc",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AJ13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:c94862f08fdfac920c6e50b008f7cef09838f00d9628561a22297fdd00b88051",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AK13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:e3d19cb59e57148d9385173daa8d933511e47435023570cc974389782f350eb0",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AM13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:8a49b6e9697174daa3c6c2e4d399fdd6cc44e970975cedb22f238fa170c735f4",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AN13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:3cd4e7d2a72f7c25421f681306e895eb364bd29bcf3446bcdbcfea8cb97e0516",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AO13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:e4d54b33d9f1bbf70f7804824692721f9a800e7f2003214e92e4582b59637649",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AQ13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:a127a13e7c674813a07607c26cae80f274179cb9bb5967f72fe2a77f63d093bd",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AR13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:bb3353bb2346775203ed43ef48a95cfcd152510ed8cfb1f46144707be5bfbcce",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AS13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:34313c52f4a37e59f4d7dab8ce4a3501cc67d57751379541ee15d5b1d93ba7fd",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AU13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:58f3f99f0a28bcc241cc80eda6c6bcc5a40ef1b06bd0ccfba53138f61a3e9ce3",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AV13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:15c9d8743d1798f409cd85ce12a3b94e73c88059725ad357a48b44638084fce9",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AY13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:3b27dfdec840aa4399f696255a877b8d5d4914b852dabc69b28b61fb0d2cd60e",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!AZ13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:63db24661e0f46bfca2ea5fdaac2019db3b636707229c4138fec2204abc7762d",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!B13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:a5a53e9e08ca34d332721f65cbbaac9427d6f388297b546f0bbea2130ea94eee",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BC13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:4d33e6d086f4d81e89dbdac6bfb9f2135ded9fe8d6b8208dd24fa8fc156a7967",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BD13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:b71870b0aceff3096b51286ad11e63f715cbc6c05444bb419ae9cc1000a24eeb",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BG13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:a07efa3235021cfa8191b971fb0e8d3d8ab5b301714166458af44d521e5c1843",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BH13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:ff01df84256e7d0e417cf5b82d6f4ed7ed431f60e42023a15ae2bb895ea514c3",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BK13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:16249cc5e86f8d9726fcc46714d6330ca1be2b60819b4ed878001297d899de40",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BL13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:4cefd74cda55acf42f69bb0b245913ba9e2b70d99981717aaa3a1b7273472a4d",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BO13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:0ed90c9221043d0c86d896b71c892b806eb2040033901152e0e0f0e73e95a818",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BP13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:4f7dd96b9ab49c4251e5df7824fb0d16e1311555fd2e9771f5b0d29a759861ad",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BS13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:b2b9ec381693c14e9f75aef1e2d58b852520f8c862a5fac79a68b0ad024a543f",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BT13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:043c03fc6385d3901e97dcbe9d8eecec0556167bfc042f16829a00381c596a99",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BW13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:4db4fec9dc960cf7e083d2f65bf6bce766f1d39af49e10eeb2d9fbe954e1ae3c",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!BX13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:b067a2e31fc1bede4198be961ce7ab1fd00d42990b755b94e896f366cc32208a",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!C13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:1706b37fe2ecd0b228bcad9a2a0e50d8b9721822acef3be437e5e85778000f0c",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CA13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:d4730e539cb8d170449d45a7f1dbd9f422b46156a1c2dbd90bc382347b2e32fa",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CB13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:b5de9e63110b08226a15fbe9487066714bb09a3f5ad139e484c2647e679bd79e",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CE13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:fdd1ac954cac0fd6a251f519a20254e9c708a6c9bae2f92f91b2e912439b518b",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CF13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:bd59a34077d352d406dfd0e6390fe8374e9b7d25c0f6e4991c68c207c46cb890",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CI13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:f911a181821b6270b4d9b0974c538c07e6c012f6ae24eac8e7a32adb87c45c21",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CJ13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:d04eed8fb2a616037ff829a9401aa55f0ceea4a1a918fae8aced7e87890420fb",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CM13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:7bdf0b7c6f49020b7d18b963221063653bf0f3f577538d6cefdc9115e4a11964",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CN13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:c46ec348bc01d2d69edcc6897635d29ca80a5763bd2820b21277ca8fdd73009e",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CO13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:18da401d32537ba4b90bc5fd9c8768e8f67cf491642f076e121b649231992c34",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CR13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:7a0fe82d9f83df4226af999f76c155933d0aef3474af18f167c0fea25ccb711d",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CU13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:cd2b17683bf5bf3fcbbcfcf8dd17034458dfadd609ded51f577c6881beafa3ec",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CV13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:273d38706e922666520511fdb9cb41c1b194eb8ecf7d3280343001afc72094ec",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CY13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:b5adf98de8a74ec5757d808d4cffc27fe016354724784ee72c85630099c60821",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!CZ13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:df6f6270cc098a21b1cd4729b6e2e4e7f617338ef4d0c09d939eebcebdbbfa80",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!D13",
+                  "start": 0,
+                  "end": 20,
+                  "original_text": "3.8 [formula text: ]"
+                },
+                {
+                  "evidence_id": "cell:8152f9ceedca9627a49e60e20e74fad9b952ed240b511498903a3badbc61522d",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!DC13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:62d136f0c4ae70ae839ec5a31709408c94b9a669d0c78878a0ddccaf3446d3fb",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!DD13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:a92061f042d35db2a715f5d874c3b0e399d76ea1fac4f2d7683351bd7c98391e",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!E13",
+                  "start": 0,
+                  "end": 28,
+                  "original_text": "0 [formula text: 1.0066*C13]"
+                },
+                {
+                  "evidence_id": "cell:09fea29f5eb3d5193a07eb547dd106c8db5255910b3551131e4f460bf8aeb3bc",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!O13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:d4f8d1d3f0b4cc76d3fad9f478245a1dd8c01a6831f3f4dcb218a8543ecc1532",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!P13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:e01f3030459ef0f7b0115120b6d1464d97f114d3dda3a9bd33e8f6a84a119bee",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!Q13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:3dffcfdbe940f5b2e9da5b82d730ab0bde961e00dbdf2fd72c46eec87e0a0bd9",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!S13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:cc7162a06d5966140bda98fbeb281cc76684aea6b3c1803dc588130faedf032e",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!T13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:4b3a22021acf4acfcce4dcceb5599aeb10449f6635a68e3d5e61acedd1f4512a",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!U13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:86933a7db336a49d46d2cd6f33647699c1699d45e598625e5ea076a1b7a92380",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!W13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                },
+                {
+                  "evidence_id": "cell:4e2a86607c223ec08a8fe7a0d3b7e66e929267ff0566badd330e01e554d8c3ee",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!X13",
+                  "start": 0,
+                  "end": 2,
+                  "original_text": "38"
+                },
+                {
+                  "evidence_id": "cell:ed62a204479bcce721c43a7e4ca2a057a528845e2109c5adf2ef547068dea06e",
+                  "locator": "PSI-25_Reference Data_Fan calibration data.xlsx:xl/worksheets/sheet1.xml!Y13",
+                  "start": 0,
+                  "end": 1,
+                  "original_text": "0"
+                }
+              ],
+              "review_flags": [],
+              "coverage": "cached_value_and_formula_text_only",
+              "rank_score": 0.028373015873015873,
+              "retrieval_channels": [
+                "lexical",
+                "semantic"
+              ],
+              "scientific_comparability": "not_established"
+            }
+          ]
+        },
+        {
+          "id": "R2",
+          "query": "How does electric forcing change a flame?",
+          "expected": [
+            "PSI-22"
+          ],
+          "hit_at_3": true,
+          "reciprocal_rank": 1,
+          "semantic_status": "real_query_captured_via_official_mcp",
+          "matches": [
+            {
+              "chunk_id": "bed95794cc11ecc04b35a01b874e8824a697a113358fc06de9663ceecb7858fb",
+              "accession": "PSI-22",
+              "kind": "investigation_metadata",
+              "text": "PSI-22 ACME E-FIELD Flames | investigation_metadata\n/approach\na small, focused flame for detailed ion-driven convection studies while the coflow burner surrounds the fuel jet with a weak synthetic air flow to enable flame stability and soot behavior analysis. A high-voltage copper mesh electrode positioned above the burner tip generated an electric field with controlled polarity and strength. The electric field interacts with ions generated through chemi-ionization during ",
+              "test_uid": null,
+              "row_type": null,
+              "fuel": null,
+              "source_filename": "PSI-22_metadata.json",
+              "source_sha256": "a491519f60b91c9eb2272e651846103f34006867fb74535911e8c18448e48a09",
+              "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-22",
+              "doi": "10.60555/se5a-8c73",
+              "citations": [
+                {
+                  "evidence_id": "metadata:ab33ceea2113951dea995d89b441baf569a50372e79f32b65086593c67a8f191",
+                  "locator": "PSI-22_metadata.json#/approach",
+                  "start": 829,
+                  "end": 1244,
+                  "original_text": "a small, focused flame for detailed ion-driven convection studies while the coflow burner surrounds the fuel jet with a weak synthetic air flow to enable flame stability and soot behavior analysis. A high-voltage copper mesh electrode positioned above the burner tip generated an electric field with controlled polarity and strength. The electric field interacts with ions generated through chemi-ionization during "
+                }
+              ],
+              "review_flags": [],
+              "coverage": "metadata_only",
+              "rank_score": 0.03200204813108039,
+              "retrieval_channels": [
+                "lexical",
+                "semantic"
+              ],
+              "scientific_comparability": "not_established"
+            },
+            {
+              "chunk_id": "1db1613e8b36c1c064d3e52736e7bc3e56b353515e5a8ebf0213cd793893d673",
+              "accession": "PSI-22",
+              "kind": "investigation_metadata",
+              "text": "PSI-22 ACME E-FIELD Flames | investigation_metadata\n/hypothesis\nPSI-22 The application of electric fields in microgravity environments will significantly influence laminar diffusion flames by enabling precise manipulation of flame stability, soot behavior, and combustion dynamics through ion-driven convection and chemi-ionization processes.",
+              "test_uid": null,
+              "row_type": null,
+              "fuel": null,
+              "source_filename": "PSI-22_metadata.json",
+              "source_sha256": "a491519f60b91c9eb2272e651846103f34006867fb74535911e8c18448e48a09",
+              "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-22",
+              "doi": "10.60555/se5a-8c73",
+              "citations": [
+                {
+                  "evidence_id": "metadata:2e64d078e09cd44494a0211cbd6953cedf484eeed8325fc655dd4a82e497d179",
+                  "locator": "PSI-22_metadata.json#/hypothesis",
+                  "start": 0,
+                  "end": 278,
+                  "original_text": "PSI-22 The application of electric fields in microgravity environments will significantly influence laminar diffusion flames by enabling precise manipulation of flame stability, soot behavior, and combustion dynamics through ion-driven convection and chemi-ionization processes."
+                }
+              ],
+              "review_flags": [],
+              "coverage": "metadata_only",
+              "rank_score": 0.0315136476426799,
+              "retrieval_channels": [
+                "lexical",
+                "semantic"
+              ],
+              "scientific_comparability": "not_established"
+            },
+            {
+              "chunk_id": "5b599be411adf5e1ac0e1ff3e559482b3dcf6e482c7865034a6f1c37c1d12f67",
+              "accession": "PSI-22",
+              "kind": "investigation_metadata",
+              "text": "PSI-22 ACME E-FIELD Flames | investigation_metadata\n/objective\nPSI-22 The objective of this investigation is to better understand the relationship between electric field voltage and chemi-ion current, analyze the dynamic response of flames to electric field changes, evaluate soot formation, and characterize stabilized near-limit lifted flames.",
+              "test_uid": null,
+              "row_type": null,
+              "fuel": null,
+              "source_filename": "PSI-22_metadata.json",
+              "source_sha256": "a491519f60b91c9eb2272e651846103f34006867fb74535911e8c18448e48a09",
+              "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-22",
+              "doi": "10.60555/se5a-8c73",
+              "citations": [
+                {
+                  "evidence_id": "metadata:ac168cb07a7ad43a99c3f0ac2ecde2ffab17ea1585b7057a2c5c484139370c9e",
+                  "locator": "PSI-22_metadata.json#/objective",
+                  "start": 0,
+                  "end": 282,
+                  "original_text": "PSI-22 The objective of this investigation is to better understand the relationship between electric field voltage and chemi-ion current, analyze the dynamic response of flames to electric field changes, evaluate soot formation, and characterize stabilized near-limit lifted flames."
+                }
+              ],
+              "review_flags": [],
+              "coverage": "metadata_only",
+              "rank_score": 0.03125763125763126,
+              "retrieval_channels": [
+                "lexical",
+                "semantic"
+              ],
+              "scientific_comparability": "not_established"
+            }
+          ]
+        },
+        {
+          "id": "R3",
+          "query": "Studies of smoke particle size and detector alarms in microgravity",
+          "expected": [
+            "PSI-101",
+            "PSI-102"
+          ],
+          "hit_at_3": true,
+          "reciprocal_rank": 1,
+          "semantic_status": "real_query_captured_via_official_mcp",
+          "matches": [
+            {
+              "chunk_id": "461c031aa41b8e0347d7cff9931df68392c4b97f2ad3c54f4cd175e4fcaa31f1",
+              "accession": "PSI-102",
+              "kind": "investigation_metadata",
+              "text": "PSI-102 SAME | investigation_metadata\n/hypothesis\nresidence times near the source due to the reduced velocities and mixing at μg conditions. In particular, it is hypothesized that liquid aerosol smokes produced in microgravity will exhibit substantially larger droplet sizes than under the same conditions in normal gravity (with a corresponding decrease in the particle number density for the same mass of smoke). The change in the size distribution and number density will, in ",
+              "test_uid": null,
+              "row_type": null,
+              "fuel": null,
+              "source_filename": "PSI-102_metadata.json",
+              "source_sha256": "fe221f1380ad3317f70b559a3213c4e00ef3676b40838a49cb5b3cba89dea5ba",
+              "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-102",
+              "doi": "10.60555/gd4k-8h62",
+              "citations": [
+                {
+                  "evidence_id": "metadata:9fe781425ef253ee7ffda16cc8883567ec22761addb0eb9740d2a6cd6e7061e2",
+                  "locator": "PSI-102_metadata.json#/hypothesis",
+                  "start": 423,
+                  "end": 852,
+                  "original_text": "residence times near the source due to the reduced velocities and mixing at μg conditions. In particular, it is hypothesized that liquid aerosol smokes produced in microgravity will exhibit substantially larger droplet sizes than under the same conditions in normal gravity (with a corresponding decrease in the particle number density for the same mass of smoke). The change in the size distribution and number density will, in "
+                }
+              ],
+              "review_flags": [],
+              "coverage": "metadata_only",
+              "rank_score": 0.032018442622950824,
+              "retrieval_channels": [
+                "lexical",
+                "semantic"
+              ],
+              "scientific_comparability": "not_established"
+            },
+            {
+              "chunk_id": "81dd5b3e75898921420a6516a862caf5cb572ce9c2c2147487991979c5523b77",
+              "accession": "PSI-101",
+              "kind": "investigation_metadata",
+              "text": "PSI-101 SAME-R | investigation_metadata\n/hypothesis\nparticles is favored by the expected higher vapor concentration and smoke residence times near the source due to the reduced velocities and mixing at μg conditions. In particular, it is hypothesized that liquid aerosol smokes produced in microgravity will exhibit substantially larger droplet sizes than under the same conditions in normal gravity (with a corresponding decrease in the particle number density for the same ",
+              "test_uid": null,
+              "row_type": null,
+              "fuel": null,
+              "source_filename": "PSI-101_metadata.json",
+              "source_sha256": "e0aa75d015705a5943b51dbb4a8ba52751a35e4cafc2307d9201d77ebed711a5",
+              "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-101",
+              "doi": "10.60555/2np7-jv14",
+              "citations": [
+                {
+                  "evidence_id": "metadata:82af49eb6d69ef0f288469ab2efd8af39b604d0203ed5cc99fa0ddf01dfcc6c3",
+                  "locator": "PSI-101_metadata.json#/hypothesis",
+                  "start": 419,
+                  "end": 842,
+                  "original_text": "particles is favored by the expected higher vapor concentration and smoke residence times near the source due to the reduced velocities and mixing at μg conditions. In particular, it is hypothesized that liquid aerosol smokes produced in microgravity will exhibit substantially larger droplet sizes than under the same conditions in normal gravity (with a corresponding decrease in the particle number density for the same "
+                }
+              ],
+              "review_flags": [],
+              "coverage": "metadata_only",
+              "rank_score": 0.031754032258064516,
+              "retrieval_channels": [
+                "lexical",
+                "semantic"
+              ],
+              "scientific_comparability": "not_established"
+            },
+            {
+              "chunk_id": "58ff404b261653faab22fac98e8512d2883bf333cdd69958e773e7ca38077068",
+              "accession": "PSI-115",
+              "kind": "investigation_metadata",
+              "text": "PSI-115  | investigation_metadata\n/objective\nPSI-115 The objective of this investigation was to use numerical simulation to explore the influence of gravity on pyrolysis smoke growth from a fundamental perspective. The intention of this effort is to quantify the differences between microgravity and Earth gravity smoke, and to identify the fluid dynamic mechanisms that cause the differences.",
+              "test_uid": null,
+              "row_type": null,
+              "fuel": null,
+              "source_filename": "PSI-115_metadata.json",
+              "source_sha256": "9c5b463fbe8fe8ed034229cbabd6c498f48ca9bb636196084ed2046eb2e41484",
+              "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-115",
+              "doi": "10.60555/q0v5-1v28",
+              "citations": [
+                {
+                  "evidence_id": "metadata:1b1383b1f08397febdc69941d3b4e1812a248452a8f943d16213335238584e4e",
+                  "locator": "PSI-115_metadata.json#/objective",
+                  "start": 0,
+                  "end": 348,
+                  "original_text": "PSI-115 The objective of this investigation was to use numerical simulation to explore the influence of gravity on pyrolysis smoke growth from a fundamental perspective. The intention of this effort is to quantify the differences between microgravity and Earth gravity smoke, and to identify the fluid dynamic mechanisms that cause the differences."
+                }
+              ],
+              "review_flags": [],
+              "coverage": "metadata_only",
+              "rank_score": 0.02900988017658188,
+              "retrieval_channels": [
+                "lexical",
+                "semantic"
+              ],
+              "scientific_comparability": "not_established"
+            }
+          ]
+        },
+        {
+          "id": "R4",
+          "query": "Normal and inverse diffusion flames using ethylene or methane",
+          "expected": [
+            "PSI-10",
+            "PSI-159"
+          ],
+          "hit_at_3": true,
+          "reciprocal_rank": 1,
+          "semantic_status": "real_query_captured_via_official_mcp",
+          "matches": [
+            {
+              "chunk_id": "7f0a7988a6fa951137ff61e220c89438737e90caf5992c3d28cc52c4c0e9aeab",
+              "accession": "PSI-10",
+              "kind": "investigation_metadata",
+              "text": "PSI-10 ACME/Flame Design | investigation_metadata\n/objective\nin quasi-steady normal and inverse spherical diffusion flames for C2H4 and CH4. Determine the effects of flow rate, Zst, amount of N2, and pressure on flame temperature, size, color, and soot volume fraction. Evaluate the possible existence of steady flames.\nC. Obtain extinction limits as functions of Zst, amount of N2, and pressure for normal and inverse spherical C2H4 and CH4 flames. Identify the corresponding ",
+              "test_uid": null,
+              "row_type": null,
+              "fuel": null,
+              "source_filename": "PSI-10_metadata.json",
+              "source_sha256": "a20756e7acf67f0046a21a3bce9bfca7f142cd5350350c0dad29997cf8fe28db",
+              "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-10",
+              "doi": "10.60555/w4zy-bt45",
+              "citations": [
+                {
+                  "evidence_id": "metadata:134e7fd55a0a9f10866bfedb91b54971fae561fc364395d2d035f202e7a6f14d",
+                  "locator": "PSI-10_metadata.json#/objective",
+                  "start": 419,
+                  "end": 835,
+                  "original_text": "in quasi-steady normal and inverse spherical diffusion flames for C2H4 and CH4. Determine the effects of flow rate, Zst, amount of N2, and pressure on flame temperature, size, color, and soot volume fraction. Evaluate the possible existence of steady flames.\nC. Obtain extinction limits as functions of Zst, amount of N2, and pressure for normal and inverse spherical C2H4 and CH4 flames. Identify the corresponding "
+                }
+              ],
+              "review_flags": [],
+              "coverage": "metadata_only",
+              "rank_score": 0.03177805800756621,
+              "retrieval_channels": [
+                "lexical",
+                "semantic"
+              ],
+              "scientific_comparability": "not_established"
+            },
+            {
+              "chunk_id": "b5dd84bcef218834ab4718f5b3b31f882a786308d8928c7912cb97e21cc543e2",
+              "accession": "PSI-21",
+              "kind": "investigation_metadata",
+              "text": "PSI-21 ACME CLD Flame | investigation_metadata\n/objective\nPSI-21 In order to provide the experimental data needed to allow rigorous testing of computational models at the extremes of the fuel dilution spectrum, we have the following objectives:\nA) Characterize the behavior of weak coflow diffusion flames of methane and ethylene, as a function of velocity and fuel dilution, through measurement of flame shape, lift-off heights, temperatures and extinction limits.\nB) ",
+              "test_uid": null,
+              "row_type": null,
+              "fuel": null,
+              "source_filename": "PSI-21_metadata.json",
+              "source_sha256": "99a5e58119a9c01ec1b57dfe03d696fb8d05b494a3658338b0f2abb077a72ac5",
+              "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-21",
+              "doi": "10.60555/23e1-9950",
+              "citations": [
+                {
+                  "evidence_id": "metadata:d83d62fa241814f89c3ae7f733e948c2c6bfdc4d056ff0f7deca95635f05f46d",
+                  "locator": "PSI-21_metadata.json#/objective",
+                  "start": 0,
+                  "end": 411,
+                  "original_text": "PSI-21 In order to provide the experimental data needed to allow rigorous testing of computational models at the extremes of the fuel dilution spectrum, we have the following objectives:\nA) Characterize the behavior of weak coflow diffusion flames of methane and ethylene, as a function of velocity and fuel dilution, through measurement of flame shape, lift-off heights, temperatures and extinction limits.\nB) "
+                }
+              ],
+              "review_flags": [],
+              "coverage": "metadata_only",
+              "rank_score": 0.0315136476426799,
+              "retrieval_channels": [
+                "lexical",
+                "semantic"
+              ],
+              "scientific_comparability": "not_established"
+            },
+            {
+              "chunk_id": "11cf60c453366e36e059771e53f790918a031736edc5be7a9b8b93f4bad3cc4c",
+              "accession": "PSI-22",
+              "kind": "investigation_metadata",
+              "text": "PSI-22 ACME E-FIELD Flames | investigation_metadata\n/approach\ncombustion, driving ion-driving convection and influencing flame behavior. Methane and ethylene were used as fuels and diluted with nitrogen to control flame strength. Dilution levels were varied to explore a range of combustion dynamics, from highly stable to near-extinction flames. Voltage-current curves were recorded to assess the relationship between electric field strength and chemi-ion current, revealing ",
+              "test_uid": null,
+              "row_type": null,
+              "fuel": null,
+              "source_filename": "PSI-22_metadata.json",
+              "source_sha256": "a491519f60b91c9eb2272e651846103f34006867fb74535911e8c18448e48a09",
+              "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-22",
+              "doi": "10.60555/se5a-8c73",
+              "citations": [
+                {
+                  "evidence_id": "metadata:ab33ceea2113951dea995d89b441baf569a50372e79f32b65086593c67a8f191",
+                  "locator": "PSI-22_metadata.json#/approach",
+                  "start": 1244,
+                  "end": 1658,
+                  "original_text": "combustion, driving ion-driving convection and influencing flame behavior. Methane and ethylene were used as fuels and diluted with nitrogen to control flame strength. Dilution levels were varied to explore a range of combustion dynamics, from highly stable to near-extinction flames. Voltage-current curves were recorded to assess the relationship between electric field strength and chemi-ion current, revealing "
+                }
+              ],
+              "review_flags": [],
+              "coverage": "metadata_only",
+              "rank_score": 0.03057889822595705,
+              "retrieval_channels": [
+                "lexical",
+                "semantic"
+              ],
+              "scientific_comparability": "not_established"
+            }
+          ]
+        },
+        {
+          "id": "R5",
+          "query": "Saffire SIBAL forced airflow",
+          "expected": [
+            "PSI-98",
+            "PSI-100"
+          ],
+          "hit_at_3": true,
+          "reciprocal_rank": 1,
+          "semantic_status": "real_query_captured_via_official_mcp",
+          "matches": [
+            {
+              "chunk_id": "0d8f6b16654f7f304a9d7a0eb77b939eb559f16a74083785ca0f2f734399fe9d",
+              "accession": "PSI-100",
+              "kind": "investigation_metadata",
+              "text": "PSI-100 SAFFIRE-III | investigation_metadata\n/approach\nPSI-100 The Saffire-III experiments were performed on the Orbital Science’s Cygnus resupply vehicle after it deberthed from the ISS. As a follow on to the Saffire 1 investigation, the Saffire III investigation also used SIBAL as the sample material. However, the experiments were conducted at a flow velocity of 30 cm/s compared to 20 cm/s during Saffire I. The flow was either concurrent or opposed.  Once the sample was ",
+              "test_uid": null,
+              "row_type": null,
+              "fuel": null,
+              "source_filename": "PSI-100_metadata.json",
+              "source_sha256": "9c836955a28ff129b2f239f9499e06f4ca52ba58f7a03d384a7bd0528c8bbe10",
+              "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-100",
+              "doi": "10.60555/040q-4h36",
+              "citations": [
+                {
+                  "evidence_id": "metadata:f59b8d59b289528eafc7cc8ebe7662b8adeb282d16db6816cf74dbce056ef4c7",
+                  "locator": "PSI-100_metadata.json#/approach",
+                  "start": 0,
+                  "end": 422,
+                  "original_text": "PSI-100 The Saffire-III experiments were performed on the Orbital Science’s Cygnus resupply vehicle after it deberthed from the ISS. As a follow on to the Saffire 1 investigation, the Saffire III investigation also used SIBAL as the sample material. However, the experiments were conducted at a flow velocity of 30 cm/s compared to 20 cm/s during Saffire I. The flow was either concurrent or opposed.  Once the sample was "
+                }
+              ],
+              "review_flags": [],
+              "coverage": "metadata_only",
+              "rank_score": 0.03278688524590164,
+              "retrieval_channels": [
+                "lexical",
+                "semantic"
+              ],
+              "scientific_comparability": "not_established"
+            },
+            {
+              "chunk_id": "c24ae442aebe848886619e1a762cf66bedf5e45f843b9203e625029de65b09b2",
+              "accession": "PSI-98",
+              "kind": "document_paragraph",
+              "text": "PSI-98 SAFFIRE-I | document_paragraph\nThe sample material for SAFFIRE-I and SAFFIRE-III is a composite fabric consisting of cotton on a fiberglass substrate (75% cotton, 25% fiberglass by weight). It is called SIBAL cloth because it was developed for the Solid Inflammability Boundary at Low-Speeds (SIBAL) spaceflight experiment and has been used in many space experiments because it burns like cotton but maintains structural integrity after the cotton is consumed. SAFFIRE-I ",
+              "test_uid": null,
+              "row_type": null,
+              "fuel": null,
+              "source_filename": "PSI-98_Science Documents_SAFFIRE-I and SAFFIRE-III Readme.docx",
+              "source_sha256": "49c939337fa00a0473f7efa10367288f510afcbf69dd7f5405054a2617d3a66d",
+              "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-98",
+              "doi": "10.60555/0t15-1z43",
+              "citations": [
+                {
+                  "evidence_id": "paragraph:b50314b2bff944ebd663cdcde87c115b0a3982dca7a8dcafb266da4d139f9395",
+                  "locator": "PSI-98_Science Documents_SAFFIRE-I and SAFFIRE-III Readme.docx:paragraph=3",
+                  "start": 0,
+                  "end": 440,
+                  "original_text": "The sample material for SAFFIRE-I and SAFFIRE-III is a composite fabric consisting of cotton on a fiberglass substrate (75% cotton, 25% fiberglass by weight). It is called SIBAL cloth because it was developed for the Solid Inflammability Boundary at Low-Speeds (SIBAL) spaceflight experiment and has been used in many space experiments because it burns like cotton but maintains structural integrity after the cotton is consumed. SAFFIRE-I "
+                }
+              ],
+              "review_flags": [],
+              "coverage": "source_document_text",
+              "rank_score": 0.02738970588235294,
+              "retrieval_channels": [
+                "lexical",
+                "semantic"
+              ],
+              "scientific_comparability": "not_established"
+            },
+            {
+              "chunk_id": "e397a6bd8f4b0a59659c488cfa71679f95af0029eebb6829e5a73698f0ca2a5c",
+              "accession": "PSI-99",
+              "kind": "investigation_metadata",
+              "text": "PSI-99 SAFFIRE-II | investigation_metadata\n/experimentHardware\nPSI-99 Cygnus Pressurized Cargo Module, SAFFIRE",
+              "test_uid": null,
+              "row_type": null,
+              "fuel": null,
+              "source_filename": "PSI-99_metadata.json",
+              "source_sha256": "2c042a6bd82fa6b437cae61490d54ea91f890a52282bc5949b4a0119bcbf6633",
+              "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-99",
+              "doi": "10.60555/2chp-m469",
+              "citations": [
+                {
+                  "evidence_id": "metadata:0cd4b9ed2110f4eb6068c7b6cb4e13bf1fa39a227c39222abafbe759a21cca91",
+                  "locator": "PSI-99_metadata.json#/experimentHardware",
+                  "start": 0,
+                  "end": 47,
+                  "original_text": "PSI-99 Cygnus Pressurized Cargo Module, SAFFIRE"
+                }
+              ],
+              "review_flags": [],
+              "coverage": "metadata_only",
+              "rank_score": 0.027252906976744186,
+              "retrieval_channels": [
+                "lexical",
+                "semantic"
+              ],
+              "scientific_comparability": "not_established"
+            }
+          ]
+        },
+        {
+          "id": "R6",
+          "query": "Droplet extinction with inert gas dilution",
+          "expected": [
+            "PSI-68",
+            "PSI-69",
+            "PSI-39"
+          ],
+          "hit_at_3": true,
+          "reciprocal_rank": 1,
+          "semantic_status": "real_query_captured_via_official_mcp",
+          "matches": [
+            {
+              "chunk_id": "386b1988b39287623fa980aab6b2cb5bb4c83c9d0317b56e15e24129218994b7",
+              "accession": "PSI-68",
+              "kind": "investigation_metadata",
+              "text": "PSI-68 FLEX-2 | investigation_metadata\n/hypothesis\nPSI-68 Fairly sophisticated numerical simulations of convective droplet combustion have been developed in the last decade where the key contribution is the inclusion of full Navier-Stokes equations for the gas-phase flow field. However, due to the inherent complexity of the problem, varying degrees of approximations have been made in treating the chemistry, radiation, and the coupling between the gas and liquid phases. The ",
+              "test_uid": null,
+              "row_type": null,
+              "fuel": null,
+              "source_filename": "PSI-68_metadata.json",
+              "source_sha256": "de041dc1dc8b093e8f168b36d3b06cab257b4d75ffb24ff21754b8af4256ebcf",
+              "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-68",
+              "doi": "10.60555/byp8-h018",
+              "citations": [
+                {
+                  "evidence_id": "metadata:ff997a11724688444f04cd1e22413308b1a1d7d1c7fe511bcf956b0575d600a6",
+                  "locator": "PSI-68_metadata.json#/hypothesis",
+                  "start": 0,
+                  "end": 427,
+                  "original_text": "PSI-68 Fairly sophisticated numerical simulations of convective droplet combustion have been developed in the last decade where the key contribution is the inclusion of full Navier-Stokes equations for the gas-phase flow field. However, due to the inherent complexity of the problem, varying degrees of approximations have been made in treating the chemistry, radiation, and the coupling between the gas and liquid phases. The "
+                }
+              ],
+              "review_flags": [],
+              "coverage": "metadata_only",
+              "rank_score": 0.029857397504456328,
+              "retrieval_channels": [
+                "lexical",
+                "semantic"
+              ],
+              "scientific_comparability": "not_established"
+            },
+            {
+              "chunk_id": "08fdb6f349dfabfb6fed15cc81c91315912382d566f852968afbcc59c41742c8",
+              "accession": "PSI-68",
+              "kind": "investigation_metadata",
+              "text": "PSI-68 FLEX-2 | investigation_metadata\n/approach\nstabilize in the microgravity environment.\n  5. Ignite the droplet in a uniform and controlled fashion.\n  6. Monitor combustions and track flame evolution using high speed photography.\n  7. Monitor and adjust experimental conditions as needed.\n  8. Analyze data.\n\nThe independently varied experimental parameters during FLEX-2 experiments were 1) Fuel type 2) Ambient gas composition 3) Ambient Pressure 4) Droplet initial ",
+              "test_uid": null,
+              "row_type": null,
+              "fuel": null,
+              "source_filename": "PSI-68_metadata.json",
+              "source_sha256": "de041dc1dc8b093e8f168b36d3b06cab257b4d75ffb24ff21754b8af4256ebcf",
+              "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-68",
+              "doi": "10.60555/byp8-h018",
+              "citations": [
+                {
+                  "evidence_id": "metadata:0edb8ff23968bdae6292af5f5fd022302954abfe878f4c08a900601397b4293b",
+                  "locator": "PSI-68_metadata.json#/approach",
+                  "start": 1707,
+                  "end": 2130,
+                  "original_text": "stabilize in the microgravity environment.\n  5. Ignite the droplet in a uniform and controlled fashion.\n  6. Monitor combustions and track flame evolution using high speed photography.\n  7. Monitor and adjust experimental conditions as needed.\n  8. Analyze data.\n\nThe independently varied experimental parameters during FLEX-2 experiments were 1) Fuel type 2) Ambient gas composition 3) Ambient Pressure 4) Droplet initial "
+                }
+              ],
+              "review_flags": [],
+              "coverage": "metadata_only",
+              "rank_score": 0.029631255487269532,
+              "retrieval_channels": [
+                "lexical",
+                "semantic"
+              ],
+              "scientific_comparability": "not_established"
+            },
+            {
+              "chunk_id": "b244e301b4acf35a4bba09a0a8bba0cb17bbf62538a3b3da6fa4436715b784ea",
+              "accession": "PSI-68",
+              "kind": "investigation_metadata",
+              "text": "PSI-68 FLEX-2 | investigation_metadata\n/objective\nthe flammability limits and extinction behavior of droplet arrays.\n  6. Validate theoretical models of droplet combustion through comprehensive experimental data collection in microgravity environments.",
+              "test_uid": null,
+              "row_type": null,
+              "fuel": null,
+              "source_filename": "PSI-68_metadata.json",
+              "source_sha256": "de041dc1dc8b093e8f168b36d3b06cab257b4d75ffb24ff21754b8af4256ebcf",
+              "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-68",
+              "doi": "10.60555/byp8-h018",
+              "citations": [
+                {
+                  "evidence_id": "metadata:c56cf116aceca4b44ed03867573e660ab82df218a9404e358e2c9930c2bd6d5c",
+                  "locator": "PSI-68_metadata.json#/objective",
+                  "start": 849,
+                  "end": 1051,
+                  "original_text": "the flammability limits and extinction behavior of droplet arrays.\n  6. Validate theoretical models of droplet combustion through comprehensive experimental data collection in microgravity environments."
+                }
+              ],
+              "review_flags": [],
+              "coverage": "metadata_only",
+              "rank_score": 0.028298204527712725,
+              "retrieval_channels": [
+                "lexical",
+                "semantic"
+              ],
+              "scientific_comparability": "not_established"
+            }
+          ]
+        },
+        {
+          "id": "R7",
+          "query": "Percent O2 S1 S2",
+          "accession": "PSI-98",
+          "kind": "source_table_row",
+          "expected": [
+            "PSI-98"
+          ],
+          "text": "~ 21.5",
+          "hit_at_3": true,
+          "reciprocal_rank": 1,
+          "semantic_status": "real_query_captured_via_official_mcp",
+          "matches": [
+            {
+              "chunk_id": "f42bbfcf953ff541a1a99eb5d02d8c717582d3231d479dcaef416651d87bc689",
+              "accession": "PSI-98",
+              "kind": "source_table_row",
+              "text": "PSI-98 SAFFIRE-I | source_table_row\nPSI-98 PSI-98_Experimental table_SAFFIRE-1.csv Sample Number : S2; Material: SIBAL Fabric; Sample Thickness (cm): 0.37; Sample Length (cm): 40.6; Sample Width (cm): 94; Air Flow (cm/s): 20; Percent O2: ~ 21.5; Ignition Power (W): 182; Ignition Time (s): 8; Burn Time (s): 70; Flow Direction : Opposed; Camera 1: S2C1; Camera 2: S2C2",
+              "test_uid": "PSI-98|PSI-98_Experimental table_SAFFIRE-1.csv|2",
+              "row_type": "test",
+              "fuel": "SIBAL Fabric",
+              "source_filename": "PSI-98_Experimental table_SAFFIRE-1.csv",
+              "source_sha256": "c01f29c62455f0a3b512290ab85e5687ecded326733189f002f580368402308d",
+              "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-98",
+              "doi": "10.60555/0t15-1z43",
+              "citations": [
+                {
+                  "evidence_id": "record:PSI-98:778b06732dfb:row:2",
+                  "locator": "PSI-98_Experimental table_SAFFIRE-1.csv:data_row=2",
+                  "start": 0,
+                  "end": 332,
+                  "original_text": "PSI-98 PSI-98_Experimental table_SAFFIRE-1.csv Sample Number : S2; Material: SIBAL Fabric; Sample Thickness (cm): 0.37; Sample Length (cm): 40.6; Sample Width (cm): 94; Air Flow (cm/s): 20; Percent O2: ~ 21.5; Ignition Power (W): 182; Ignition Time (s): 8; Burn Time (s): 70; Flow Direction : Opposed; Camera 1: S2C1; Camera 2: S2C2"
+                }
+              ],
+              "review_flags": [],
+              "coverage": "source_row_not_scientifically_validated",
+              "rank_score": 0.03278688524590164,
+              "retrieval_channels": [
+                "lexical",
+                "semantic"
+              ],
+              "scientific_comparability": "not_established"
+            },
+            {
+              "chunk_id": "7ae6f4a9b52760bc3cdc9c1384f212af4293a4f1a66f3b8cd2925a52dc3406f8",
+              "accession": "PSI-98",
+              "kind": "source_table_row",
+              "text": "PSI-98 SAFFIRE-I | source_table_row\nPSI-98 PSI-98_Experimental table_SAFFIRE-1.csv Sample Number : S1; Material: SIBAL Fabric; Sample Thickness (cm): 0.37; Sample Length (cm): 40.6; Sample Width (cm): 94; Air Flow (cm/s): 20; Percent O2: 21.5 - 21.7; Ignition Power (W): 182; Ignition Time (s): 8; Burn Time (s): 420; Flow Direction : Concurrent; Camera 1: S1C1; Camera 2: S1C2",
+              "test_uid": "PSI-98|PSI-98_Experimental table_SAFFIRE-1.csv|1",
+              "row_type": "test",
+              "fuel": "SIBAL Fabric",
+              "source_filename": "PSI-98_Experimental table_SAFFIRE-1.csv",
+              "source_sha256": "c01f29c62455f0a3b512290ab85e5687ecded326733189f002f580368402308d",
+              "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-98",
+              "doi": "10.60555/0t15-1z43",
+              "citations": [
+                {
+                  "evidence_id": "record:PSI-98:778b06732dfb:row:1",
+                  "locator": "PSI-98_Experimental table_SAFFIRE-1.csv:data_row=1",
+                  "start": 0,
+                  "end": 341,
+                  "original_text": "PSI-98 PSI-98_Experimental table_SAFFIRE-1.csv Sample Number : S1; Material: SIBAL Fabric; Sample Thickness (cm): 0.37; Sample Length (cm): 40.6; Sample Width (cm): 94; Air Flow (cm/s): 20; Percent O2: 21.5 - 21.7; Ignition Power (W): 182; Ignition Time (s): 8; Burn Time (s): 420; Flow Direction : Concurrent; Camera 1: S1C1; Camera 2: S1C2"
+                }
+              ],
+              "review_flags": [],
+              "coverage": "source_row_not_scientifically_validated",
+              "rank_score": 0.03225806451612903,
+              "retrieval_channels": [
+                "lexical",
+                "semantic"
+              ],
+              "scientific_comparability": "not_established"
+            },
+            {
+              "chunk_id": "4c03f0a6360012e0290340bf1cc906f008c8a0a1fdd656b687116cfc7edb39dc",
+              "accession": "PSI-98",
+              "kind": "source_table_row",
+              "text": "PSI-98 SAFFIRE-I | source_table_row\nPSI-98 PSI-98_Experimental table_SAFFIRE-1.csv Sample Number : F2C1/F2C2; Material: Pre-test flow visulation data for sample 2; Sample Thickness (cm): ; Sample Length (cm): ; Sample Width (cm): ; Air Flow (cm/s): ; Percent O2: ; Ignition Power (W): ; Ignition Time (s): ; Burn Time (s): ; Flow Direction : ; Camera 1: ; Camera 2: ",
+              "test_uid": "PSI-98|PSI-98_Experimental table_SAFFIRE-1.csv|4",
+              "row_type": "unknown",
+              "fuel": null,
+              "source_filename": "PSI-98_Experimental table_SAFFIRE-1.csv",
+              "source_sha256": "c01f29c62455f0a3b512290ab85e5687ecded326733189f002f580368402308d",
+              "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-98",
+              "doi": "10.60555/0t15-1z43",
+              "citations": [
+                {
+                  "evidence_id": "record:PSI-98:778b06732dfb:row:4",
+                  "locator": "PSI-98_Experimental table_SAFFIRE-1.csv:data_row=4",
+                  "start": 0,
+                  "end": 330,
+                  "original_text": "PSI-98 PSI-98_Experimental table_SAFFIRE-1.csv Sample Number : F2C1/F2C2; Material: Pre-test flow visulation data for sample 2; Sample Thickness (cm): ; Sample Length (cm): ; Sample Width (cm): ; Air Flow (cm/s): ; Percent O2: ; Ignition Power (W): ; Ignition Time (s): ; Burn Time (s): ; Flow Direction : ; Camera 1: ; Camera 2: "
+                }
+              ],
+              "review_flags": [
+                "not_normalized_in_source_pipeline"
+              ],
+              "coverage": "source_row_not_scientifically_validated",
+              "rank_score": 0.03149801587301587,
+              "retrieval_channels": [
+                "lexical",
+                "semantic"
+              ],
+              "scientific_comparability": "not_established"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

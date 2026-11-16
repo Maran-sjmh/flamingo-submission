@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite this software snapshot and separately cite the original NASA investigations and publications used in your research."
+title: "flamingo: Flame Learning & Analysis in Microgravity: INsights for Gravity-Off missions"
+type: software
+authors:
+  - name: "flamingo project contributors"
+version: 1.0.0
+date-released: 2026-11-15
+url: "https://github.com/Maran-sjmh/flamingo-submission"
+repository-code: "https://github.com/Maran-sjmh/flamingo-submission"
+abstract: "A source-backed NASA combustion research explorer with hybrid keyword/vector retrieval, exact source-row comparison, provenance and educational activities."

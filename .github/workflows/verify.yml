@@ -1,0 +1,40 @@
+name: Verify submission
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: '24'
+      - name: Install the pinned package manager
+        run: npm install --global pnpm@11.25.0
+      - name: Install frontend and Worker dependencies
+        run: |
+          pnpm install --frozen-lockfile
+          npm --prefix worker ci
+      - name: Application and backend contracts
+        run: |
+          pnpm test
+          npm --prefix worker test
+      - name: Reconstruct and audit the evidence snapshot offline
+        run: |
+          python3 research/audit_snapshot.py
+          python3 research/build_store.py
+          python3 research/build_corpus.py
+          node research/evaluate_retrieval.mjs
+          node research/vector_index.mjs plan
+      - name: Build and audit the public delivery
+        run: |
+          pnpm build
+          pnpm run check:repository

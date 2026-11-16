@@ -1,0 +1,26 @@
+{
+  "corpus_version": "696e5da5c741deb796e6c0778c39f38dd18eedf5535f554ce7251cc2f9abdaa0",
+  "source_evidence_items": 6177,
+  "source_studies": 25,
+  "retrieval_chunks": 3152,
+  "chunk_counts": {
+    "source_table_row": 2576,
+    "investigation_metadata": 270,
+    "workbook_cached_cell": 173,
+    "document_paragraph": 133
+  },
+  "source_rows_linked": 2009,
+  "text_loss_or_identity_errors": 0,
+  "embedding": {
+    "model": "@cf/baai/bge-small-en-v1.5",
+    "dimensions": 384,
+    "metric": "cosine",
+    "pooling": "cls",
+    "max_input_bytes": 480,
+    "query_prefix": "Represent this sentence for searching relevant passages: "
+  },
+  "stored_vector_dimensions": 1210368,
+  "serialized_bytes": 5039458,
+  "embeddings_generated": false,
+  "remote_index_created": false
+}

@@ -1,0 +1,13 @@
+{
+  "scope": "Offline public artifact integrity, not scientific validation",
+  "corpus_version": "696e5da5c741deb796e6c0778c39f38dd18eedf5535f554ce7251cc2f9abdaa0",
+  "investigations": 25,
+  "source_rows": 2009,
+  "reconstructed_evidence_items": 6177,
+  "retrieval_fragments": 3152,
+  "embedding_dimensions": 384,
+  "protected_source_hashes_match": true,
+  "continuous_original_text": true,
+  "network_requests": 0,
+  "model_calls": 0
+}
